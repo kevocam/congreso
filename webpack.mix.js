@@ -11,6 +11,14 @@ const mix = require('laravel-mix');
  |
  */
 
+/* Stylos CUSTOM */
+mix.sass('resources/sass/styleSass.scss', 'public/css');
+mix.sass('resources/sass/welcome.scss', 'public/css');
+/* JS CUSTOM */
+mix.js('resources/js/welcome.js', 'public/js')
+mix.js('resources/js/master.js', 'public/js')
+
+/* Tailwind */
 mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         require('postcss-import'),
