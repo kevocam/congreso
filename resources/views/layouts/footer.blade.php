@@ -22,6 +22,7 @@
 <script src='{{asset('front/')}}/js/dataTables.bootstrap4.min.js'></script>
 <script src="{{asset('front/')}}/js/apps.js"></script> --}}
 <script src="./js/master.js"></script>
+@livewireScripts
 </body>
 
 </html>

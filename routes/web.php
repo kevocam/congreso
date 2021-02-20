@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ConfeController;
+use App\Http\Controllers\PanelController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,9 +20,18 @@ Route::get('/', function () {
 Route::get('/index', function () {
     return view('index');
 });
-Route::get('/lobby', function () {
+Route::middleware(['auth:sanctum', 'verified'])->get('/lobby', function () {
     return view('lobby.index');
 });
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/conferencista',[ConfeController::class, 'index']);
+Route::middleware(['auth:sanctum', 'verified'])->get('/crearconferencista',[ConfeController::class, 'create']);
+
+
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/crearpanelista',[PanelController::class, 'index']);
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/panelista',[PanelController::class, 'create']);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

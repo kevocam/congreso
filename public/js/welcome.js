@@ -46,6 +46,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/master.scss":
+/*!************************************!*\
+  !*** ./resources/sass/master.scss ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/css/app.css":
 /*!*******************************!*\
   !*** ./resources/css/app.css ***!
@@ -122,6 +135,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			["./resources/js/welcome.js"],
 /******/ 			["./resources/sass/styleSass.scss"],
 /******/ 			["./resources/sass/welcome.scss"],
+/******/ 			["./resources/sass/master.scss"],
 /******/ 			["./resources/css/app.css"]
 /******/ 		];
 /******/ 		// no chunk on demand loading

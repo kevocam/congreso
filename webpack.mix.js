@@ -14,6 +14,8 @@ const mix = require('laravel-mix');
 /* Stylos CUSTOM */
 mix.sass('resources/sass/styleSass.scss', 'public/css');
 mix.sass('resources/sass/welcome.scss', 'public/css');
+mix.sass('resources/sass/master.scss', 'public/css');
+
 /* JS CUSTOM */
 mix.js('resources/js/welcome.js', 'public/js')
 mix.js('resources/js/master.js', 'public/js')

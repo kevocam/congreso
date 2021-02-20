@@ -3,6 +3,7 @@
     "/js/master.js": "/js/master.js",
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
+    "/css/master.css": "/css/master.css",
     "/css/welcome.css": "/css/welcome.css",
     "/css/styleSass.css": "/css/styleSass.css"
 }

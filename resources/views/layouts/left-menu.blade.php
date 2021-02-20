@@ -4,7 +4,7 @@
             <img src="https://img.icons8.com/office/16/000000/menu--v1.png"/>        </button>
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link text-muted my-2" href="#" id="modeSwitcher" data-mode="dark">
+                <a class="nav-link text-muted my-2" href="#" id="modeSwitcher" >
                     <i class="fe fe-sun fe-16"></i>
                 </a>
             </li>
@@ -39,7 +39,7 @@
             </p>
             <ul class="navbar-nav flex-fill w-100 mb-2">
                 <li class="nav-item">
-                    <a class="nav-link" href=""><span class="ml-1 item-text"></span>
+                    <a class="nav-link" href="/conferencista"><span class="ml-1 item-text"></span>
                         <i class="fe fe-box fe-16"></i>
                         <span class="ml-3 item-text">Ver conferencistas</span>
                     </a>
@@ -48,7 +48,7 @@
             </p>
             <ul class="navbar-nav flex-fill w-100 mb-2">
                 <li class="nav-item">
-                    <a class="nav-link" href=""><span class="ml-1 item-text">
+                    <a class="nav-link" href="/crearconferencista"><span class="ml-1 item-text">
               <i class="fe fe-box fe-16"></i>
               <span class="ml-3 item-text">Agregar conferencista</span>
                     </a>
@@ -59,7 +59,7 @@
             </p>
             <ul class="navbar-nav flex-fill w-100 mb-2">
                 <li class="nav-item">
-                    <a class="nav-link" href=""><span class="ml-1 item-text">
+                    <a class="nav-link" href="/panelista"><span class="ml-1 item-text">
                     <i class="fe fe-box fe-16"></i>
                     <span class="ml-3 item-text">Ver panelistas</span>
                     </a>
@@ -69,7 +69,7 @@
 
             <ul class="navbar-nav flex-fill w-100 mb-2">
                 <li class="nav-item">
-                    <a class="nav-link" href=""><span class="ml-1 item-text">
+                    <a class="nav-link" href="/crearpanelista"><span class="ml-1 item-text">
                     <i class="fe fe-box fe-16"></i>
                     <span class="ml-3 item-text">Agregar Panelistas</span>
                     </a>
