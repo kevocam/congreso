@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="./css/master/app-dark.css" id="darkTheme" disabled>
     <link rel="stylesheet" href="./css/master/app-light.css" id="lightTheme" >
 
+    <link rel="stylesheet" href="./css/app.css">
+
     <link rel="stylesheet" href="./css/master.css">
 {{--     <link rel="stylesheet" href="{{asset('front/')}}/css/dataTables.bootstrap4.css">
  --}}

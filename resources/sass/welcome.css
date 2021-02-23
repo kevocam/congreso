@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -22,19 +23,27 @@ html {
   width: 100%;
   height: 70vh;
   background-color: #dadada;
-  background-image: url("../img/back_slider.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1502920514313-52581002a659?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80");
 }
+
 .hero__item {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 150px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .hero__item--title {
   max-width: 620px;
   text-align: center;
@@ -48,35 +57,54 @@ html {
 
 .callToAction {
   /* max-height: 450px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 25px;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .callToAction__img {
   width: 50%;
   min-width: 420px;
 }
+
 .callToAction__img img {
   border-radius: 20px;
   width: 100%;
 }
+
 .callToAction__content {
   width: 50%;
   padding: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   max-width: 750px;
 }
+
 .callToAction__content h2 {
   color: #096191;
   font-weight: bold;
   font-size: 3.4rem;
   padding-bottom: 20px;
 }
+
 .callToAction__content p {
   color: rgba(0, 0, 0, 0.8);
   font-size: 2rem;
@@ -86,41 +114,57 @@ html {
 .icons {
   height: 150px;
   background-color: #096191;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .icons__item {
   text-align: center;
   margin: 0 auto;
 }
 
 .conferencistas__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 15px 0;
 }
+
 .conferencistas__title {
   text-transform: uppercase;
   text-align: center;
   font-size: 3.5rem;
   color: #096191;
 }
+
 .conferencistas__item {
   max-width: 185px;
   text-align: center;
 }
+
 .conferencistas__item--img {
   width: 100%;
 }
+
 .conferencistas__item--img img {
   border-radius: 45px;
   border: none;
 }
+
 .conferencistas__item--content {
   font-size: 2.2rem;
 }
+
 .conferencistas__item--content p {
   font-size: 1.7rem;
   font-weight: lighter;
@@ -132,26 +176,36 @@ html {
   font-size: 3.5rem;
   color: #096191;
 }
+
 .panelistas__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 15px 0;
 }
+
 .panelistas__item {
   max-width: 185px;
   text-align: center;
 }
+
 .panelistas__item--img {
   width: 100%;
 }
+
 .panelistas__item--img img {
   border-radius: 45px;
   border: none;
 }
+
 .panelistas__item--content {
   font-size: 2.2rem;
 }
+
 .panelistas__item--content p {
   font-size: 1.7rem;
   font-weight: lighter;
@@ -164,18 +218,25 @@ html {
   color: #3d838b;
   font-weight: bold;
 }
+
 .sponsors__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 15px 0;
 }
+
 .sponsors__item--img {
-  width: 120px;
-  /*
+  width: 85px;
+  height: 45px;
   border-radius: 50%;
   border: none;
-  background-color: $color-terciario; */
+  background-color: #3d838b;
 }
 
 .banner {
@@ -189,3 +250,4 @@ html {
 .nav ul li {
   font-size: 1.8rem;
 }
+/*# sourceMappingURL=welcome.css.map */

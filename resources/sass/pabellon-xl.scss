@@ -1,0 +1,77 @@
+.contenedor {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../img/congreso_lobby_lg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    &__main {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        &--1 {
+            width: 30%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        &--2 {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        &--3 {
+            width: 30%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &__footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.card-item {
+    max-width: 180px;
+}
+
+.detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff75;
+    padding: 15px;
+    border-radius: 15px;
+    &__title {
+        max-width: 450px;
+        text-align: center;
+        h2 {
+            font-size: 2.4rem;
+            font-weight: bold;
+        }
+        em {
+            font-size: 1.7rem;
+        }
+    }
+}
+
+.btn {
+    background-color: #005D8F;
+}

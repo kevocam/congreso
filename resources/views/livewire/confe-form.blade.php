@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="formFooter">
-            <button type="submit">
+            <button class="btnPrimary" type="submit">
                 Guardar
             </button>
 

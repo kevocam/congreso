@@ -10,13 +10,40 @@
 var button = document.querySelector("#button");
 var slider1 = document.querySelector('#slider1');
 var slider2 = document.querySelector('#slider2');
-button.addEventListener("click", function () {
-  /*     slider1.setAttribute("display", none)
-   */
+var config = {
+  type: 'carrousel',
+  startAt: 0,
+  perView: 3
+};
+/* new Glide('.glide').mount() */
 
-  /*       slider2.setAttribute("display", block)
-  */
-});
+new Glide('.glide', config).mount();
+
+/***/ }),
+
+/***/ "./resources/sass/lobby-xl.scss":
+/*!**************************************!*\
+  !*** ./resources/sass/lobby-xl.scss ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/css/app.css":
+/*!*******************************!*\
+  !*** ./resources/css/app.css ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -59,10 +86,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/css/app.css":
-/*!*******************************!*\
-  !*** ./resources/css/app.css ***!
-  \*******************************/
+/***/ "./resources/sass/details.scss":
+/*!*************************************!*\
+  !*** ./resources/sass/details.scss ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/pabellon-xl.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/pabellon-xl.scss ***!
+  \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -136,6 +176,9 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			["./resources/sass/styleSass.scss"],
 /******/ 			["./resources/sass/welcome.scss"],
 /******/ 			["./resources/sass/master.scss"],
+/******/ 			["./resources/sass/details.scss"],
+/******/ 			["./resources/sass/pabellon-xl.scss"],
+/******/ 			["./resources/sass/lobby-xl.scss"],
 /******/ 			["./resources/css/app.css"]
 /******/ 		];
 /******/ 		// no chunk on demand loading

@@ -2,7 +2,9 @@
 
 @section('style')
 
-<link rel="stylesheet" href="./css/lobby-xl.css">
+<link rel="stylesheet" href="./css/pabellon-xl.css">
+<link rel="stylesheet" href="./css/details.css">
+
 @endsection
 @section('content')
 
@@ -10,6 +12,8 @@
         tu no estas logeado
     @endunless
     <div class="contenedor">
+        
+        @livewire('detail-normal')
         <div class="contenedor__footer">
             <div class="contenedor__footer--menu">
                 <x-menu>
@@ -32,3 +36,6 @@
                 {{ $slot }}
     </main>
 </x-congreso-layout> --}}
+
+
+<script src="./js/pabellon.js"></script>

@@ -1,9 +1,13 @@
 {
     "/js/welcome.js": "/js/welcome.js",
     "/js/master.js": "/js/master.js",
+    "/js/pabellon.js": "/js/pabellon.js",
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
+    "/css/pabellon-xl.css": "/css/pabellon-xl.css",
+    "/css/details.css": "/css/details.css",
     "/css/master.css": "/css/master.css",
     "/css/welcome.css": "/css/welcome.css",
-    "/css/styleSass.css": "/css/styleSass.css"
+    "/css/styleSass.css": "/css/styleSass.css",
+    "/css/app.css": "/css/app.css",
+    "/css/lobby-xl.css": "/css/lobby-xl.css"
 }

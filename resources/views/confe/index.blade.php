@@ -1,9 +1,9 @@
 @extends('layouts.master')
-@section('title')
+{{-- @section('title')
 Todos los conferencistas
-@endsection
+@endsection --}}
 @section('content')
  
-   
+   @livewire('confe-view')
    
 @endsection

@@ -15,13 +15,19 @@ public $dirphoto,$dataValidated,$name, $description,$photo, $facebook, $twitter,
         'name' => 'required|string|min:6',
         'description' => 'required|string|max:500',
         'photo' => 'image|max:1024',
-        'facebook' => 'required|string|max:500',
-        'twitter' => 'required|string|max:500',
-        'linkedin' => 'required|string|max:500',
-
+        'facebook' => 'string|max:500',
+        'twitter' => 'string|max:500',
+        'linkedin' => 'string|max:500',
     ];
 
-   
+   public function clear(){
+       $this->name="";
+       $this->description="";
+       $this->photo="";
+       $this->facebook="";
+       $this->twitter="";
+       $this->linkedin="";
+   }
     public function render()
     {
         return view('livewire.confe-form');
@@ -29,8 +35,7 @@ public $dirphoto,$dataValidated,$name, $description,$photo, $facebook, $twitter,
     public function store(){
         $this->validate();
 
-        $dirphoto=$this->photo->store('photo','public');
-        
+        $dirphoto=$this->photo->store('photo','public');        
 
         Confe::create([
             'name'=>$this->name,
@@ -40,6 +45,7 @@ public $dirphoto,$dataValidated,$name, $description,$photo, $facebook, $twitter,
             'twitter'=>$this->twitter,
             'linkedin'=>$this->linkedin
         ]);
+        $this->clear();
         session()->flash('message', '¡Agregado con éxito!  👍');
 
     }

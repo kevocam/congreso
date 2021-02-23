@@ -12,13 +12,24 @@ const mix = require('laravel-mix');
  */
 
 /* Stylos CUSTOM */
+
 mix.sass('resources/sass/styleSass.scss', 'public/css');
 mix.sass('resources/sass/welcome.scss', 'public/css');
 mix.sass('resources/sass/master.scss', 'public/css');
+mix.sass('resources/sass/details.scss', 'public/css');
 
-/* JS CUSTOM */
+mix.sass('resources/sass/pabellon-xl.scss', 'public/css')
+    .options({
+        processCssUrls: false
+    })
+mix.sass('resources/sass/lobby-xl.scss', 'public/css')
+    .options({
+        processCssUrls: false
+    })
+    /* JS CUSTOM */
 mix.js('resources/js/welcome.js', 'public/js')
 mix.js('resources/js/master.js', 'public/js')
+mix.js('resources/js/pabellon.js', 'public/js')
 
 /* Tailwind */
 mix.js('resources/js/app.js', 'public/js')

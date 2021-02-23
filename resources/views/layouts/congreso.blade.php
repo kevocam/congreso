@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
-
+        <title>CONGRESO INTERNACIONAL DE LOGOTERAPIA Y TANATOLOGIA </title>
+        
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -17,52 +17,56 @@
         </style>
 {{--         <link rel="stylesheet" href="./css/styleSass.css">
  --}}
- <script src="./js/welcome.js" defer></script>
+        @yield('style')
+    <script defer src="https://cdn.jsdelivr.net/npm/@glidejs/glide">
+
+    </script>
+    <script src="./js/welcome.js" defer></script>
+
     @livewireStyles
 
     </head>
     <body>
         <header>
             <nav class="nav flex flex-wrap items-center justify-between px-4">
-  <div class="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
-    <a href="/">
-      <img src="./img/icon_congreso.png" alt="">
+                <div class="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
+                    <a href="/">
+                    <img src="./img/icon_congreso.png" alt="">
 
-    </a>
-    <span class="font-semibold text-xl tracking-tight"></span>
-  </div>
+                    </a>
+                    <span class="font-semibold text-xl tracking-tight"></span>
+                </div>
 
-  <input class="menu-btn hidden" type="checkbox" id="menu-btn">
-  <label class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none" for="menu-btn">
-    <span class="navicon bg-grey-darkest flex items-center relative"></span>
-  </label>
+                <input class="menu-btn hidden" type="checkbox" id="menu-btn">
+                <label class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none" for="menu-btn">
+                    <span class="navicon bg-grey-darkest flex items-center relative"></span>
+                </label>
 
-  <ul class="menu border-b md:border-none flex justify-end list-reset m-0 w-full md:w-auto">
-    @auth
-    <li class="border-t md:border-none sm:text-right">
-      <a href="/salas" class="block md:inline-block px-4 py-3 no-underline text-grey-400 hover:text-grey-darker ">Salas</a>
-    </li>
-     <li class="border-t md:border-none">
-      <a href="/salas" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">Programa</a>
-    </li>
-    @endauth
-    @guest
-        
-    <li class="border-t md:border-none">
-      <a href="/register" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker ">Registrarse</a>
-    </li>
-    
-    <li class="border-t md:border-none">
-      <a href="/login/" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Iniciar Sesión</a>
-    </li>
-    
-   
-    @endguest
-    
-  </ul>
-</nav>
-        </header>
-        
+                <ul class="menu border-b md:border-none flex justify-end list-reset m-0 w-full md:w-auto">
+                    @auth
+                    <li class="border-t text-md:border-none sm:text-right">
+                        <a href="/lobby" class="block md:inline-block px-4 py-3 no-underline text-grey-400 hover:text-grey-darker ">Lobby</a>
+                    </li>
+                    <li class="border-t md:border-none">
+                        <a href="/pabellon" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">Pabellon</a>
+                    </li>
+                    <li class="border-t md:border-none">
+                        <a href="/dashboard" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">Dashboard</a>
+                    </li>
+                    @endauth
+                    @guest
+                        
+                    <li class="border-t md:border-none">
+                        <a href="/register" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker ">Registrarse</a>
+                    </li>
+                    
+                    <li class="border-t md:border-none">
+                        <a href="/login/" class="block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker">Iniciar Sesión</a>
+                    </li>                                 
+                    @endguest                    
+                </ul>
+            </nav>
+        </header>  
           
  
 <main>
@@ -71,6 +75,8 @@
         
     
     @livewireScripts
+
+    @yield('js')
     </body>
     
 <footer class="bg-gray-800	 dark:bg-gray-800 w-full py-8">

@@ -20,9 +20,19 @@ Route::get('/', function () {
 Route::get('/index', function () {
     return view('index');
 });
+Route::get('/salas', function () {
+    return view('salas');
+});
 Route::middleware(['auth:sanctum', 'verified'])->get('/lobby', function () {
     return view('lobby.index');
 });
+Route::middleware(['auth:sanctum', 'verified'])->get('/pabellon', function () {
+    return view('pabellon.index');
+});
+Route::middleware(['auth:sanctum', 'verified'])->get('/detail', function () {
+    return view('details.normal');
+});
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/conferencista',[ConfeController::class, 'index']);
 Route::middleware(['auth:sanctum', 'verified'])->get('/crearconferencista',[ConfeController::class, 'create']);
