@@ -1,5 +1,6 @@
 
-<div class="DetailNormal">        
+<div class="DetailNormal">   
+<h2>LIeve</h2>
         <div class="DetailNormal__about">
             <div class="DetailNormal__about--rrss">
                 <div class="DetailNormal__about--rrss--fb">

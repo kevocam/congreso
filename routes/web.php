@@ -32,7 +32,9 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/pabellon', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/detail', function () {
     return view('details.normal');
 });
-
+Route::middleware(['auth:sanctum', 'verified'])->get('/detail2', function () {
+    return view('details.live');
+});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/conferencista',[ConfeController::class, 'index']);
 Route::middleware(['auth:sanctum', 'verified'])->get('/crearconferencista',[ConfeController::class, 'create']);

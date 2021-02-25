@@ -1,0 +1,16 @@
+.callToAction {
+  width: 100%;
+  padding: 10px;
+}
+.callToAction__img {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 0;
+}
+.callToAction__img img {
+  margin: 0 auto;
+}
+.callToAction__content {
+  width: 100%;
+  padding: 0;
+}

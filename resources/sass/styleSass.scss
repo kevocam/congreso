@@ -1,18 +1,25 @@
+
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+@font-face {
+    font-family: 'Californian';    
+    src: url('../font/custom/califb.ttf' );   
+}
+
+@font-face {
+    font-family: 'Corbel';    
+    src: url('../font/custom/corbel/CORBEL.TTF' );   
+}
+
+// USAGE
+
+
+
 $color-primario: #096191;
 $blanco: #dadada;
 $color-secundario: #06abc6;
 $negro: rgba(0, 0, 0, 0.8);
-$fuente-primaria: "";
-$fuente-secundaria: "";
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+$color-terciario: #3d838b;
+$fuente-primaria:  'Californian', "sans-serif";
+$fuente-secundaria: "Corbel", "sans-serif";
 
-
-/* html {
-    font-size: 62.5%;
-    font-family: "DM Sans", sans-serif;
-}
- */

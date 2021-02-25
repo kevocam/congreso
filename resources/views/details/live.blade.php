@@ -13,7 +13,8 @@
     @endunless
     <div class="contenedor">
         
-        @livewire('detail-normal')
+        @livewire('detail-live')
+
         <div class="contenedor__footer">
             <div class="contenedor__footer--menu">
                 <x-menu>
@@ -30,12 +31,5 @@
 
     
 @endsection
-{{-- 
-<x-congreso-layout>
-    <main>
-                {{ $slot }}
-    </main>
-</x-congreso-layout> --}}
-
 
 <script src="./js/pabellon.js"></script>

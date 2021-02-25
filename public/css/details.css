@@ -169,6 +169,7 @@ html {
 .DetailNormal__about--rrss--fb:hover {
   cursor: pointer;
   transform: translateY(-5px);
+  transition-duration: 0.4s;
 }
 .DetailNormal__about--rrss--linkedin svg {
   width: 45px;

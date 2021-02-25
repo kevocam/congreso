@@ -1,5 +1,4 @@
 <div class="containerr">
-
     <section class="callToAction">
         <div class="callToAction__img">
             <img src="https://images.unsplash.com/photo-1461532257246-777de18cd58b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=755&q=80" alt="">
@@ -50,8 +49,7 @@ sentido hace la diferencia”</h2>
             
             <div class="conferencistas__item">
             <div class="conferencistas__item--img">
-                <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'
-/>
+                <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'/>
             </div>
             <div class="conferencistas__item--content">
                 Dr. Ingrid Loayza Vellido
@@ -127,49 +125,69 @@ sentido hace la diferencia”</h2>
     </section> --}}
     <section class="banner">
         ES HORA DE TOMAR UNA ACCIÓN
-
     </section>
     <section class="sponsors">
         <div class="sponsors__title">
             <h2>Dau Holding Group</h2>
         </div>
         <div class="sponsors__content">
-            
-            <div class="sponsors__item">
-                <div class="sponsors__item--img">
-                    <img src="./img/dauGroup1.png" alt="">
-                </div>
-                <div class="sponsors_item--content">
 
+            <div id="glideHome" class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                            
+                                <img class="slideItemCustom" src="./img/dauGroupCircle1.png"  alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img class="slideItemCustom" src="./img/dauGroupCircle2.jpg" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img class="slideItemCustom" src="./img/dauGroupCircle3.png" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img class="slideItemCustom" src="./img/dauGroupCircle4.png" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img class="slideItemCustom" src="./img/dauGroupCircle5.png" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img class="slideItemCustom" src="./img/dauGroup1.png" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img class="slideItemCustom" src="./img/dauGroup2.png" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img class="slideItemCustom" src="./img/dauGroup3.png" alt="">
+                            </li>
+                            <li class="glide__slide">
+                                <img class="slideItemCustom" src="./img/dauGroup4.png" alt="">
+                            </li>
+                            
+                            
+                        </ul>                  
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-track-prev" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M21 5v14l-8 -7z" />
+                                <path d="M10 5v14l-8 -7z" />
+                            </svg>
+                        </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-track-next" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M3 5v14l8 -7z" />
+                                <path d="M14 5v14l8 -7z" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-            </div>
-             <div class="sponsors__item">
-                <div class="sponsors__item--img">
-                    <img src="./img/dauGroup2.png" style="height:150px" alt="">
-                </div>
-                <div class="sponsors_item--content">
-
-                </div>
-            </div>
-             <div class="sponsors__item">
-                <div class="sponsors__item--img">
-                    <img src="./img/dauGroup3.png" style="height:150px" alt="">
-                </div>
-                <div class="sponsors_item--content">
-
-                </div>
-            </div>
-            <div class="sponsors__item">
-               <div class="sponsors__item--img">
-                   <img src="./img/dauGroup4.png" style="height:120px" alt="">
-               </div>
-               <div class="sponsors_item--content">
+                    
+            </div>                       
+        </div>
     
-               </div>
-        </div>
-       </div>
-                       
-        </div>
 
     </section>
 

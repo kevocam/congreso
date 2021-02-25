@@ -53,6 +53,14 @@
 </style>
 
     @extends('layouts.congreso')
+    @section('style')
+     <link rel="stylesheet" href="./css/welcome.css" >
+
+     <link rel="stylesheet" href="./css/welcome-tablet.css" media="(max-width:768px)">
+{{--          <link rel="stylesheet" href="./css/welcome-mobile.css" media="(min-width:425px)">
+ --}}
+    @endsection
+
     @section('content')
         <div class="container-lg mx-auto">
             <x-hero>

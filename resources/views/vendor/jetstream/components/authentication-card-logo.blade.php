@@ -1,3 +1,3 @@
 <a href="/">
-  <img src="./img/icon_congreso.png" alt="">
+  <img src="./img/logo02.png" alt="logo Dau">
 </a>
