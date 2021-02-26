@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="{{asset('front/')}}/favicon.ico">
+
+    <link rel="icon" href="./img/logo.png">
+
     <title>Congreso de Tanatologia</title>
     <!-- Simple bar CSS -->
 {{--     <link rel="stylesheet" href="{{asset('front/')}}/css/simplebar.css">
@@ -59,9 +61,9 @@
             </a>
             <nav class="vertnav navbar navbar-light">
                 <!-- nav bar -->
-                <div class="w-100 mb-4 d-flex">
-                    <a class="navbar-brand mx-auto mt-2 flex-fill text-center" href="./index.html">
-                        <img width="120" height="60" src="./img/icon_congreso.png">
+                <div class="w-100 mb-4 d-flex ">
+                    <a class="navbar-brand mx-auto mt-2 flex-fill text-center" href="/dashboard">
+                        <img width="120" class="mx-auto" height="60" src="./img/icon_congreso.png">
                     </a>
                 </div>
                 <p class="text-muted nav-heading mt-4 mb-1">
@@ -131,12 +133,12 @@
         </aside>
 
 
-    @include('layouts.left-menu')
-    <main role="main" class="main-content ">
-        <h2>@yield("title")</h2>
-    @yield('content')
-    </main>
-    @include('layouts.notifications')
+{{--         @include('layouts.left-menu')
+ --}}        <main role="main" class="main-content ">
+            <h2>@yield("title")</h2>
+        @yield('content')
+        </main>
+        @include('layouts.notifications')
 
 {{-- <script src="{{asset('front/')}}/js/jquery.min.js"></script>
 <script src="{{asset('front/')}}/js/popper.min.js"></script>

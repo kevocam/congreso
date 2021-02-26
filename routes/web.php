@@ -29,6 +29,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/lobby', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/pabellon', function () {
     return view('pabellon.index');
 });
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/pabellon2', function () {
+    return view('pabellon.option');
+});
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/detail', function () {
     return view('details.normal');
 });

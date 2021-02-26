@@ -12,7 +12,7 @@ var slider1 = document.querySelector('#slider1');
 var slider2 = document.querySelector('#slider2');
 var slider3 = document.querySelector('#heroSlider');
 var config = {
-  type: 'carrousel',
+  type: 'carousel',
   startAt: 0,
   perView: 3
 };
@@ -22,9 +22,11 @@ var config2 = {
   perView: 4
 };
 var config3 = {
-  type: 'slider',
-  startAt: 0,
-  perView: 1
+  type: 'carousel',
+  startAt: 1,
+  perView: 1,
+  autoplay: 3500,
+  animationDuration: 2000
 };
 /* new Glide('.glide').mount() */
 
@@ -34,6 +36,31 @@ var config3 = {
 new Glide('.glide', config).mount();
 new Glide('#glideHome', config2).mount();
 new Glide('#heroSlider', config3).mount();
+/* 
+var input = document.querySelector('#heroSlider')
+var glide = new Glide('#heroSlider', {
+ perView: input.value
+})
+input.addEventListener('input', function (event) {
+ glide.update({
+   perView: event.target.value
+ })
+})
+glide.mount()
+*/
+
+/***/ }),
+
+/***/ "./resources/sass/details.scss":
+/*!*************************************!*\
+  !*** ./resources/sass/details.scss ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ }),
 
@@ -41,6 +68,19 @@ new Glide('#heroSlider', config3).mount();
 /*!*******************************************!*\
   !*** ./resources/sass/master-tablet.scss ***!
   \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/pabellon2-xl.scss":
+/*!******************************************!*\
+  !*** ./resources/sass/pabellon2-xl.scss ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -141,10 +181,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/details.scss":
-/*!*************************************!*\
-  !*** ./resources/sass/details.scss ***!
-  \*************************************/
+/***/ "./resources/sass/MenuMainCard.scss":
+/*!******************************************!*\
+  !*** ./resources/sass/MenuMainCard.scss ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -219,8 +259,10 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			["./resources/sass/welcome.scss"],
 /******/ 			["./resources/sass/master.scss"],
 /******/ 			["./resources/sass/welcome-tablet.scss"],
+/******/ 			["./resources/sass/MenuMainCard.scss"],
 /******/ 			["./resources/sass/details.scss"],
 /******/ 			["./resources/sass/master-tablet.scss"],
+/******/ 			["./resources/sass/pabellon2-xl.scss"],
 /******/ 			["./resources/sass/pabellon-xl.scss"],
 /******/ 			["./resources/sass/lobby-xl.scss"],
 /******/ 			["./resources/css/app.css"]

@@ -2,24 +2,26 @@
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
 @font-face {
-    font-family: 'Californian';    
-    src: url('../font/custom/califb.ttf' );   
+    font-family: 'CalifornianBold';    
+    src: url('../font/custom/californian.ttf' );   
+    src: url('../font/custom/.ttf' ); 
 }
 
 @font-face {
     font-family: 'Corbel';    
-    src: url('../font/custom/corbel/CORBEL.TTF' );   
+    src: url('../font/custom/corbel/CORBEL.TTF' );  
+    font-family: 'CorbelBold';    
+    src: url('../font/custom/corbel/CorbelBold.ttf' );  
 }
-
-// USAGE
-
-
 
 $color-primario: #096191;
 $blanco: #dadada;
 $color-secundario: #06abc6;
 $negro: rgba(0, 0, 0, 0.8);
 $color-terciario: #3d838b;
-$fuente-primaria:  'Californian', "sans-serif";
+$fuente-primaria:  'CalifornianBold', "sans-serif";
+
 $fuente-secundaria: "Corbel", "sans-serif";
+$fuente-terciaria: "CorbelBold", "sans-serif";
+
 

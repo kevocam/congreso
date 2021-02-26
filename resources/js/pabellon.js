@@ -7,7 +7,7 @@ let item2 = document.querySelector("#item2");
 let item2Text = document.querySelector('#item2Text')
 
 
-alert(item2Text.value)
+
 
 item1.addEventListener("mouseenter", () => {
     imgBase.src = "./img/dauGroup1.png"

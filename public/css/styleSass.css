@@ -143,10 +143,13 @@
 }
 
 @font-face {
-  font-family: "Californian";
-  src: url("../font/custom/califb.ttf");
+  font-family: "CalifornianBold";
+  src: url("../font/custom/californian.ttf");
+  src: url("../font/custom/.ttf");
 }
 @font-face {
   font-family: "Corbel";
   src: url("../font/custom/corbel/CORBEL.TTF");
+  font-family: "CorbelBold";
+  src: url("../font/custom/corbel/CorbelBold.ttf");
 }

@@ -17,9 +17,12 @@ mix.sass('resources/sass/styleSass.scss', 'public/css');
 mix.sass('resources/sass/welcome.scss', 'public/css');
 mix.sass('resources/sass/master.scss', 'public/css');
 mix.sass('resources/sass/welcome-tablet.scss', 'public/css');
+mix.sass('resources/sass/MenuMainCard.scss', 'public/css');
+
 
 mix.sass('resources/sass/details.scss', 'public/css');
 mix.sass('resources/sass/master-tablet.scss', 'public/css');
+mix.sass('resources/sass/pabellon2-xl.scss', 'public/css')
 mix.sass('resources/sass/pabellon-xl.scss', 'public/css')
     .options({
         processCssUrls: false

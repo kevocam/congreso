@@ -153,69 +153,43 @@
   font-family: "CorbelBold";
   src: url("../font/custom/corbel/CorbelBold.ttf");
 }
-.topnav {
-  height: 100px;
-}
-
-.main-content {
-  margin: 0 auto;
-  background-color: #f0f2f5;
-}
-
-.confeForm {
-  width: 100%;
-  border: 0.5px solid gray;
-  padding: 3%;
-  border-radius: 25px;
-  background-color: white;
-  border: none;
-  box-shadow: 1px 9px 15px 1px #b3afb3;
-}
-
-.inputCustom {
+.MenuMainCard {
+  max-width: 450;
+  height: 200;
   display: flex;
-  width: 100%;
-  align-items: center;
-  min-height: 100px;
-  padding: 10px;
-  justify-content: space-between;
-  border-bottom: 1px solid gray;
+  justify-content: space-around;
+  /* position: relative;
+  left: 52px;
+  top: 400px; */
 }
-.inputCustom__label {
-  width: 30%;
+.MenuMainCard__lista {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: rgba(0, 0, 0, 0.8);
 }
-.inputCustom__input {
-  width: 70%;
+.MenuMainCard__lista li {
+  width: 70px;
+  height: 70px;
+}
+.MenuMainCard__lista li a p svg {
+  filter: brightness(0) invert(1);
+  width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
-.inputCustom__input input {
-  width: 100%;
-  border: 1px solid gray;
-  border-radius: 5px;
+.MenuMainCard__lista li a p svg:hover {
+  cursor: pointer !important;
+  transform: translateY(-7px);
+  transition-duration: 2000;
+}
+.MenuMainCard__lista li:hover {
+  cursor: pointer;
+}
+.MenuMainCard__lista--item {
+  background-color: #096191;
+  margin: 5px;
   padding: 5px;
-}
-.inputCustom__input textarea {
-  width: 100%;
-}
-
-.formFooter {
-  margin: 0 auto;
-  text-align: center;
+  border-radius: 50px;
+  border: none;
 }
 
-.input--rrss {
-  min-height: 120px;
-}
-
-.btnPrimary {
-  margin-top: 10px;
-  padding: 10px 15px;
-  border-radius: 10px;
+.iconMenu:hover {
+  cursor: pointer;
 }

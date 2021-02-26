@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="./css/lobby-xl.css">
 @endsection
 @section('content')
-
+    
     @unless (Auth::check())
         tu no estas logeado
     @endunless

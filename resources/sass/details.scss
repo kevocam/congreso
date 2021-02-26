@@ -1,6 +1,7 @@
 
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
 @import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+@import 'styleSass.scss';
 
 
 
@@ -11,16 +12,7 @@ $negro: rgba(0, 0, 0, 0.8);
 $color-terciario: #3d838b;
 $fuente-primaria: "";
 $fuente-secundaria: "";
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-html {
-    font-size: 62.5%;
-    font-family: "DM Sans", sans-serif;
-}
 
 .DetailNormal {
     width: 100%;

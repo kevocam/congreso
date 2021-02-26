@@ -1,72 +1,40 @@
-<style>
-.MenuMain{
-    max-width:350px;
-    padding:20px;
-    
-}
-.MenuMain ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around
-}
-.MenuMain__lista--item {
-    text-align: center;
-}
-.MenuMain__lista--item:hover{
-    cursor: pointer;
-    transform: translateY(-15px);
-    transition-duration: 0.4s;
-}
-
-</style>
-
-<div class="MenuMain">
-    <ul class="MenuMain__lista">        
-        <li class="MenuMain__lista--item"> 
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <polyline points="5 12 3 12 12 3 21 12 19 12" />
-                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-                  </svg>
-            </p>
-
+<div class="MenuMainCard">
+    <ul class="MenuMainCard__lista">        
+        <li class="MenuMainCard__lista--item">            
             <a href="/lobby">            
-            Lobby
+                <p>                
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+                        <image id="Capa_1" data-name="Capa 1" x="23" y="23" width="74" height="74" xlink:href="data:img/png;base64,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"/>
+                      </svg>                      
+                </p>
             </a>
-             </li>
-        <li class="MenuMain__lista--item">
-             <p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hierarchy-2" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M10 3h4v4h-4z" />
-                    <path d="M3 17h4v4h-4z" />
-                    <path d="M17 17h4v4h-4z" />
-                    <path d="M7 17l5 -4l5 4" />
-                    <line x1="12" y1="7" x2="12" y2="13" />
-                  </svg>
-            </p>
-            <a href="/salas">
-                Salas
-            </a>
+        </li>
+        <li class="MenuMainCard__lista--item">
+           
+
+                <a href="/salas">
+
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+                            <image id="Capa_1" data-name="Capa 1" x="26" y="26" width="68" height="68" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAYAAAA4E5OyAAADPklEQVR4nO2cTYiNURjHf/MyyWcsSBJFNj4SCxtmNkSJlaZYmw0WotdHejcyQjOGTClFkQ01yt7GvCxGsZOPCIlCIuP7Y1ydcabG8zD3nXHPe5LnV3fzP/e+z7m/e+97z73nubeuUqngaGxpWwNsARYAE6gtr4HrwBHg6hCPPA/YCSwFpqjRv+M9cBc4lWfpWXekPiGNLW2Hge01LvYntnsxRVgHdJY0r848S5vqGva1rgAuqeGwzAVuV6kwGXih0rA0J8Dekos6dqlEs0Ul4dmX+EerbBrdy7VKzSUqCc8UJ2RUhMJTgbEq/ZXRKgnPRyekN0LhrwWeITHmVXFCKiouoXCBujHmRaKS/xwTIjAhAhMiMCECEyIwIQITIjAhAhMiMCECEyIwIQITIjAhgqTAFzWx6saYV9/EYjxLRgDfVaqvUzZ1TsanCIWf+E2iwXg3yFgoxiR+R61siuwDXVZJeB44IXsiFD6gEs1x4INKw7IjybP0BpCWVPAbsB54qkY0H4FVwEs1EoajeZZeHLjZvRDYBCwDZviS1U581eg/Yd8HuoBjwMMqt5FMArYBy4H5/t3nb+dV5y/PgG6/2d1F/2a3pLGlbbyP9ODQCzveqpHhUdN55Vmq5vVbIfyUorJ/iTwb3lnAVqoCEyIwIQITIjAhAhMiGLgwcx1+zcAivxiihuuQl34BdMKvQIfKRt91NM0fsxatEu44PcAt4EyepfcY0IXYBJwM0I4pcUv2DcAVNfJ75gAXfKtoSJzgNM/SdteFONsvrcviq+8wfFOloHsEHwPT1Ug4Gtw55FCJBR31vhG3Gs0ly3B0OCENKg7P2gIVVqskPAuckHERCs8q0GU4USXh+ZzU4KP0cKj4l85gxJhXb6wuxN4CdziGEFuYSUyIwIQITIjAhAhMiMCECEyIwIQITIjAhAhMiMCECEyIwIQIYgmJ0mFYhCRSt199ASkjVVICiW9zKptXBfrHvqgkPKOdkAcRCncX+OX2TZWEp8cJORihcKtKNB0qCU+b60I8X+KfluD/TOWaSjWPgK0qDUd3nqUHBm52uw7EzcDMQCXvAO3AuSHebiWwG1gc6F3xOXA6z9L9AD8AkpurJE8E17YAAAAASUVORK5CYII="/>
+                          </svg>
+                          
+                    </p>
+                </a>
             </li>
-        <li class="MenuMain__lista--item">
+        <li class="MenuMainCard__lista--item">
              
-            <a href="/pabellon">
-                <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <circle cx="12" cy="12" r="9" />
-                        <line x1="3.6" y1="9" x2="20.4" y2="9" />
-                        <line x1="3.6" y1="15" x2="20.4" y2="15" />
-                        <path d="M11.5 3a17 17 0 0 0 0 18" />
-                        <path d="M12.5 3a17 17 0 0 1 0 18" />
-                      </svg>
-            </p>
-                Pabellon
-            </a>
+              <a href="/pabellon">
+
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+                            <image id="Capa_1" data-name="Capa 1" x="23" y="20" width="74" height="80" xlink:href="data:img/png;base64,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"/>
+                        </svg>
+                        
+                    </p>
+               </a>          
             </li>
     </ul>
     {{$slot}}
 </div>
+<style>

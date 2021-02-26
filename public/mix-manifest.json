@@ -3,7 +3,7 @@
     "/js/master.js": "/js/master.js",
     "/js/pabellon.js": "/js/pabellon.js",
     "/js/app.js": "/js/app.js",
-    "/css/details.css": "/css/details.css",
+    "/css/MenuMainCard.css": "/css/MenuMainCard.css",
     "/css/welcome-tablet.css": "/css/welcome-tablet.css",
     "/css/master.css": "/css/master.css",
     "/css/welcome.css": "/css/welcome.css",
@@ -11,5 +11,7 @@
     "/css/app.css": "/css/app.css",
     "/css/lobby-xl.css": "/css/lobby-xl.css",
     "/css/pabellon-xl.css": "/css/pabellon-xl.css",
-    "/css/master-tablet.css": "/css/master-tablet.css"
+    "/css/pabellon2-xl.css": "/css/pabellon2-xl.css",
+    "/css/master-tablet.css": "/css/master-tablet.css",
+    "/css/details.css": "/css/details.css"
 }
