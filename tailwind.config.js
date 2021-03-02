@@ -8,9 +8,27 @@ module.exports = {
     ],
 
     theme: {
+        /* backgroundColor: theme => ({
+
+            'primary': '#096191',
+
+            'secondary': '#06abc6',
+
+            'danger': '#e3342f',
+        }),
+        textColor: {
+
+       'primary': '#096191',
+
+        'secondary': '#06abc6',
+
+       'danger': '#e3342f',
+
+     }, */
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                /*                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                 */
             },
         },
     },
@@ -18,6 +36,8 @@ module.exports = {
     variants: {
         extend: {
             opacity: ['disabled'],
+            /* backgroundColor: ['active'],
+            textColor: ['active'], */
         },
     },
 

@@ -14,8 +14,19 @@ use App\Http\Controllers\PanelController;
 |
 */
 
+Route::group(['middleware' => ['role:admin','auth:sanctum', 'verified']], function () {
+    Route::get('/salas', function () {
+        return view('salas');
+    });
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
 Route::get('/', function () {
     return view('welcome');
+});
+Route::get('/registro', function () {
+    return view('registro');
 });
 Route::get('/index', function () {
     return view('index');
@@ -26,7 +37,8 @@ Route::get('/salas', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/lobby', function () {
     return view('lobby.index');
 });
-Route::middleware(['auth:sanctum', 'verified'])->get('/pabellon', function () {
+
+Route::middleware(['role:admin','auth:sanctum', 'verified'])->get('/pabellon', function () {
     return view('pabellon.index');
 });
 
@@ -43,13 +55,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/detail2', function () {
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/conferencista',[ConfeController::class, 'index']);
 Route::middleware(['auth:sanctum', 'verified'])->get('/crearconferencista',[ConfeController::class, 'create']);
-
-
-
 Route::middleware(['auth:sanctum', 'verified'])->get('/crearpanelista',[PanelController::class, 'index']);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/panelista',[PanelController::class, 'create']);
-
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');

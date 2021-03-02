@@ -26,7 +26,7 @@
     
 
     @yield('css')
-@livewireStyles
+    @livewireStyles
 </head>
 
     <body class="vertical light  ">
