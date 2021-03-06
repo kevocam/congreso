@@ -9,8 +9,8 @@
             </div>
             <div class="inputCustom__input">
                 @if ($photo)
-                    Photo Preview:
-                    <img style="max-width:50px" src="{{ $photo->temporaryUrl() }}">
+                    Previzualización
+                    <img style="max-width:80px" src="{{ $photo->temporaryUrl() }}">
                 @endif
                 <input wire:model="photo" type="file" name="" id="">
 
@@ -52,14 +52,14 @@
             </div>
         </div>
         <div class="formFooter">
-            <button class="btnPrimary" type="submit">
+            <button class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray disabled:opacity-25 transition ease-in-out duration-150" type="submit">
                 Guardar
             </button>
 
         </div>
     </form>
     @if (session()->has('message'))
-    <div class="">
+    <div class="alert alert-success">
         {{ session('message') }}
     </div>
 @endif

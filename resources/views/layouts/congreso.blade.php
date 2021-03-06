@@ -11,9 +11,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="./css/app.css">
+        <link rel="stylesheet" href="./css/MenuMainCard.css">
         <link rel="stylesheet" href="./css/welcome.css">
         <link rel="stylesheet" href="./css/welcome-tablet.css" media="(min-width:930px)">
-        <link rel="stylesheet" href="./css/MenuMainCard.css">
         {{-- <link rel="stylesheet" href="./css/details.css"> --}}
         <!-- Styles -->
         <style>
@@ -26,6 +26,7 @@
 
     </script>
     <script src="./js/welcome.js" defer></script>
+    <script src="{{ mix('js/app.js') }}" defer></script>
 
     @livewireStyles
 
@@ -56,6 +57,30 @@
                     <li class="border-t md:border-none">
                         <a href="/dashboard" class="menuLobby block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">Dashboard</a>
                     </li>
+                   
+                    <li id="dropdownMain" class="border-t md:border-none">
+                        <a href="#" class="flex menuLobby block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">{{ Auth::user()->name }}
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-down" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#096191" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="18" y1="13" x2="12" y2="19" />
+                                <line x1="6" y1="13" x2="12" y2="19" />
+                            </svg>
+                        </a>   
+                        <ul class="dropdownContent dropdown dropdownClose">
+                            
+                            <li>
+                            <a href="/user/profile">
+                            
+                                Mi perfil
+                            </a>
+                            </li>                            
+                            <li>
+                                Salir
+
+                            </li>
+                        </ul>                     
+                    </li>
                     @endauth
                     @guest
                         
@@ -68,6 +93,7 @@
                     </li>                                 
                     @endguest                    
                 </ul>
+                
             </nav>
         </header>  
           

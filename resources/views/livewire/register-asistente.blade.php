@@ -1,7 +1,7 @@
 <div class=" flex justify-center">
     <div class="flex flex-col w-1/2 mx-auto max-w-md px-4 py-8 bg-white rounded-lg shadow dark:bg-gray-800 sm:px-6 md:px-8 lg:px-10">
         <div class="self-center mb-6 text-xl font-light text-gray-600 sm:text-2xl dark:text-white">
-            Registra tu asistencia
+            {{$slot}}
         </div>
         <div class="mt-8">
             <form wire:submit.prevent="store" action="#" autoComplete="off">
@@ -25,6 +25,7 @@
                             </svg>
                         </span>
                         <input wire:model="email" type="text" id="sign-in-email" class=" rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Correo electrónico"/>
+                        @error('email') <span class="error">{{ $message }}</span> @enderror
                     </div>
                 </div>
                     <div class="flex flex-col mb-6">
@@ -40,18 +41,19 @@
                         </div>
                         
                         <div class="flex w-full">
-                            <button type="submit" class="py-2 px-4 font-white bg-gray-400 hover:bg-blue-600 focus:ring-purple-500 focus:ring-offset-purple-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                            <button type="submit" class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray disabled:opacity-25 transition ease-in-out duration-150">
                                 Registrar
                             </button>
                         </div>
                     </form>
+                    @if (session()->has('message'))
+                    <div class="alert alert-success">
+                        {{ session('message') }}
+                    </div>
+                @endif
                 </div>
                 <div class="flex items-center justify-center mt-6">
-                    <a href="#" target="_blank" class="inline-flex items-center text-xs font-thin text-center text-gray-500 hover:text-gray-700 dark:text-gray-100 dark:hover:text-white">
-                        <span class="ml-2">
-                            You don&#x27;t have an account?
-                        </span>
-                    </a>
+                    
                 </div>
             </div>
     </div>

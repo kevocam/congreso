@@ -12,15 +12,16 @@ class RegisterAsistente extends Component
 {
     
 
-    public $name, $email, $password, $user;
+    public $name, $email, $password, $user,$slot;
 
     protected $rules = [
-        'email' => 'required|string|min:6',
+        'email' => 'required|email|string|min:6',
         'password' => 'required|string|min:6',      
     ];
 
     public function render()
     {
+        
         return view('livewire.register-asistente');
     }
     public function store(){
@@ -33,6 +34,7 @@ class RegisterAsistente extends Component
             'password' => Hash::make($this->password),
         ]);
         $user->assignRole('asistente');
+        session()->flash('message', 'Guardado con éxito. 👍');
 
     }
 }

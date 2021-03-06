@@ -3,7 +3,7 @@
 Crear conferencista
 @endsection
 @section('content')
- @livewire('confe-form')
+ @livewire('confe-form' )
    
    
 @endsection

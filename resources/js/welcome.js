@@ -21,26 +21,27 @@ const config3 = {
         perView: 1,
         autoplay: 3500, 
         animationDuration:2000,
-
     }
-    /* new Glide('.glide').mount() */
-/* import Glide, { Images } from '@glidejs/glide/dist/glide.modular.esm';
- */
- new Glide('.glide', config).mount(); 
+    
+new Glide('.glide', config).mount(); 
 new Glide('#glideHome', config2).mount();
- new Glide('#heroSlider', config3).mount(); 
- /* 
-var input = document.querySelector('#heroSlider')
+new Glide('#heroSlider', config3).mount(); 
+ 
 
-var glide = new Glide('#heroSlider', {
-  perView: input.value
-})
+ let dropdownMenu = document.querySelector("#dropdownMain");
+let dropdown = document.querySelector('.dropdownContent')
+let iconDropdown = document.querySelector('.icon-tabler-arrow-down');
 
-input.addEventListener('input', function (event) {
-  glide.update({
-    perView: event.target.value
-  })
-})
+ dropdownMenu.addEventListener('click', () => {
+   
+    if (dropdown.classList.contains('dropdownClose')) {
+        dropdown.classList.remove('dropdownClose')
+        iconDropdown.style.transform="rotate(180deg)";
+    } else {
+        dropdown.classList.add('dropdownClose')    
+        iconDropdown.style.transform="rotate(0deg)";
+    }
 
-glide.mount()
- */
+
+
+ })

@@ -14,15 +14,25 @@ use App\Http\Controllers\PanelController;
 |
 */
 
-Route::group(['middleware' => ['role:admin','auth:sanctum', 'verified']], function () {
+Route::group(['middleware' => [/* 'role:admin', */'auth:sanctum', 'verified']], function () {
     Route::get('/salas', function () {
         return view('salas');
     });
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+    Route::get('/asistentes', function () {
+        return view('dashboard.viewAsistentes');
+    });
+    Route::get('/crearasistentes', function () {
+        return view('dashboard.createAsistentes');
+    });
+
 });
 Route::get('/', function () {
+
+
+    
     return view('welcome');
 });
 Route::get('/registro', function () {
