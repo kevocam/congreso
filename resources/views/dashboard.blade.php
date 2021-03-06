@@ -8,8 +8,7 @@
  <x-resume >
    
  </x-resume>   
- <p> ------------------------------ </p>
- @livewire('register-asistente')
+ 
 
 @endsection
 
