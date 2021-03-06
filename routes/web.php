@@ -48,7 +48,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/lobby', function () {
     return view('lobby.index');
 });
 
-Route::middleware(['role:admin','auth:sanctum', 'verified'])->get('/pabellon', function () {
+Route::middleware([/* 'role:admin', */'auth:sanctum', 'verified'])->get('/pabellon', function () {
     return view('pabellon.index');
 });
 
