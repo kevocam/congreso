@@ -9,6 +9,7 @@
    
  </x-resume>   
  
-
+ @livewire('info' , ['name'=>"desde la llamasdas"] );
+ 
 @endsection
 

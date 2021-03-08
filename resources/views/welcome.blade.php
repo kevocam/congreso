@@ -71,5 +71,6 @@
             </x-welcome>
 
         </div>
+       
     @endsection
 
