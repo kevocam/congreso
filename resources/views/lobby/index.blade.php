@@ -2,7 +2,10 @@
 
 @section('style')
 
-<link rel="stylesheet" href="./css/lobby-xl.css">
+<link rel="stylesheet" href="./css/lobby-xl.css"> 
+<link rel="stylesheet" href="./css/lobby-tablet.css" media="(max-width:930px)"> 
+<link rel="stylesheet" href="./css/lobby-mobile.css" media="(max-width:425px)">
+
 @endsection
 @section('content')
     
@@ -12,16 +15,15 @@
     <div class="contenedor">
 
     <div class="contenedor__main">
-        <h2>COntent</h2>
     </div>
         <div class="contenedor__footer">
             <div class="contenedor__footer--menu">
-                <x-menu>
                
-                </x-menu>
-            </div>
+            </div> 
+           
             <div class="contenedor__footer--chat">
-                chat
+               <img src="./img/letreroview.png" alt="">
+
             </div>
             
 

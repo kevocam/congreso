@@ -28,6 +28,8 @@ mix.sass('resources/sass/pabellon-xl.scss', 'public/css')
         processCssUrls: false
     })
 mix.sass('resources/sass/lobby-xl.scss', 'public/css')
+mix.sass('resources/sass/lobby-tablet.scss', 'public/css')
+mix.sass('resources/sass/lobby-mobile.scss', 'public/css')
     .options({
         processCssUrls: false
     })

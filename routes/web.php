@@ -35,6 +35,16 @@ Route::get('/', function () {
     
     return view('welcome');
 });
+
+
+Route::get('/chat-list', function () {
+
+
+    
+    return view('chat-list');
+});
+
+
 Route::get('/registro', function () {
     return view('registro');
 });

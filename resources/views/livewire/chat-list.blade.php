@@ -1,13 +1,10 @@
 <div>
-    <div>
-        <label for="nombre">Mensaje</label>
-        <input type="text" id="nombre" wire:model="mensaje">
-    </div>
-    {{$user = auth()->id()}}
-    <button wire:click="enviarMensaje">
-        Enviar
-    </button>
 
+    <h5 class="my-3"> <strong> Lista de mensajes </strong></h5>
+   {{--  @foreach ($mensajes as $mensaje)
+    <li>{{$mensaje->id_user}}</li>
+        
+    @endforeach --}}
     <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
 
     <script>
@@ -23,5 +20,5 @@
         channel.bind('chat-event', function(data) {
           alert(JSON.stringify(data));
         });
-      </script> 
+      </script>
 </div>

@@ -37,8 +37,8 @@
 
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.x/dist/alpine.min.js" defer></script>
 
-
-
+{{--     <script src="https://js.pusher.com/7.0/pusher.min.js" defer></script>
+ --}}
 
 </head>
 
@@ -207,6 +207,12 @@
 <script src='{{asset('front/')}}/js/dataTables.bootstrap4.min.js'></script>
 <script src="{{asset('front/')}}/js/apps.js"></script> --}}
 <script src="./js/master.js"></script>
+
+{{-- PUSHER --}}
+<script src="https://js.pusher.com/7.0/pusher.min.js"></script>
+  
+
+
 @livewireScripts
 </body>
 

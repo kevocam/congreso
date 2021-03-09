@@ -111,6 +111,32 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/lobby-tablet.scss":
+/*!******************************************!*\
+  !*** ./resources/sass/lobby-tablet.scss ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/lobby-mobile.scss":
+/*!******************************************!*\
+  !*** ./resources/sass/lobby-mobile.scss ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/css/app.css":
 /*!*******************************!*\
   !*** ./resources/css/app.css ***!
@@ -260,6 +286,8 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			["./resources/sass/pabellon2-xl.scss"],
 /******/ 			["./resources/sass/pabellon-xl.scss"],
 /******/ 			["./resources/sass/lobby-xl.scss"],
+/******/ 			["./resources/sass/lobby-tablet.scss"],
+/******/ 			["./resources/sass/lobby-mobile.scss"],
 /******/ 			["./resources/css/app.css"]
 /******/ 		];
 /******/ 		// no chunk on demand loading

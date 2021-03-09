@@ -9,6 +9,8 @@
     "/css/welcome.css": "/css/welcome.css",
     "/css/styleSass.css": "/css/styleSass.css",
     "/css/app.css": "/css/app.css",
+    "/css/lobby-mobile.css": "/css/lobby-mobile.css",
+    "/css/lobby-tablet.css": "/css/lobby-tablet.css",
     "/css/lobby-xl.css": "/css/lobby-xl.css",
     "/css/pabellon-xl.css": "/css/pabellon-xl.css",
     "/css/pabellon2-xl.css": "/css/pabellon2-xl.css",
