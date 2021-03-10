@@ -9,7 +9,12 @@ class ChatForm extends Component
     public $user, $datos;
     public $mensaje ;
 
-
+    public function mount(){
+/*         $this->user = auth()->id();
+ */
+        $this->user="";
+        $this->mensaje="";
+    }
     public function render()
     {
         return view('livewire.chat-form');
@@ -21,6 +26,10 @@ class ChatForm extends Component
         ]);
     }
     public function enviarMensaje(){
+
+       /*  $this->mensaje =$this->mensaje."adsasd"; */
+       $this->emit("mensajeEnviado");
+
         $this->validate([
             'user' => 'required|min:3',
             'mensaje' => 'required'
@@ -31,8 +40,7 @@ class ChatForm extends Component
             'user' => $this->user,
             'mensaje' => $this->mensaje
         ];
-        $this->emit("mensajeRecibido");
 
-        event(new \App\Events\EnviarMsn($this->user, $this->mensaje));
+        event(new \App\Events\EnviarMsn($this->user, $this->mensaje)); 
     }
 }

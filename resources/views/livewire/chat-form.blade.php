@@ -1,13 +1,24 @@
 <div>
-    <div>
-        <label for="nombre">Mensaje</label>
-        <input type="text" id="nombre" wire:model="mensaje">
+<div>
+        <label for="nombre">Nmober</label>
+        <input type="text" id="nombre" wire:model="user">
     </div>
-    {{$user = auth()->id()}}
+    <div>
+        <label for="mensaje">Mensaje</label>
+        <input type="text" id="mensaje" wire:model="mensaje">
+    </div>
+  {{$mensaje}}
     <button wire:click="enviarMensaje">
         Enviar
     </button>
+  <script>
+    window.livewire.on("mensajeEncviado", () =>{
+      alert("evento ON")
 
+    });
+
+
+  </script>
     <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
 
     <script>
