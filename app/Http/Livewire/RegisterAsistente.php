@@ -33,8 +33,8 @@ class RegisterAsistente extends Component
             'email' => $this->email,
             'password' => Hash::make($this->password),
         ]);
-        $user->assignRole('asistente');
-        session()->flash('message', 'Guardado con éxito. 👍');
+/*         $user->assignRole('asistente');
+ */        session()->flash('message', 'Guardado con éxito. 👍');
 
     }
 }
