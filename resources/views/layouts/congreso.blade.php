@@ -27,6 +27,7 @@
     </script>
     <script src="./js/welcome.js" defer></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
+    <script src="./js/pabellon.js" defer></script>
 
     @livewireStyles
 

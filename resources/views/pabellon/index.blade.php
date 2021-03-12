@@ -192,5 +192,5 @@
 </x-congreso-layout> --}}
 @section('js')
 
-<script src="./js/pabellon.js"></script>
+<script src="./js/pabellon.js" defer></script>
 @endsection

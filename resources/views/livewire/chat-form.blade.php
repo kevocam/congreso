@@ -8,20 +8,24 @@
         <input type="text" id="mensaje" wire:model="mensaje">
     </div>
   {{$mensaje}}
-    <button wire:click="enviarMensaje">
+    <button wire:click="EnviarMsn">
         Enviar
     </button>
   <script>
-    window.livewire.on("mensajeEncviado", () =>{
-      alert("evento ON")
-
-    });
-
+   /*  window.livewire.on("mensajeEnviado", function(){
+      alert("notification ON")
+    }); */
+    Livewire.on("EnviarMsn", ()=>{
+      alert("fsd");
+    })
+   /*  Livewire.on('EnviarMsn', () => {
+    alert('A post was added with the id of: ' );
+}) */
 
   </script>
     <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
 
-    <script>
+    {{-- <script>
 
         // Enable pusher logging - don't include this in production
         Pusher.logToConsole = true;
@@ -34,5 +38,5 @@
         channel.bind('chat-event', function(data) {
           alert(JSON.stringify(data));
         });
-      </script> 
+      </script>  --}}
 </div>

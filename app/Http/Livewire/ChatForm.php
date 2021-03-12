@@ -9,7 +9,9 @@ class ChatForm extends Component
     public $user, $datos;
     public $mensaje ;
 
-    public function mount(){
+/*     protected $listeners = ['EnviarMsn'];
+ *//*     protected $listeners = ['EnviarMsn'];
+ */    public function mount(){
 /*         $this->user = auth()->id();
  */
         $this->user="";
@@ -25,22 +27,15 @@ class ChatForm extends Component
             'mensaje' => 'required'
         ]);
     }
-    public function enviarMensaje(){
+    public function EnviarMsn(){
+        \App\Models\Chat::create([
+            "content" => $this->mensaje,
+            "id_user" => $this->user
 
-       /*  $this->mensaje =$this->mensaje."adsasd"; */
-       $this->emit("mensajeEnviado");
-
-        $this->validate([
-            'user' => 'required|min:3',
-            'mensaje' => 'required'
         ]);
-        $this->emit("mensajeEnviado");
+       /*  $this->mensaje =$this->mensaje."adsasd"; */
+       $this->emit("EnviarMsn");
 
-        $datos =[
-            'user' => $this->user,
-            'mensaje' => $this->mensaje
-        ];
-
-        event(new \App\Events\EnviarMsn($this->user, $this->mensaje)); 
+       
     }
 }

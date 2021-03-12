@@ -44,6 +44,9 @@ Route::get('/chat-list', function () {
     return view('chat-list');
 });
 
+Route::get('/dau-details', function () {
+    return view('details.dau');
+}); 
 
 Route::get('/registro', function () {
     return view('registro');
