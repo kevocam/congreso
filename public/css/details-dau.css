@@ -1,10 +1,12 @@
 .contenedor {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
+  max-width: 1024px;
+  margin: 0 auto;
   background-image: url("../img/details/dau/fondo.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: center;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,11 +45,74 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 15px;
   height: 100%;
   align-items: flex-end;
 }
+.contenedor__footer--menu {
+  width: 140px;
+  height: 324px;
+  background: url("../img/details/dau/cartel1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contenedor__footer--menu--head {
+  padding: 10px;
+}
+.contenedor__footer--menu--head ul {
+  text-align: center;
+}
+.contenedor__footer--menu--head ul li {
+  text-align: center;
+}
+.contenedor__footer--menu--head ul li a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+.contenedor__footer--menu--head ul li:hover {
+  transform: scale(1.2);
+  transition-duration: 400ms;
+}
 .contenedor__footer--chat {
   display: flex;
+}
+.contenedor__footer--chat--cartel {
+  background: url("../img/details/dau/cartel2.png");
+  width: 140px;
+  height: 324px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contenedor__footer--chat--cartel a {
+  color: blue;
+  text-decoration: underline;
+}
+.contenedor__footer--chat--banner {
+  background-image: url("../img/details/dau/banner.png");
+  width: 140px;
+  height: 324px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor__footer--chat--banner img {
+  height: 55px;
+  width: 55px;
+}
+.contenedor__footer--chat--banner img:hover {
+  transform: scale(3.5);
+  cursor: copy;
 }
 
 .card-item {

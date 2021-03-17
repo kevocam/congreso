@@ -1,0 +1,52 @@
+.institute{
+    width: 100%;    
+    max-width:1024px;
+    margin:0 auto;
+    height: 100vh;
+    background-image: url("../img/details/institute/fondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    &__tv{
+        background-image: url("../img/details/institute/tv.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 232px;
+        height: 142px;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        iframe{
+            transform: rotate(358deg);
+        }
+    }
+    &__logo{
+        background-image: url("../img/details/institute/cartelHead.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 308px;
+        height: 267px;
+        align-self: top;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        img{
+            width:190px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__panel{
+        background-image: url("../img/details/institute/panel.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 428px;
+        align-self: flex-end;
+    }
+}

@@ -16,5 +16,8 @@
     "/css/pabellon2-xl.css": "/css/pabellon2-xl.css",
     "/css/master-tablet.css": "/css/master-tablet.css",
     "/css/details.css": "/css/details.css",
+    "/css/details-gray.css": "/css/details-gray.css",
+    "/css/details-social.css": "/css/details-social.css",
+    "/css/details-institute.css": "/css/details-institute.css",
     "/css/details-dau.css": "/css/details-dau.css"
 }

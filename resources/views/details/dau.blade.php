@@ -17,13 +17,54 @@
  --}}
         <div class="contenedor__footer">
             <div class="contenedor__footer--menu">
-              <img src="../img/details/dau/cartel1.png" alt="cartel1">
+                    <div class="contenedor__footer--menu--head">
+                        <h3>Síguenos en:</h3>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/>
+                                      Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://img.icons8.com/fluent/48/000000/youtube-play.png"/>
+                                    Youtube
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"/>
+                                    Instagram
+                                </a>                            
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="https://img.icons8.com/doodle/48/000000/tiktok--v1.png"/>
+                                    TikTok
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="contenedor__footer--menu--footer">
 
+                    </div>
             </div>
             <div class="contenedor__footer--chat">
-                <img src="../img/details/dau/cartel2.png" alt="cartel1">
-                <img src="../img/details/dau/banner.png" alt="cartel1">
-
+                <div class="contenedor__footer--chat--cartel">
+                    Dau Escuela de Vida, es un Centro de Formación Humano Existencial con sede en Lima Perú.
+                    <a href="#">Ver más</a>
+                </div>
+                <div class="contenedor__footer--chat--banner">
+                    <img src="./img/dauGroup1.png" alt="">
+                    <img src="./img/dauGroup2.png" alt="">
+                    <img src="./img/dauGroup3.png" alt="">
+                    <img src="./img/dauGroup4.png" alt="">
+                    <img src="./img/dauGroup4.png" alt="">
+                    <img src="./img/dauGroup4.png" alt="">
+                </div>
             </div>
             
 

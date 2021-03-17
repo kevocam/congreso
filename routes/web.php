@@ -39,13 +39,21 @@ Route::get('/', function () {
 
 Route::get('/chat-list', function () {
 
-
     
     return view('chat-list');
 });
 
-Route::get('/dau-details', function () {
+Route::get('/details-dau', function () {
     return view('details.dau');
+}); 
+Route::get('/detail-institute', function () {
+    return view('details.institute');
+}); 
+Route::get('/detail-social', function () {
+    return view('details.social');
+}); 
+Route::get('/detail-gray', function () {
+    return view('details.gray');
 }); 
 
 Route::get('/registro', function () {

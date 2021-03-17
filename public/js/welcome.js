@@ -59,6 +59,45 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/details-institute.scss":
+/*!***********************************************!*\
+  !*** ./resources/sass/details-institute.scss ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/details-social.scss":
+/*!********************************************!*\
+  !*** ./resources/sass/details-social.scss ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/details-gray.scss":
+/*!******************************************!*\
+  !*** ./resources/sass/details-gray.scss ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/details.scss":
 /*!*************************************!*\
   !*** ./resources/sass/details.scss ***!
@@ -295,6 +334,9 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			["./resources/sass/welcome-tablet.scss"],
 /******/ 			["./resources/sass/MenuMainCard.scss"],
 /******/ 			["./resources/sass/details-dau.scss"],
+/******/ 			["./resources/sass/details-institute.scss"],
+/******/ 			["./resources/sass/details-social.scss"],
+/******/ 			["./resources/sass/details-gray.scss"],
 /******/ 			["./resources/sass/details.scss"],
 /******/ 			["./resources/sass/master-tablet.scss"],
 /******/ 			["./resources/sass/pabellon2-xl.scss"],

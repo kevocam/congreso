@@ -22,8 +22,9 @@
             </div> 
            
             <div class="contenedor__footer--chat">
-               <img src="./img/letreroview.png" alt="">
-
+              <x-menu>
+                  
+              </x-menu>
             </div>
             
 

@@ -1,18 +1,36 @@
 @import 'styleSass.scss';
 
  .MenuMainCard {
-    max-width: 450;
-    height: 200;
-    display: flex;
-    justify-content: space-around;
+    max-width: 500px;
+    height: 250px;
+    padding:15px;
+/*  */    justify-content: space-around;
     /* position: relative;
     left: 52px;
     top: 400px; */
     &__lista {
-        display: flex;
-        li {
-            width:70px;
-            height:70px;
+            background: url("../img/menu/asta.png");   
+            background-repeat:no-repeat;
+            background-position-x: right;
+            height:100%;
+            padding-top: 7px;
+        &--item {          
+            width: 220px;
+            height:65px;           
+            background-color: #383946;
+            margin: 0px 3px 33px 15px;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;    
+            font-weight:bold;  
+            font-size:25px; 
+            transform: rotate(4.5deg);
+            transition-duration:400ms;
+            &:hover{
+                transform:scale(1.1)
+            }
+            
             a {
                 p {
                     svg {
@@ -34,7 +52,7 @@
                 cursor: pointer;
             }
         }
-        &--item {
+        &---item {
             background-color: $color-primario;
             margin: 5px;
             padding:5px;
