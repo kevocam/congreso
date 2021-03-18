@@ -1,0 +1,34 @@
+.humanizando{
+        
+    width: 100%;    
+    max-width:1024px;
+    margin:0 auto;
+    height: 100vh;
+    max-height: 641px;
+
+    background-image: url("../img/details/humanizando/fondo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    &__banner{
+        grid-column: 1 / 2;
+        background-image: url("../img/details/humanizando/banner.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+
+    }
+    &__tv{
+        grid-column: 4 / 5;
+        background-image: url("../img/details/humanizando/tele.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    &__cartel{
+        grid-column: 6 / 7;
+        background-image: url("../img/details/humanizando/cartel.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+}

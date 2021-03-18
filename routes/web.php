@@ -41,9 +41,9 @@ Route::get('/chat-list', function () {
 
     
     return view('chat-list');
-});
+}); 
 
-Route::get('/details-dau', function () {
+Route::get('/detail-dau', function () {
     return view('details.dau');
 }); 
 Route::get('/detail-institute', function () {
@@ -55,6 +55,19 @@ Route::get('/detail-social', function () {
 Route::get('/detail-gray', function () {
     return view('details.gray');
 }); 
+Route::get('/detail-humanizando', function () {
+    return view('details.humanizando');
+}); 
+Route::get('/detail-dominicana', function () {
+    return view('details.dominicana');
+}); 
+Route::get('/detail-cundinamarca', function () {
+    return view('details.cundinamarca');
+}); 
+Route::get('/detail-beauty', function () {
+    return view('details.beauty');
+}); 
+
 
 Route::get('/registro', function () {
     return view('registro');

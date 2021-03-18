@@ -22,6 +22,10 @@ mix.sass('resources/sass/details-dau.scss', 'public/css');
 mix.sass('resources/sass/details-institute.scss', 'public/css');
 mix.sass('resources/sass/details-social.scss', 'public/css');
 mix.sass('resources/sass/details-gray.scss', 'public/css');
+mix.sass('resources/sass/details-humanizando.scss', 'public/css');
+mix.sass('resources/sass/details-dominicana.scss', 'public/css');
+mix.sass('resources/sass/details-cundinamarca.scss', 'public/css');
+mix.sass('resources/sass/details-beauty.scss', 'public/css');
 
 
 

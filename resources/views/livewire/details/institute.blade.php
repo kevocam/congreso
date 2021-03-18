@@ -6,6 +6,9 @@
         <img src="./img/intituto.jpeg" alt="">
     </div>
     <div class="institute__panel">
-asdasd
+        <img class="institute__panel--item" src="./img/temp/seminarios.jpg" alt="">
+        <img class="institute__panel--item" src="./img/temp/victor.jpg" alt="">
+        <img class="institute__panel--item" src="./img/temp/diploma_vienna.png" alt="">
+        
     </div>
 </div>

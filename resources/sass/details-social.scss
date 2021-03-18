@@ -3,6 +3,7 @@
     max-width:1024px;
     margin:0 auto;
     height: 100vh;
+    max-height: 641px;
     background-image: url("../img/details/social/fondo.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -35,6 +36,11 @@
         justify-content: flex-start;
         align-items: flex-end;
         margin-left: -71px;
+        transition-duration: 400ms;
+        &:hover{
+            transform: rotate3d(60deg);
+            transform: scaleX(1.5);
+        }
     }
     &__banner{
         grid-column: 3/4;

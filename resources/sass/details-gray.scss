@@ -8,6 +8,7 @@
     background-position: center;
     display: grid;
     grid-template-columns: 1fr 2fr 1.5fr 4fr 1fr 1.5fr 1fr;
+    overflow: hidden;
     &__panel{
         grid-column: 2/3;
         &--item{
@@ -15,9 +16,7 @@
             background-image: url("../img/details/gray/panel.png");
             background-position: bottom;
             background-repeat: no-repeat;
-            background-position-x:0px;
-            
-           
+            background-position-x:0px;                      
         }
 
     }
@@ -39,10 +38,12 @@
             background-image: url("../img/details/gray/cartelUp.png");
             background-position: top;
             background-repeat: no-repeat;
-            overflow: hidden;
+            transition-duration: 400ms;
+
+            
             &:hover{
                 transform: scale(1.1);
-                overflow: hidden;
+                cursor: zoom-in;
             }
             
         }
@@ -58,3 +59,4 @@
     }
 
 }
+ 

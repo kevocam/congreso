@@ -61,9 +61,8 @@
                     <img src="./img/dauGroup1.png" alt="">
                     <img src="./img/dauGroup2.png" alt="">
                     <img src="./img/dauGroup3.png" alt="">
-                    <img src="./img/dauGroup4.png" alt="">
-                    <img src="./img/dauGroup4.png" alt="">
-                    <img src="./img/dauGroup4.png" alt="">
+                    <img src="./img/dauGroup4.png" alt="">                   
+                    
                 </div>
             </div>
             
