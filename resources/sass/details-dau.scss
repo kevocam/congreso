@@ -1,167 +1,122 @@
-.contenedor {
+.dau {
     width: 100%;
     height: 100vh;
     max-width:1024px;
     max-height: 641px;
-
     margin:0 auto;
     background-image: url('../img/details/dau/fondo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    &__main {
-        width: 100%;
+    display: grid;
+    grid-template-columns: 1.3fr 1.1fr 1fr 1.5fr 1fr 1fr;
+    
+    &__cartelLeft{
+        grid-column: 1/2;
         display: flex;
-        justify-content: space-between;
-        &--1 {
-            width: 30%;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-        &--2 {
-            width: 40%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
-        &--3 {
-            width: 30%;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-    }
-    &__footer {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        padding:15px;
-        height: 100%;
         align-items: flex-end;
-        &--menu{
-            width:140px;
-            height: 324px;
-            background:url('../img/details/dau/cartel1.png');
-            background-repeat: no-repeat;
-            background-size: cover;
+        padding-bottom: 10px;
+        
+        &--item{
+            width: 140px;
+            height: 270px;
+            margin:0 auto;
+            background-image: url('../img/details/dau/cartel1.png');
+            background-repeat: no-repeat; 
             background-position: center;
-            &--head{
-                padding:10px;
-                ul{
-                    text-align:center;
-                    li{
-                        text-align: center;
-                        a{
-                            
-                            img{
-                                width:30px;
-                                height: 30px;
-                                margin: 0 auto;
-                            }
-                        }
-                        &:hover{
-                            transform: scale(1.2);
-                            transition-duration: 400ms;
-                        }
-                    }
+            padding: 15px 10px 5px 10px;
+            img{
+                border-radius:6px;
+                width: 100%;
+                height: 160px;
+                transition-duration: 400ms;
+                &:hover{
+                    transform:scale(1.5);
+                    cursor:pointer;
                 }
             }
+           
         }
-        &--chat{
+    }
+    &__video{
+        grid-column:3/4;
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        &--item{
+            width: 100%;
+            height: 200px;
+            background-image: url('../img/details/dau/tv.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            padding:15px;
             display: flex;
-            &--cartel{
-                background: url("../img/details/dau/cartel2.png");
-                width:140px;
-                height: 324px;            
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                padding:10px;
-                text-align:center;
-                font-size:15px;
-                font-weight: bold;
-                a{
-                    color:blue;
-                    text-decoration: underline;
-                }
-            }
-            &--banner{
-                background-image: url("../img/details/dau/banner.png");
-                width:140px;
-                height: 324px;            
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                display: flex;
-                flex-wrap:wrap;
-                justify-content: center;
-                align-items: center;
-                img{
-                    height: 85px;
-                    width: 100%;
-                    transform:
-                    perspective(900px)
-                    rotateX(60deg)
-                    scale(0.7);
-                  box-shadow: 0px 20px 100px #555;
-                  transition:0.5s ease all;               
-                  
-                    &:hover{
-                        /* transform: scale(3.5); */
-                        height: 120px;
-                        cursor: copy;
-                        transform:
-                      rotate(0deg)
-                      scale(1.2)
-                      translateY(10px);
-                    }
-                }
+            justify-content: center;
+            align-items: center;
+            img{
+               cursor:pointer;
             }
         }
     }
-}
-
-.card-item {
-    max-width: 180px;
-}
-
-.detail {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #ffffff75;
-    padding: 15px;
-    border-radius: 15px;
-   backdrop-filter: blur(7px); 
-    &__title {
-        max-width: 450px;
-        text-align: center;
-        h2 {
-            font-size: 2.4rem;
-            font-weight: bold;
+    &__cartelRight{
+        grid-column:5/6;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 10px;
+        &--item{
+            width: 140px;
+            height: 270px;
+            margin:0 auto;           
+            background-image: url('../img/details/dau/cartel2.png');
+            background-repeat: no-repeat;
+            background-position: bottom;
+            padding: 15px 10px 5px 10px;
+            img{                
+                width: 100%;
+                height: 160px;
+                transition-duration: 400ms;
+                border-radius: 6px;
+                &:hover{
+                    transform:scale(1.5);
+                    cursor:pointer;
+                }
+            }
         }
-        em {
-            font-size: 1.7rem;
+
+    }
+    &__banner{
+        grid-column:6/7;
+        padding-bottom: 75px;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 70px;
+        &--item{
+            width: 131px;
+            height: 324px;
+            margin:0 auto;                 
+            background-image: url('../img/details/dau/banner.png');
+            background-repeat: no-repeat;
+            background-position: bottom;
+            
+            overflow: hidden;
+            padding: 0px 20px;
+            &--title{
+                width:100%;
+                text-align: center;
+                font-size: 18px;
+            }                      
+            img{
+                transition-duration: 700ms;
+                &:hover{
+                    transform:scale(1.6) rotate(346deg);
+                    cursor:pointer;
+                    
+                }
+            }
+
         }
     }
-}
-
-.btn {
-    background-color: #005D8F;
 }
 
 
