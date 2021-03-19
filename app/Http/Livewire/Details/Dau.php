@@ -15,5 +15,7 @@ class Dau extends Component
     public function openModal()
     {
         $this->isOpen = true;
+
+        $this->emit('modal');
     }
 }
