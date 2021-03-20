@@ -19,6 +19,7 @@ mix.sass('resources/sass/master.scss', 'public/css');
 mix.sass('resources/sass/welcome-tablet.scss', 'public/css');
 mix.sass('resources/sass/MenuMainCard.scss', 'public/css');
 mix.sass('resources/sass/details-dau.scss', 'public/css');
+mix.sass('resources/sass/details-dau-xl.scss', 'public/css');
 mix.sass('resources/sass/details-institute.scss', 'public/css');
 mix.sass('resources/sass/details-social.scss', 'public/css');
 mix.sass('resources/sass/details-gray.scss', 'public/css');
