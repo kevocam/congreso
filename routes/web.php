@@ -43,6 +43,10 @@ Route::get('/chat-list', function () {
     return view('chat-list');
 }); 
 
+Route::get('/auditorio', function () {
+    return view('auditorio.normal');
+}); 
+
 Route::get('/detail-dau', function () {
     return view('details.dau');
 }); 

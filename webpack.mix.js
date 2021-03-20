@@ -14,6 +14,7 @@ const mix = require('laravel-mix');
 /* Stylos CUSTOM */
 
 mix.sass('resources/sass/styleSass.scss', 'public/css');
+mix.sass('resources/sass/auditorio.scss', 'public/css');
 mix.sass('resources/sass/welcome.scss', 'public/css');
 mix.sass('resources/sass/master.scss', 'public/css');
 mix.sass('resources/sass/welcome-tablet.scss', 'public/css');

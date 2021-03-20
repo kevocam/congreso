@@ -7,7 +7,7 @@
             </a>
         </li>
         <li class="MenuMainCard__lista--item ">
-            <a href="/lobby">
+            <a href="/auditorio">
                 AUDITORIO
             </a>
         </li>
