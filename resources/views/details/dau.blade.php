@@ -2,8 +2,8 @@
 
 @section('style')
 
-<link rel="stylesheet" href="./css/details-dau.css">
-<link rel="stylesheet" href="./css/details-dau-xl.css" media="(min-width:1440px)">
+<link rel="stylesheet" href="./css/details-dau.css" >
+<link rel="stylesheet" href="./css/details-dau-xl.css" media="(min-width:1024px)">
 
 
 {{-- <link rel="stylesheet" href="./css/details.css">
