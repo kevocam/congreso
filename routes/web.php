@@ -71,6 +71,9 @@ Route::get('/detail-cundinamarca', function () {
 Route::get('/detail-beauty', function () {
     return view('details.beauty');
 }); 
+Route::get('/detail-damassalud', function () {
+    return view('details.damassalud');
+}); 
 
 
 Route::get('/registro', function () {

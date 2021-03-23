@@ -28,6 +28,8 @@ mix.sass('resources/sass/details-humanizando.scss', 'public/css');
 mix.sass('resources/sass/details-dominicana.scss', 'public/css');
 mix.sass('resources/sass/details-cundinamarca.scss', 'public/css');
 mix.sass('resources/sass/details-beauty.scss', 'public/css');
+mix.sass('resources/sass/details-damassalud.scss', 'public/css');
+
 
 
 
@@ -61,3 +63,11 @@ mix.js('resources/js/app.js', 'public/js')
 if (mix.inProduction()) {
     mix.version();
 }
+/* 
+mix.webpackConfig({
+    resolve: {
+        modules: [
+            path.resolve(__dirname, 'vendor/laravel/spark/resources/assets/js')
+        ]
+    }
+}); */

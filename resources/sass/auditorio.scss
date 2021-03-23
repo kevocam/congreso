@@ -1,9 +1,89 @@
+.auditorioContainer{
+    width:100%;
+    margin: 0 auto;
+}
 .auditorio{
     width:100%;
     height: 100vh;
-/*     max-width:1424px;
- */
+    max-width:1624px;
     background-image: url("../img/auditorio/fondo.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    margin: 0 auto;
 }
+
+ /* Tab content - closed */
+.tab-content {
+    max-height: 0;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+    /* :checked - resize to full height */
+.tab input:checked ~ .tab-content {
+    max-height: 100vh;
+}
+    /* Label formatting when open */
+.tab input:checked + label{
+    /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+    font-size: 1.25rem; /*.text-xl*/
+    padding: 1.25rem; /*.p-5*/
+    border-left-width: 2px; /*.border-l-2*/
+    border-color: #096191; /*.border-indigo*/
+    background-color: #f8fafc; /*.bg-gray-100 */
+    color: #096191; /*.text-indigo*/
+}
+    /* Icon */
+.tab label::before {
+    float:left;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+    /* Icon formatting - closed */
+.tab input[type=checkbox] + label::before {
+    content: "+";
+    font-weight:bold; /*.font-bold*/
+    border-width: 1px; /*.border*/
+    border-radius: 9999px; /*.rounded-full */
+    border-color: #b8c2cc; /*.border-grey*/
+}
+.tab input[type=radio] + label::before {
+    content: "\25BE";
+    font-weight:bold; /*.font-bold*/
+    border-width: 1px; /*.border*/
+    border-radius: 9999px; /*.rounded-full */
+    border-color: #b8c2cc; /*.border-grey*/
+    margin-right: 5px;
+ }
+    /* Icon formatting - open */
+ .tab input[type=checkbox]:checked + label::before {
+    transform: rotate(315deg);
+    background-color: #096191; /*.bg-indigo*/
+    color: #f8fafc; /*.text-grey-lightest*/
+ }
+ .tab input[type=radio]:checked + label::before {
+    transform: rotateX(180deg);
+    background-color: #096191; 
+    color: #f8fafc; 
+ }
+ .cajaText{
+     border-color:#096191;
+     font-size:16px;
+ }
+
+ .titleText{
+     display:flex;
+     width:100%;
+     justify-content:space-between;
+     align-items:center;
+ }

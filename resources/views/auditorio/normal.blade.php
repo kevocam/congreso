@@ -5,12 +5,9 @@
 <link rel="stylesheet" href="./css/auditorio.css"> 
 
 @endsection
-@section('content')
-    
-   <div class="contenedor">
-    @livewire('auditorio-normal')
-    
-    </div>
 
-    
-@endsection
+    @section('content')    
+        <div class="contenedor">
+            @livewire('auditorio-normal')    
+        </div>    
+    @endsection
