@@ -1,0 +1,23 @@
+body{
+    max-width: 1640px;
+    margin:0 auto;
+
+    
+}
+.damassalud{
+    background-image: url("../img/details/damassalud/fondoxl.png");
+    background-size: cover;
+    &__tv{
+        &--item{
+            background-position: left;
+        }
+    }
+    &__cartel{
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;   
+        &--item{
+            background-position: right;
+        }  
+    }
+
+}

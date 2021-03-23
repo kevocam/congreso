@@ -29,6 +29,7 @@ mix.sass('resources/sass/details-dominicana.scss', 'public/css');
 mix.sass('resources/sass/details-cundinamarca.scss', 'public/css');
 mix.sass('resources/sass/details-beauty.scss', 'public/css');
 mix.sass('resources/sass/details-damassalud.scss', 'public/css');
+mix.sass('resources/sass/details-damassalud-xl.scss', 'public/css');
 
 
 
