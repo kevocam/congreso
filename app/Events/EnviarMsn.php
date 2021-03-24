@@ -22,6 +22,7 @@ class EnviarMsn implements ShouldBroadcast
      */
     public $mensaje;
     public $user;
+    
     public function __construct($user, $mensaje)
     {
         $this->mensaje = $mensaje;

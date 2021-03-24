@@ -1,10 +1,11 @@
 <div>
 
     <h5 class="my-3"> <strong> Lista de mensajes </strong></h5>
-   {{--  @foreach ($mensajes as $mensaje)
-    <li>{{$mensaje->id_user}}</li>
+    {{$newMsn}}
+    @foreach ($data as $mensaje)
+    <li>{{$mensaje->content}}</li>
         
-    @endforeach --}}
+    @endforeach
     <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
 
     <script>
@@ -18,7 +19,7 @@
     
         var channel = pusher.subscribe('chat-channel');
         channel.bind('chat-event', function(data) {
-          alert(JSON.stringify(data));
+          window.livewire.emit("actualizarMensajes", data)
         });
       </script>
 </div>

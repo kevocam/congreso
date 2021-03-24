@@ -27,15 +27,17 @@ class ChatForm extends Component
             'mensaje' => 'required'
         ]);
     }
-    public function EnviarMsn(){
+    public function EnviarMensaje(){
         \App\Models\Chat::create([
             "content" => $this->mensaje,
             "id_user" => $this->user
 
         ]);
        /*  $this->mensaje =$this->mensaje."adsasd"; */
-       $this->emit("EnviarMsn");
-
+       $this->emit("mensajeEnviado");
+/*        $this->emit("actualizarMensajes", $this->mensaje);
+ */
+        event(new \App\Events\EnviarMsn($this->user, $this->mensaje));
        
     }
 }
