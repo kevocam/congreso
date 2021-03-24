@@ -14,20 +14,25 @@ class ChatForm extends Component
  */    public function mount(){
 /*         $this->user = auth()->id();
  */
-        $this->user="";
+        $this->user=auth()->id();
         $this->mensaje="";
     }
+
+    protected $messages = [
+        'mensaje.required' => 'Debe escribir algo.',
+        'mensaje.min' => 'Su mensaje es muy corto.',
+        'mensaje.max' => 'Su mensaje es muy largo.',
+    ];
     public function render()
     {
         return view('livewire.chat-form');
     }
-    public function updated($field){
-        $this->validateOnly($field, [
-            'user' => 'required',
-            'mensaje' => 'required'
-        ]);
-    }
+    
     public function EnviarMensaje(){
+
+        $this->validate([
+            'mensaje' => 'required|min:3|max:120'
+        ]);
         \App\Models\Chat::create([
             "content" => $this->mensaje,
             "id_user" => $this->user

@@ -13,4 +13,9 @@ class Chat extends Model
         'content',
         'id_user',
     ];
+
+    public function chats()
+    {
+        return $this->belongsTo(Chat::class);
+    }
 }
