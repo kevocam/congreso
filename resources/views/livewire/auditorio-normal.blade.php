@@ -1,19 +1,19 @@
 <div class="auditorioContainer">
     <div class="auditorio">
-      <div class="auditorio__cartelLeft">
+      <div class="auditorio__cartelLeft slide-in-left ">
          <div class="auditorio__cartelLeft--item">
 
          </div>
       </div>
-        <div class="auditorio__pantalla">           
+        <div class="auditorio__pantalla swing-in-top-bck   ">           
            <div class="auditorio__pantalla--item">
-            <iframe id="video" src="https://player.vimeo.com/video/139467506" width="604" height="340" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="video" src="https://player.vimeo.com/video/139467506" frameborder="10" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
             
 
            </div>              
         </div>
-        <div class="auditorio__cartelRight">
+        <div class="auditorio__cartelRight slide-in-right">
          <div class="auditorio__cartelRight--item">
 
          </div>

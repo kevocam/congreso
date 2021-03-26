@@ -3,16 +3,27 @@
     
     background-image: url("../img/auditorio/fondo-xl.png");
     
+    &__pantalla{
+        grid-row: 1/2;
+        &--item{
+            iframe{
+                max-width: 615px;
+
+             width: 70%;   
+             height: 80%;
+            }
+        }
+    }
     &__cartelLeft{
        
         grid-row: 1/3;
-        padding-bottom: 25px;
+        padding-bottom: 45px;
        
     }
 
     &__cartelRight{
         
         grid-row: 1/3;
-        padding-bottom: 25px;
+        padding-bottom: 45px;
     }
 }
