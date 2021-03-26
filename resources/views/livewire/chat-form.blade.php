@@ -13,5 +13,5 @@
         Enviar
     </button>
     
-  <em id="notificatiton" wire:loading.delay class="notificationChat">Enviando mensaje...</em>   
+  <em id="notificatiton" wire:loading.delay class="text-green-500">Enviando mensaje...</em>   
 </div>

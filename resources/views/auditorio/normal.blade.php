@@ -3,6 +3,8 @@
 @section('style')
 
 <link rel="stylesheet" href="./css/auditorio.css"> 
+<link rel="stylesheet" href="./css/auditorio-xl.css" media="(min-width:1070px)">
+
 
 @endsection
 

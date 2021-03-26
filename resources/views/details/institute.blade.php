@@ -3,13 +3,11 @@
 @section('style')
 
 <link rel="stylesheet" href="./css/details-institute.css">
-{{-- <link rel="stylesheet" href="./css/details.css">
- --}}
+<link rel="stylesheet" href="./css/details-institute-xl.css" media="(min-width:1100px)">
+
 @endsection
 @section('content')
 
     @livewire('details.institute')
     
 @endsection
-
-<script src="./js/pabellon.js"></script>

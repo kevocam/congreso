@@ -50,14 +50,14 @@ Route::get('/auditorio', function () {
 Route::get('/detail-dau', function () {
     return view('details.dau');
 }); 
-Route::get('/detail-institute', function () {
+Route::get('/detail-instituto', function () {
     return view('details.institute');
 }); 
 Route::get('/detail-social', function () {
     return view('details.social');
 }); 
-Route::get('/detail-gray', function () {
-    return view('details.gray');
+Route::get('/detail-dayarit', function () {
+    return view('details.dayarit');
 }); 
 Route::get('/detail-humanizando', function () {
     return view('details.humanizando');

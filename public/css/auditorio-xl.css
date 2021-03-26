@@ -1,0 +1,11 @@
+.auditorio {
+  background-image: url("../img/auditorio/fondo-xl.png");
+}
+.auditorio__cartelLeft {
+  grid-row: 1/3;
+  padding-bottom: 25px;
+}
+.auditorio__cartelRight {
+  grid-row: 1/3;
+  padding-bottom: 25px;
+}

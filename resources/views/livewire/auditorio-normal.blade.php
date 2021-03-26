@@ -1,14 +1,30 @@
 <div class="auditorioContainer">
     <div class="auditorio">
-        
+      <div class="auditorio__cartelLeft">
+         <div class="auditorio__cartelLeft--item">
+
+         </div>
+      </div>
+        <div class="auditorio__pantalla">           
+           <div class="auditorio__pantalla--item">
+            <iframe id="video" src="https://player.vimeo.com/video/139467506" width="604" height="340" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+            
+
+           </div>              
+        </div>
+        <div class="auditorio__cartelRight">
+         <div class="auditorio__cartelRight--item">
+
+         </div>
+      </div>
     </div>
-    <div class="contenido">
-        
+    <div class="contenido">        
          <div class="w-full md:w-4/5 mx-auto p-8">
         <h2 class=" text-2xl  mb-4 text-gray-800">Contenido de la conferencia</h2>      
             <p>13 secciones - 141 clases - 11 h 32m de duración total</p>
             <div class="shadow-md">
-               <div class="tab w-full overflow-hidden border-t">
+               <div id="introduccion" class="tab w-full overflow-hidden border-t">
                   <input class="absolute opacity-0" id="tab-single-one" type="radio" name="tabs2">
                   <label class="block p-5 leading-normal cursor-pointer flex " for="tab-single-one">
                     <div class="titleText">
@@ -23,7 +39,7 @@
                      <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
                   </div>
                </div>
-               <div class="tab w-full overflow-hidden border-t">
+               <div id="clase1" class="tab w-full overflow-hidden border-t">
                   <input class="absolute opacity-0" id="tab-single-two" type="radio" name="tabs2">
                   <label class="block p-5 leading-normal cursor-pointer flex" for="tab-single-two">
                     <div class="titleText">
@@ -38,7 +54,7 @@
                      <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
                   </div>
                </div>
-               <div class="tab w-full overflow-hidden border-t">
+               <div id="clase2" class="tab w-full overflow-hidden border-t">
                   <input class="absolute opacity-0" id="tab-single-three" type="radio" name="tabs2">
                   <label class="block p-5 leading-normal cursor-pointer flex" for="tab-single-three">
                   
@@ -61,7 +77,6 @@
     </div>
 </div>
 <script>
-      /* Optional Javascript to close the radio button version by clicking it again */
       var myRadios = document.getElementsByName('tabs2');
       var setCheck;
       var x = 0;
@@ -75,4 +90,24 @@
           }
           };
       }
+
+   let intro = document.querySelector("#introduccion");
+   let clase1 = document.querySelector("#clase1");
+   let clase2 = document.querySelector("#clase2");
+   let video = document.querySelector("#video");
+
+   
+   intro.addEventListener("click", ()=>{
+
+      video.src="https://player.vimeo.com/video/139467506"
+   });
+   clase1.addEventListener("click", ()=>{
+
+      video.src="https://player.vimeo.com/video/48185005"
+   })
+   clase2.addEventListener("click", ()=>{
+
+      video.src="https://player.vimeo.com/video/182622739"
+   })
+
 </script>

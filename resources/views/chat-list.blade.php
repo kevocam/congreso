@@ -1,10 +1,10 @@
 @extends('layouts.master')
 @section('content')
 
-@livewire('chat-list')
+@livewire('chat-container')
 
 
-@livewire('chat-form')
+
 
  
 

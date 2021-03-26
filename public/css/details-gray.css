@@ -3,7 +3,7 @@
   max-width: 1024px;
   margin: 0 auto;
   height: 100vh;
-  background-image: url("../img/details/gray/fondo.png");
+  background-image: url("../img/details/dayarit/fondo.png");
   background-repeat: no-repeat;
   background-position: center;
   display: grid;
@@ -15,7 +15,7 @@
 }
 .gray__panel--item {
   height: 100%;
-  background-image: url("../img/details/gray/panel.png");
+  background-image: url("../img/details/dayarit/panel.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-position-x: 0px;
@@ -24,7 +24,7 @@
   grid-column: 3/4;
 }
 .gray__banner--item {
-  background-image: url("../img/details/gray/banner.png");
+  background-image: url("../img/details/dayarit/banner.png");
   background-position: bottom;
   background-repeat: no-repeat;
   height: 100%;
@@ -34,7 +34,7 @@
 }
 .gray__cartelUp--item {
   height: 100%;
-  background-image: url("../img/details/gray/cartelUp.png");
+  background-image: url("../img/details/dayarit/cartelUp.png");
   background-position: top;
   background-repeat: no-repeat;
   transition-duration: 400ms;
@@ -48,7 +48,7 @@
 }
 .gray__cartelRight--item {
   height: 100%;
-  background-image: url("../img/details/gray/cartelRight.png");
+  background-image: url("../img/details/dayarit/cartelRight.png");
   background-position: top;
   background-repeat: no-repeat;
 }

@@ -46,6 +46,19 @@ dropdownMenu.addEventListener('click', function () {
 
 /***/ }),
 
+/***/ "./resources/sass/welcome-tablet.scss":
+/*!********************************************!*\
+  !*** ./resources/sass/welcome-tablet.scss ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/MenuMainCard.scss":
 /*!******************************************!*\
   !*** ./resources/sass/MenuMainCard.scss ***!
@@ -98,6 +111,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/details-institute-xl.scss":
+/*!**************************************************!*\
+  !*** ./resources/sass/details-institute-xl.scss ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/details-social.scss":
 /*!********************************************!*\
   !*** ./resources/sass/details-social.scss ***!
@@ -111,10 +137,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/sass/details-gray.scss":
-/*!******************************************!*\
-  !*** ./resources/sass/details-gray.scss ***!
-  \******************************************/
+/***/ "./resources/sass/details-social-xl.scss":
+/*!***********************************************!*\
+  !*** ./resources/sass/details-social-xl.scss ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/details-dayarit.scss":
+/*!*********************************************!*\
+  !*** ./resources/sass/details-dayarit.scss ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/details-dayarit-xl.scss":
+/*!************************************************!*\
+  !*** ./resources/sass/details-dayarit-xl.scss ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -137,6 +189,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/details-humanizando-xl.scss":
+/*!****************************************************!*\
+  !*** ./resources/sass/details-humanizando-xl.scss ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/details-dominicana.scss":
 /*!************************************************!*\
   !*** ./resources/sass/details-dominicana.scss ***!
@@ -150,10 +215,36 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/details-dominicana-xl.scss":
+/*!***************************************************!*\
+  !*** ./resources/sass/details-dominicana-xl.scss ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/details-cundinamarca.scss":
 /*!**************************************************!*\
   !*** ./resources/sass/details-cundinamarca.scss ***!
   \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./resources/sass/details-cundinamarca-xl.scss":
+/*!*****************************************************!*\
+  !*** ./resources/sass/details-cundinamarca-xl.scss ***!
+  \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -332,6 +423,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/auditorio-xl.scss":
+/*!******************************************!*\
+  !*** ./resources/sass/auditorio-xl.scss ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/welcome.scss":
 /*!*************************************!*\
   !*** ./resources/sass/welcome.scss ***!
@@ -349,19 +453,6 @@ __webpack_require__.r(__webpack_exports__);
 /*!************************************!*\
   !*** ./resources/sass/master.scss ***!
   \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./resources/sass/welcome-tablet.scss":
-/*!********************************************!*\
-  !*** ./resources/sass/welcome-tablet.scss ***!
-  \********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -457,9 +548,9 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/welcome": 0,
-/******/ 			"css/welcome-tablet": 0,
 /******/ 			"css/master": 0,
 /******/ 			"css/welcome": 0,
+/******/ 			"css/auditorio-xl": 0,
 /******/ 			"css/auditorio": 0,
 /******/ 			"css/styleSass": 0,
 /******/ 			"css/app": 0,
@@ -473,15 +564,22 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			"css/details-damassalud-xl": 0,
 /******/ 			"css/details-damassalud": 0,
 /******/ 			"css/details-beauty": 0,
+/******/ 			"css/details-cundinamarca-xl": 0,
 /******/ 			"css/details-cundinamarca": 0,
+/******/ 			"css/details-dominicana-xl": 0,
 /******/ 			"css/details-dominicana": 0,
+/******/ 			"css/details-humanizando-xl": 0,
 /******/ 			"css/details-humanizando": 0,
-/******/ 			"css/details-gray": 0,
+/******/ 			"css/details-dayarit-xl": 0,
+/******/ 			"css/details-dayarit": 0,
+/******/ 			"css/details-social-xl": 0,
 /******/ 			"css/details-social": 0,
+/******/ 			"css/details-institute-xl": 0,
 /******/ 			"css/details-institute": 0,
 /******/ 			"css/details-dau-xl": 0,
 /******/ 			"css/details-dau": 0,
-/******/ 			"css/MenuMainCard": 0
+/******/ 			"css/MenuMainCard": 0,
+/******/ 			"css/welcome-tablet": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -529,32 +627,39 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/js/welcome.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/styleSass.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/auditorio.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/welcome.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/master.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/welcome-tablet.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/MenuMainCard.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-dau.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-dau-xl.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-institute.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-social.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-gray.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-humanizando.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-dominicana.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-cundinamarca.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-beauty.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-damassalud.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details-damassalud-xl.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/details.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/master-tablet.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/pabellon2-xl.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/pabellon-xl.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/lobby-xl.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/lobby-tablet.scss")))
-/******/ 	__webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/sass/lobby-mobile.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/welcome-tablet","css/master","css/welcome","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca","css/details-dominicana","css/details-humanizando","css/details-gray","css/details-social","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/js/welcome.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/styleSass.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/auditorio.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/auditorio-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/welcome.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/master.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/welcome-tablet.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/MenuMainCard.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-dau.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-dau-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-institute.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-institute-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-social.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-social-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-dayarit.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-dayarit-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-humanizando.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-humanizando-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-dominicana.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-dominicana-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-cundinamarca.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-cundinamarca-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-beauty.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-damassalud.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details-damassalud-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/details.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/master-tablet.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/pabellon2-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/pabellon-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/lobby-xl.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/lobby-tablet.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/sass/lobby-mobile.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/master","css/welcome","css/auditorio-xl","css/auditorio","css/styleSass","css/app","css/lobby-mobile","css/lobby-tablet","css/lobby-xl","css/pabellon-xl","css/pabellon2-xl","css/master-tablet","css/details","css/details-damassalud-xl","css/details-damassalud","css/details-beauty","css/details-cundinamarca-xl","css/details-cundinamarca","css/details-dominicana-xl","css/details-dominicana","css/details-humanizando-xl","css/details-humanizando","css/details-dayarit-xl","css/details-dayarit","css/details-social-xl","css/details-social","css/details-institute-xl","css/details-institute","css/details-dau-xl","css/details-dau","css/MenuMainCard","css/welcome-tablet"], () => (__webpack_require__("./resources/css/app.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

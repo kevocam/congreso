@@ -1,0 +1,16 @@
+body{
+    max-width: 1640px;
+    margin:0 auto;   
+}
+.institute{
+
+    background-image: url("../img/details/institute/fondo-lg.png");
+    background-size: cover;
+    grid-template-columns:  1.5fr 2fr 1fr 1.5fr;
+    &__logo{
+        &--item{
+            height: 240px;
+            background-position: bottom;
+        }
+    }
+}
