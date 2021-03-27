@@ -74,6 +74,13 @@ Route::get('/detail-beauty', function () {
 Route::get('/detail-damassalud', function () {
     return view('details.damassalud');
 }); 
+Route::get('/detail-ediciones', function () {
+    return view('details.ediciones');
+}); 
+Route::get('/detail-guatemala', function () {
+    return view('details.guatemala');
+}); 
+
 
 
 Route::get('/registro', function () {

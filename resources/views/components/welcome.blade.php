@@ -3,7 +3,7 @@
         <div class="callToAction__img">
             <img src="https://images.unsplash.com/photo-1461532257246-777de18cd58b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=755&q=80" alt="">
         </div>
-        <div class="callToAction__content">
+        <div class="callToAction__content " style="animation: sc-block-show-animation 1s ease 0s forwards;">
             <h2>“Una acción global hacia el
 sentido hace la diferencia”</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis voluptatibus distinctio laborum beatae natus dolorum asperiores velit corrupti explicabo nostrum, quaerat perferendis in aspernatur ad quam, adipisci maiores, saepe voluptatum.</p>

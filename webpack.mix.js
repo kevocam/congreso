@@ -37,6 +37,11 @@ mix.sass('resources/sass/details-cundinamarca-xl.scss', 'public/css');
 mix.sass('resources/sass/details-beauty.scss', 'public/css');
 mix.sass('resources/sass/details-damassalud.scss', 'public/css');
 mix.sass('resources/sass/details-damassalud-xl.scss', 'public/css');
+mix.sass('resources/sass/details-ediciones-xl.scss', 'public/css');
+mix.sass('resources/sass/details-ediciones.scss', 'public/css');
+mix.sass('resources/sass/details-guatemala-xl.scss', 'public/css');
+mix.sass('resources/sass/details-guatemala.scss', 'public/css');
+
 
 
 
