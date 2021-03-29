@@ -80,6 +80,9 @@ Route::get('/detail-ediciones', function () {
 Route::get('/detail-guatemala', function () {
     return view('details.guatemala');
 }); 
+Route::get('/detail-queretaro', function () {
+    return view('details.queretaro');
+}); 
 
 
 

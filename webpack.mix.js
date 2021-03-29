@@ -22,6 +22,7 @@ mix.sass('resources/sass/welcome-tablet.scss', 'public/css');
 mix.sass('resources/sass/MenuMainCard.scss', 'public/css');
 mix.sass('resources/sass/details-dau.scss', 'public/css');
 mix.sass('resources/sass/details-dau-xl.scss', 'public/css');
+mix.sass('resources/sass/details-dau-sm.scss', 'public/css');
 mix.sass('resources/sass/details-institute.scss', 'public/css');
 mix.sass('resources/sass/details-institute-xl.scss', 'public/css');
 mix.sass('resources/sass/details-social.scss', 'public/css');
@@ -41,6 +42,8 @@ mix.sass('resources/sass/details-ediciones-xl.scss', 'public/css');
 mix.sass('resources/sass/details-ediciones.scss', 'public/css');
 mix.sass('resources/sass/details-guatemala-xl.scss', 'public/css');
 mix.sass('resources/sass/details-guatemala.scss', 'public/css');
+mix.sass('resources/sass/details-queretaro-xl.scss', 'public/css');
+mix.sass('resources/sass/details-queretaro.scss', 'public/css');
 
 
 
