@@ -30,8 +30,7 @@
             </div>
             <img src="./img/temp/book1.png" alt="">
             <img src="./img/temp/book2.png" alt="">
-            <img src="./img/temp/book3.png" alt="">
-            
+            <img src="./img/temp/book3.png" alt="">           
 
         </div>
     </div>

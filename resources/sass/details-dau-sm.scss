@@ -1,18 +1,10 @@
-body{
-    max-width: 1640px;
-    margin:0 auto;
-}
-
-
-@media screen and (min-width: 320px) and (max-width: 767px)  {
     .dau {
         width: 100%;
-        max-height:100vh;
-
+        height:100vh;
         background-image: url('../img/details/dau/fondo.png');        
         grid-template-columns: 1fr 1.4fr 1fr 1.5fr 1fr 1fr;
-/*         grid-template-rows: 60vh 40vh;
- */        &__cartelLeft{                        
+        grid-template-rows: 60vh 40vh;
+        &__cartelLeft{                        
             &--item{
                 width: 70px;
                 height: 70px;
@@ -64,4 +56,4 @@ body{
     }
     
     
-  }
+  
