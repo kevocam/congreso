@@ -6,7 +6,10 @@
  }
  @media all and (orientation:landscape){
      .dau {
-        width: 100%;
+           background-image: url('../img/details/dau/fondo.png');        
+     }
+ }
+       /*  width: 100%;
         height:100vh;
         background-image: url('../img/details/dau/fondo.png');        
         grid-template-columns: 1fr 1.4fr 1fr 1.5fr 1fr 1fr;
@@ -61,4 +64,4 @@
     } 
 }
     
-    
+     */
