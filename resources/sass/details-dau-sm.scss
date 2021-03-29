@@ -1,16 +1,17 @@
     
- @media (orientation:portrait){
+ @media  all and (orientation:portrait){
  .dau{
     background-image: url('../img/details/dau/tv.png');  
     }
  }
- @media (orientation:landscape){
+ @media all and (orientation:landscape){
      .dau {
         width: 100%;
         height:100vh;
         background-image: url('../img/details/dau/fondo.png');        
         grid-template-columns: 1fr 1.4fr 1fr 1.5fr 1fr 1fr;
         grid-template-rows: 60vh 40vh;
+        overflow:hidden;
         &__cartelLeft{                        
             &--item{
                 width: 70px;
@@ -53,10 +54,7 @@
                 padding:0px;
                 background-size:cover;   
                             
-                img{                    
-                    width: 100%;
-                    height: 100%;                 
-                }
+               
             }
 
         }
