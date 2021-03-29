@@ -1,4 +1,12 @@
-    .dau {
+    
+ @media (orientation:portrait){
+ .dau{
+    background-image: url('../img/details/dau/tv.png');        
+
+ }
+ }
+ @media (orientation:landscape){
+     .dau {
         width: 100%;
         height:100vh;
         background-image: url('../img/details/dau/fondo.png');        
@@ -14,10 +22,10 @@
                     display:block;
                     width:100%;
                     height:100%;
-                img{                    
-                    width: 100%;
-                    height: 100%;                 
-                }
+                    img{                    
+                        width: 100%;
+                        height: 100%;                 
+                    }
                 }            
             }
         }
@@ -57,3 +65,9 @@
     
     
   
+
+ 
+ 
+  }
+    
+    
