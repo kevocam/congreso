@@ -14,8 +14,8 @@ body{
 /*         grid-template-rows: 60vh 40vh;
  */        &__cartelLeft{                        
             &--item{
-                width: 80%;
-                height: 80%;
+                width: 70px;
+                height: 70px;
                 max-height:100px;
                 padding:0px;
                 background-size:cover;   
@@ -32,8 +32,8 @@ body{
         }
         &__cartelRight{
             &--item{
-                width: 80%;
-                height: 80%;
+                width: 50px;
+                height: 100px;
                 max-height:100px;
                 padding:0px;
                 background-size:cover;               
