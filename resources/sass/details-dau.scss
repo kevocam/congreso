@@ -11,6 +11,7 @@
     display: grid;
     grid-template-columns: 1.3fr 1.1fr 1fr 1.5fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    color:red;
     
     &__cartelLeft{
         grid-column: 1/2;
