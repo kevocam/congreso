@@ -7,20 +7,27 @@ body{
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
     .dau {
         width: 100%;
+        max-height:100vh;
+
         background-image: url('../img/details/dau/fondo.png');        
         grid-template-columns: 1fr 1.4fr 1fr 1.5fr 1fr 1fr;
-        grid-template-rows: 50vh 50vh;
-        &__cartelLeft{                        
+/*         grid-template-rows: 60vh 40vh;
+ */        &__cartelLeft{                        
             &--item{
                 width: 80%;
                 height: 80%;
                 max-height:100px;
                 padding:0px;
-                background-size:cover;               
+                background-size:cover;   
+                a{
+                    display:block;
+                    width:100%;
+                    height:100%;
                 img{                    
                     width: 100%;
-                    height: auto;                 
+                    height: 100%;                 
                 }
+                }            
             }
         }
         &__cartelRight{
@@ -32,7 +39,7 @@ body{
                 background-size:cover;               
                 img{                    
                     width: 100%;
-                    height: auto;                 
+                    height: 100%;                 
                 }
             }
         }
@@ -51,7 +58,7 @@ body{
                             
                 img{                    
                     width: 100%;
-                    height: auto;                 
+                    height: 100%;                 
                 }
             }
 
