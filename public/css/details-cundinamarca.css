@@ -1,1 +1,46 @@
-.cundinamarca{width:100%;height:100vh;max-height:641px;margin:0 auto;background-image:url(../img/details/cundinamarca/fondo.png);display:grid;grid-template-columns:2fr .5fr 2fr .5fr 2fr;grid-template-rows:2fr 1fr 2fr;overflow:hidden}.cundinamarca,.cundinamarca__tv{background-repeat:no-repeat;background-position:50%}.cundinamarca__tv{grid-column:1/2;grid-row:2/3;background-image:url(../img/details/cundinamarca/tv.png)}.cundinamarca__cartelLogo{grid-column:3/4;grid-row:1/2;background-image:url(../img/details/cundinamarca/cartelUp.png);background-repeat:no-repeat;background-position:top;overflow:hidden;transition-duration:.4s}.cundinamarca__cartelLogo:hover{transform:scale(1.2)}.cundinamarca__panel{grid-column:4/6;grid-row:1/5;display:flex;justify-content:flex-start}.cundinamarca__panel--item{height:100%;width:207px;background-image:url(../img/details/cundinamarca/panel.png);background-repeat:no-repeat;background-position:bottom}
+.cundinamarca {
+  width: 100%;
+  height: 100vh;
+  /* max-width:1024px; */
+  max-height: 641px;
+  margin: 0 auto;
+  background-image: url("../img/details/cundinamarca/fondo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 2fr 0.5fr 2fr;
+  grid-template-rows: 2fr 1fr 2fr;
+  overflow: hidden;
+}
+.cundinamarca__tv {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-image: url("../img/details/cundinamarca/tv.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cundinamarca__cartelLogo {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-image: url("../img/details/cundinamarca/cartelUp.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  overflow: hidden;
+  transition-duration: 400ms;
+}
+.cundinamarca__cartelLogo:hover {
+  transform: scale(1.2);
+}
+.cundinamarca__panel {
+  grid-column: 4/6;
+  grid-row: 1/5;
+  display: flex;
+  justify-content: flex-start;
+}
+.cundinamarca__panel--item {
+  height: 100%;
+  width: 207px;
+  background-image: url("../img/details/cundinamarca/panel.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

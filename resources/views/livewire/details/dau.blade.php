@@ -1,7 +1,7 @@
 
 <div class="dau">
-    <div class="dau__cartelLeft">
-        <div class="dau__cartelLeft--item">
+    <div class="dau__cartelLeft ">
+        <div class="dau__cartelLeft--item tilt-in-left-1">
             <a href="https://wwww.facebook.com/dauperu" target="_blank">
                 <img src="./img/temp/ban.png" alt="">
             </a>
@@ -9,12 +9,12 @@
     </div>
 
     <div class="dau__video">
-        <div class="dau__video--item">
-            <img wire:click="openModal" id="btnPlay" src="https://img.icons8.com/color/48/000000/play-button-circled--v1.png"/>
+        <div class="dau__video--item" wire:click="openModal" id="btnPlay">
+            {{-- <img wire:click="openModal" id="btnPlay" src="https://img.icons8.com/color/48/000000/play-button-circled--v1.png"/> --}}
         </div>
     </div>
     <div class="dau__cartelRight">
-        <div class="dau__cartelRight--item">
+        <div class="dau__cartelRight--item tilt-in-right-1">
             <a href="https://wwww.facebook.com/dauperu" target="_blank">
                 <img src="./img/temp/diplomado.jpg" alt="">
             </a>
@@ -23,7 +23,7 @@
     </div>
     <div class="dau__banner">
         
-        <div class="dau__banner--item">
+        <div class="dau__banner--item tilt-in-top-2">
             <div class="dau__banner--item--title">
                 Libros 
             </div>

@@ -1,1 +1,277 @@
-@charset "UTF-8";.auditorio,.auditorioContainer{width:100%;margin:0 auto}.auditorio{height:100vh;max-width:1624px;background-image:url(../img/auditorio/fondo.png);background-repeat:no-repeat;background-size:cover;background-position:50%;display:grid;grid-template-columns:1fr 3fr 1fr;grid-template-rows:420px .6fr 1fr}.auditorio__pantalla{grid-column:2/3;grid-row:1/2;display:flex;justify-content:center;align-items:flex-start}.auditorio__pantalla--item{height:347px;width:634px;width:100%;height:100%;display:flex;justify-content:center;align-items:center}.auditorio__pantalla--item iframe{width:80%;height:70%;background-color:#14011b;border:4px solid #14011b;border-radius:10px;box-shadow:0 28px 31px 31px rgba(0,0,0,.1)}.auditorio__cartelLeft{grid-column:1/2;grid-row:1/2;display:flex;align-items:flex-end;justify-content:center}.auditorio__cartelLeft--item{height:245px;width:120px;background-image:url(../img/auditorio/bannerLeft.png)}.auditorio__cartelRight{grid-column:3/4;grid-row:1/2;display:flex;align-items:flex-end;justify-content:center}.auditorio__cartelRight--item{height:245px;width:120px;background-image:url(../img/auditorio/bannerRight.png)}.tab-content{max-height:0;transition:max-height .35s}.tab input:checked~.tab-content{max-height:100vh}.tab input:checked+label{font-size:1.25rem;padding:1.25rem;border-left-width:2px;border-color:#096191;background-color:#f8fafc;color:#096191}.tab label:before{float:left;right:0;top:0;display:block;width:1.5em;height:1.5em;line-height:1.5;font-size:1.25rem;text-align:center;transition:all .35s}.tab input[type=checkbox]+label:before{content:"+";font-weight:700;border-width:1px;border-radius:9999px;border-color:#b8c2cc}.tab input[type=radio]+label:before{content:"▾";font-weight:700;border-width:1px;border-radius:9999px;border-color:#b8c2cc;margin-right:5px}.tab input[type=checkbox]:checked+label:before{transform:rotate(315deg);background-color:#096191;color:#f8fafc}.tab input[type=radio]:checked+label:before{transform:rotateX(180deg);background-color:#096191;color:#f8fafc}.cajaText{border-color:#096191;font-size:16px}.titleText{display:flex;width:100%;justify-content:space-between;align-items:center}.swing-in-top-bck{-webkit-animation:swing-in-top-bck 1.3s cubic-bezier(.175,.885,.32,1.275) both;animation:swing-in-top-bck 1.3s cubic-bezier(.175,.885,.32,1.275) both}@-webkit-keyframes swing-in-top-bck{0%{transform:rotateX(70deg);transform-origin:top;opacity:0}to{transform:rotateX(0deg);transform-origin:top;opacity:1}}@keyframes swing-in-top-bck{0%{transform:rotateX(70deg);transform-origin:top;opacity:0}to{transform:rotateX(0deg);transform-origin:top;opacity:1}}.slide-in-left{-webkit-animation:slide-in-left .9s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left .9s cubic-bezier(.25,.46,.45,.94) both}@-webkit-keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}to{transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}to{transform:translateX(0);opacity:1}}.slide-in-right{-webkit-animation:slide-in-right .9s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-right .9s cubic-bezier(.25,.46,.45,.94) both}@-webkit-keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}to{transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}to{transform:translateX(0);opacity:1}}
+@charset "UTF-8";
+.auditorioContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.auditorio {
+  width: 100%;
+  height: 100vh;
+  max-width: 1624px;
+  background-image: url("../img/auditorio/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 420px 0.6fr 1fr;
+}
+.auditorio__pantalla {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.auditorio__pantalla--item {
+  height: 347px;
+  width: 634px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*             background-image: url("../img/auditorio/pantalla.png");
+   */
+}
+.auditorio__pantalla--item iframe {
+  width: 80%;
+  height: 70%;
+  background-color: #14011B;
+  border: 4px solid #14011B;
+  border-radius: 10px;
+  box-shadow: 0px 28px 31px 31px rgba(0, 0, 0, 0.1);
+}
+.auditorio__cartelLeft {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.auditorio__cartelLeft--item {
+  height: 245px;
+  width: 120px;
+  background-image: url("../img/auditorio/bannerLeft.png");
+}
+.auditorio__cartelRight {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.auditorio__cartelRight--item {
+  height: 245px;
+  width: 120px;
+  background-image: url("../img/auditorio/bannerRight.png");
+}
+
+/* Tab content - closed */
+.tab-content {
+  max-height: 0;
+  transition: max-height 0.35s;
+}
+
+/* :checked - resize to full height */
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+
+/* Label formatting when open */
+.tab input:checked + label {
+  /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+  font-size: 1.25rem;
+  /*.text-xl*/
+  padding: 1.25rem;
+  /*.p-5*/
+  border-left-width: 2px;
+  /*.border-l-2*/
+  border-color: #096191;
+  /*.border-indigo*/
+  background-color: #f8fafc;
+  /*.bg-gray-100 */
+  color: #096191;
+  /*.text-indigo*/
+}
+
+/* Icon */
+.tab label::before {
+  float: left;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  text-align: center;
+  transition: all 0.35s;
+}
+
+/* Icon formatting - closed */
+.tab input[type=checkbox] + label::before {
+  content: "+";
+  font-weight: bold;
+  /*.font-bold*/
+  border-width: 1px;
+  /*.border*/
+  border-radius: 9999px;
+  /*.rounded-full */
+  border-color: #b8c2cc;
+  /*.border-grey*/
+}
+
+.tab input[type=radio] + label::before {
+  content: "▾";
+  font-weight: bold;
+  /*.font-bold*/
+  border-width: 1px;
+  /*.border*/
+  border-radius: 9999px;
+  /*.rounded-full */
+  border-color: #b8c2cc;
+  /*.border-grey*/
+  margin-right: 5px;
+}
+
+/* Icon formatting - open */
+.tab input[type=checkbox]:checked + label::before {
+  transform: rotate(315deg);
+  background-color: #096191;
+  /*.bg-indigo*/
+  color: #f8fafc;
+  /*.text-grey-lightest*/
+}
+
+.tab input[type=radio]:checked + label::before {
+  transform: rotateX(180deg);
+  background-color: #096191;
+  color: #f8fafc;
+}
+
+.cajaText {
+  border-color: #096191;
+  font-size: 16px;
+}
+
+.titleText {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.swing-in-top-bck {
+  -webkit-animation: swing-in-top-bck 1.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation: swing-in-top-bck 1.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-3-26 17:44:3
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation swing-in-top-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes swing-in-top-bck {
+  0% {
+    transform: rotateX(70deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-top-bck {
+  0% {
+    transform: rotateX(70deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+.slide-in-left {
+  -webkit-animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-3-26 17:42:34
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation slide-in-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in-right {
+  -webkit-animation: slide-in-right 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-right 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-3-26 17:40:11
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation slide-in-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

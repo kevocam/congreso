@@ -1,1 +1,19 @@
-.auditorio{background-image:url(../img/auditorio/fondo-xl.png)}.auditorio__pantalla{grid-row:1/2}.auditorio__pantalla--item iframe{max-width:615px;width:70%;height:80%}.auditorio__cartelLeft,.auditorio__cartelRight{grid-row:1/3;padding-bottom:45px}
+.auditorio {
+  background-image: url("../img/auditorio/fondo-xl.png");
+}
+.auditorio__pantalla {
+  grid-row: 1/2;
+}
+.auditorio__pantalla--item iframe {
+  max-width: 615px;
+  width: 70%;
+  height: 80%;
+}
+.auditorio__cartelLeft {
+  grid-row: 1/3;
+  padding-bottom: 45px;
+}
+.auditorio__cartelRight {
+  grid-row: 1/3;
+  padding-bottom: 45px;
+}

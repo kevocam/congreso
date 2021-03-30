@@ -1,1 +1,20 @@
-body{max-width:1640px;margin:0 auto}.cundinamarca{background-image:url(../img/details/cundinamarca/fondo-xl.png);background-size:cover;display:grid;grid-template-columns:2fr .5fr 2fr .5fr 2fr;grid-template-rows:2fr 1fr 2fr}.cundinamarca__panel{grid-column:4/6;display:flex;justify-content:flex-start}.cundinamarca__panel--item{width:207px}
+body {
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.cundinamarca {
+  background-image: url("../img/details/cundinamarca/fondo-xl.png");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 2fr 0.5fr 2fr;
+  grid-template-rows: 2fr 1fr 2fr;
+}
+.cundinamarca__panel {
+  grid-column: 4/6;
+  display: flex;
+  justify-content: flex-start;
+}
+.cundinamarca__panel--item {
+  width: 207px;
+}

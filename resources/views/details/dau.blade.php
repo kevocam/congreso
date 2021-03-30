@@ -9,7 +9,7 @@
 
 
 @endsection
-@section('content')  
+@section('content')   
 
 @livewire('details.dau')
     

@@ -1,1 +1,10 @@
-body{max-width:1640px;margin:0 auto}.dominicana{max-height:660px;background-image:url(../img/details/dominicana/fondo-xl.png);background-size:cover}
+body {
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.dominicana {
+  max-height: 660px;
+  background-image: url("../img/details/dominicana/fondo-xl.png");
+  background-size: cover;
+}

@@ -1,1 +1,8 @@
-body{max-width:1640px;margin:0 auto}.queretaro{background-image:url(../img/details/queretaro/fondo-xl.png)}
+body {
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.queretaro {
+  background-image: url("../img/details/queretaro/fondo-xl.png");
+}

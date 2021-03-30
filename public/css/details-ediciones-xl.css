@@ -1,1 +1,18 @@
-body{max-width:1640px;margin:0 auto}.ediciones{background-image:url(../img/details/ediciones/fondo-xl.png);background-size:cover;display:grid;grid-template-columns:2fr 1.5fr 1fr;grid-template-rows:1fr 1fr}.ediciones__banner,.ediciones__tv{justify-content:center}
+body {
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.ediciones {
+  background-image: url("../img/details/ediciones/fondo-xl.png");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.ediciones__banner {
+  justify-content: center;
+}
+.ediciones__tv {
+  justify-content: center;
+}
