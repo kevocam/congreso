@@ -24,6 +24,7 @@ mix.sass('resources/sass/details-dau.scss', 'public/css');
 mix.sass('resources/sass/details-dau-xl.scss', 'public/css');
 mix.sass('resources/sass/details-dau-sm.scss', 'public/css');
 mix.sass('resources/sass/details-institute.scss', 'public/css');
+mix.sass('resources/sass/details-institute-m.scss', 'public/css');
 mix.sass('resources/sass/details-institute-xl.scss', 'public/css');
 mix.sass('resources/sass/details-social.scss', 'public/css');
 mix.sass('resources/sass/details-social-xl.scss', 'public/css');

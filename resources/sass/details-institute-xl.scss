@@ -2,15 +2,31 @@ body{
     max-width: 1640px;
     margin:0 auto;   
 }
-.institute{
 
-    background-image: url("../img/details/institute/fondo-lg.png");
-    background-size: cover;
-    grid-template-columns:  1.5fr 2fr 1fr 1.5fr;
+.institute {
+    background-image: url('../img/details/institute/fondo-lg.png');  
+
+    &__tv{
+        &--item{
+            width:200px;
+            height: 130px;
+        }
+    }
     &__logo{
         &--item{
-            height: 240px;
-            background-position: bottom;
+            display: inline-block;
+            width:300px;
+            height: 190px;
+            background-position-x: right;
+            
+        }
+
+    }
+    &__panel{
+        &--item{
+            width: 185px;
+            height: 370px;
+            background-position-x: right;
         }
     }
 }

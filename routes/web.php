@@ -50,6 +50,8 @@ Route::get('/auditorio', function () {
 Route::get('/detail-dau', function () {
     return view('details.dau');
 }); 
+
+
 Route::get('/detail-instituto', function () {
     return view('details.institute');
 }); 

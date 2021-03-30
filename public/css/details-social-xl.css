@@ -1,9 +1,1 @@
-body {
-  max-width: 1640px;
-  margin: 0 auto;
-}
-
-.social {
-  background-image: url("../img/details/social/fondo-xl.png");
-  background-size: cover;
-}
+body{max-width:1640px;margin:0 auto}.social{background-image:url(../img/details/social/fondo-xl.png);background-size:cover}
