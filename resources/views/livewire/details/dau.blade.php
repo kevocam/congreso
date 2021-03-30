@@ -4,7 +4,6 @@
         <div class="dau__cartelLeft--item">
             <a href="https://wwww.facebook.com/dauperu" target="_blank">
                 <img src="./img/temp/ban.png" alt="">
-
             </a>
         </div>
     </div>
@@ -51,8 +50,8 @@
     
         </x-slot>
     </x-jet-dialog-modal>
-    <audio id="audio" src="./img/sound.mp3"></audio>
-</div>
+{{--     <audio id="audio" src="./img/sound.mp3"></audio>
+ --}}</div>
     
 <script>
 
