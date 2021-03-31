@@ -1,0 +1,32 @@
+@import 'animations.scss';
+
+.gray{
+   &__panel{
+       &--item{
+        width:200px;
+        height: 430px; 
+       }
+   } 
+   &__banner{
+       &--item{
+        width:93px;
+        height: 330px; 
+       }
+   }
+   &__cartelUp{
+       &--item{
+        width:260px;
+        height: 280px;
+        transition-duration: 500ms;
+        &:hover{
+            transform: scale(1.2);
+        } 
+       }
+   }
+   &__cartelRight{
+        &--item{
+            width:80px;
+            height: 280px; 
+        }
+    }
+}

@@ -1,4 +1,143 @@
 .guatemala{
+    width: 100%;       
+    height: 100vh;
+    max-height: 635px;
+    background-image: url("../img/details/guatemala/fondo.png");
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1.5fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    overflow: hidden;
+     &__panel{
+        grid-column: 1/2;
+        grid-row: 1/3;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        &--item{
+            width:130px;
+            height: 260px;            
+            background-image: url("../img/details/guatemala/banner.png");
+           background-size: contain;
+
+            background-repeat: no-repeat;
+        }
+    }
+    &__banner{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        &--item{
+            width:120px;
+            height: 270px;   
+            background-image: url("../img/details/guatemala/panelGris.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            }
+    }
+    &__cartelUp{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        &--item{
+            height: 180px;
+            width: 210px; 
+            background-image: url("../img/details/guatemala/cartelUp.png");
+            background-size: contain;
+            background-repeat: no-repeat;   
+            background-position: center;                    
+        }
+    }
+    &__cartelRight{
+        grid-column: 4/5;
+        grid-row: 1/2;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        &--item{
+            height: 180px;
+            width:100px;
+            background-image: url("../img/details/guatemala/cartel.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;                    
+
+
+        }
+    } 
+
+}
+ 
+
+
+    
+@media  (max-width:500px) and (orientation:portrait){
+    .guatemala{
+       background-image:none;
+       background-color: white;
+       display: flex;
+       
+       justify-content: center;
+       align-items: center;
+       
+       &__panel{
+           display: none;
+           
+       }
+       &__banner{
+        display: none;
+        
+        }
+       &__cartelUp{
+           display: none;
+       }
+       &__cartelRight{
+           display: none;
+       }
+     
+       }
+       .iconRotate{
+           display: block;
+           width:100%;
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           em{
+               font-size: 27px;
+               
+           }
+           svg{
+               height: 50vh;
+               width: 50%;
+               animation: rotateCell 3s ease 0s infinite normal none;
+               color:red;
+    
+    
+           }       
+           
+       }
+       @keyframes rotateCell {
+           0.0%{
+           }
+           43.3%{
+               transform: rotate(90deg);
+           }
+           74.1%{
+           }
+       
+         }
+    
+    }
+
+
+/* .guatemala{
     width: 100%;    
     max-height: 641px;
     margin:0 auto;
@@ -61,4 +200,4 @@
 
         }
     } 
-}
+} */

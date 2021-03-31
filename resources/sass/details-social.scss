@@ -1,7 +1,232 @@
 .social{
+    width: 100%;
+    height: 100vh;
+    max-height: 635px;
+    background-position: center;
+    background-size: cover;
+    display:grid;   
+    background-image: url('../img/details/social/fondo-xl.png');  
+    overflow: hidden;    
+    grid-template-columns: 1fr 2fr 2fr 1fr ;
+    grid-template-rows: 1fr 1fr;    
+    &__cartelLeft{
+        grid-column: 1/2;
+        grid-row: 2/3;   
+        display: flex;  
+            align-items: flex-end;
+            justify-content: flex-end;            
+        &--item{
+            width:70px;
+            height: 160px;
+            background-image: url("../img/details/social/cartel.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;  
+            align-items: flex-start;
+            justify-content: center;  
+            a{
+                       height: 100px;                      
+                       img{
+                           width:100%;
+                           height: 100%;
+                       }
+                   }
+        } 
+    }
+    &__tv{
+         grid-column: 2/3;
+        grid-row: 1/2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &--item{
+            width:170px ;
+            height: 120px;
+            background-image: url("../img/details/social/tv.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+             display: flex;
+            justify-content: center;
+            align-items: center; 
+            iframe{
+                width:150px;
+                height:85px;
+            }
+        } 
+    }
+    &__cartelRight{
+         grid-column: 4/5;
+        grid-row:2/3;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        
+        transition-duration: 400ms;
+        &--item{
+            width:70px;
+            height: 160px;
+            background-image: url("../img/details/social/cartel.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;  
+            align-items: flex-start;
+            justify-content: center; 
+            a{
+                       height: 100px;                      
+                       img{
+                           width:100%;
+                           height: 100%;
+                       }
+                   }
+        } 
+        
+    }
+    &__banner{
+        grid-column: 3/4;
+        grid-row: 1/3;
+        display: flex;
+        justify-content: center;    
+        align-items: flex-end;    
+        /* transform:
+        perspective(800px)
+        rotateY(25deg) scale(0.9)
+        rotateX(10deg); */
+        &--item{
+            height: 290px;
+            width: 180px;                   
+            background-image: url("../img/details/social/banner_social.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;            
+            padding-bottom: 20px;
+            &--content{
+                text-align: center;
+                width: 70%;
+                padding:4px;
+                
+                ul{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    max-width:220px;
+                    margin: 0 auto;
+                    transition-duration: 400ms;
+                    li{
+                        width:40px;
+                        text-align: center;
+                        /* transform:
+                            perspective(800px)
+                            rotateY(25deg) scale(0.9)
+                            rotateX(10deg);
+                            filter: blur(0.3px);
+                            opacity: 0.9; */
+                          transition: 0.6s ease all;
+
+                      /*   &:hover {
+                            transform:
+                            perspective(800px)
+                            rotateY(-15deg)
+                            translateY(-50px)
+                            rotateX(10deg)
+                            scale(1);
+                            filter: blur(0);
+                            opacity: 1;
+                            font-size: 16px;
+                        } */
+                        a{
+                            
+                            img{
+                                margin:0 auto;
+                            }
+                        }
+                        &:hover{
+                            transform: scale(1.3);
+                        cursor: copy;
+                        }
+                    }
+                }
+                h3{
+                    font-size:18px;
+                    margin-bottom: 15px;
+
+                }
+            }  
+        } 
+    }
+}
+
+    
+@media  (max-width:500px) and (orientation:portrait){
+    .social{
+       background-image:none;
+       background-color: white;
+       display: flex;
+       
+       justify-content: center;
+       align-items: center;
+       
+       &__cartelLeft{
+           display: none;
+           
+       }
+       &__cartelRight{
+        display: none;
+        
+    }
+       &__tv{
+           display: none;
+       }
+       &__banner{
+           display: none;
+       }
+     
+       }
+       .iconRotate{
+           display: block;
+           width:100%;
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           em{
+               font-size: 27px;
+               
+           }
+           svg{
+               height: 50vh;
+               width: 50%;
+               animation: rotateCell 3s ease 0s infinite normal none;
+               color:red;
+    
+    
+           }       
+           
+       }
+       @keyframes rotateCell {
+           0.0%{
+           }
+           43.3%{
+               transform: rotate(90deg);
+           }
+           74.1%{
+           }
+       
+         }
+    
+    }
+
+
+/* 
+
+.social{
     width: 100%;    
-/*     max-width:1024px;
- */    margin:0 auto;
+    margin:0 auto;
     height: 100vh;
     max-height: 641px;
     background-image: url("../img/details/social/fondo.png");
@@ -134,4 +359,4 @@
     
     
 
-}
+} */

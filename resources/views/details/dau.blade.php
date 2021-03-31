@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="./css/details-dau-xl.css" media="(min-width:1100px)">  
 
 
+
 @endsection
 @section('content')   
 

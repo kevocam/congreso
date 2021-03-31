@@ -1,25 +1,30 @@
-body{
-    max-width: 1640px;
-    margin:0 auto;   
-}
-
-.gray{ 
-
+.gray{
     background-image: url("../img/details/dayarit/fondo-xl.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-height: 641px;
-    display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr 2.5fr 1.5fr 2fr;
 
-    &__cartelRight{
-        padding-bottom: 50px;
+    &__panel{
+        &--item{
+         width:237px;
+         height: 466px; 
+        }
+    } 
+    &__banner{
+        &--item{
+         width:93px;
+         height: 378px; 
+        }
+    }
+    &__cartelUp{
+        &--item{
+         width:280px;
+         height: 304px; 
+        }
     }
     &__cartelRight{
-        grid-column: 6/7;
-        justify-content: flex-start;
-       
-    }
-
-}
+        justify-content: flex-end;
+        align-items: flex-start;
+         &--item{
+             width:85px;
+             height: 300px; 
+         }
+     }
+ }

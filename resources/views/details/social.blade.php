@@ -2,8 +2,13 @@
 
 @section('style')
 
+
+
 <link rel="stylesheet" href="./css/details-social.css">
-<link rel="stylesheet" href="./css/details-social-xl.css" media="(min-width:1070px)">
+<link rel="stylesheet" href="./css/details-social-m.css" media="(min-width:930px)" >
+<link rel="stylesheet" href="./css/details-social-xl.css" media="(min-width:1100px)" >
+
+<link rel="stylesheet" href="./css/animations.css">
 @endsection
 @section('content')
 

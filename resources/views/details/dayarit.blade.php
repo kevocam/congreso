@@ -2,8 +2,10 @@
 
 @section('style')
 
+
 <link rel="stylesheet" href="./css/details-dayarit.css">
-<link rel="stylesheet" href="./css/details-dayarit-xl.css" media="(min-width:1070px)">
+<link rel="stylesheet" href="./css/details-dayarit-m.css" media="(min-width:930px)" >
+<link rel="stylesheet" href="./css/details-dayarit-xl.css" media="(min-width:1100px)" >
 
 @endsection
 @section('content')
@@ -12,4 +14,3 @@
     
 @endsection
 
-{{-- <script src="./js/pabellon.js"></script> --}}

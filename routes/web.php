@@ -49,24 +49,33 @@ Route::get('/auditorio', function () {
 
 Route::get('/detail-dau', function () {
     return view('details.dau');
-}); 
-
-
+});
 Route::get('/detail-instituto', function () {
     return view('details.institute');
-}); 
+});
+
 Route::get('/detail-social', function () {
     return view('details.social');
 }); 
+
 Route::get('/detail-dayarit', function () {
     return view('details.dayarit');
 }); 
-Route::get('/detail-humanizando', function () {
-    return view('details.humanizando');
+
+Route::get('/detail-guatemala', function () {
+    return view('details.guatemala');
 }); 
+
+/* ------------ */
+
 Route::get('/detail-dominicana', function () {
     return view('details.dominicana');
 }); 
+
+Route::get('/detail-humanizando', function () {
+    return view('details.humanizando');
+}); 
+
 Route::get('/detail-cundinamarca', function () {
     return view('details.cundinamarca');
 }); 
@@ -79,9 +88,7 @@ Route::get('/detail-damassalud', function () {
 Route::get('/detail-ediciones', function () {
     return view('details.ediciones');
 }); 
-Route::get('/detail-guatemala', function () {
-    return view('details.guatemala');
-}); 
+
 Route::get('/detail-queretaro', function () {
     return view('details.queretaro');
 }); 

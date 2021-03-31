@@ -1,11 +1,14 @@
+@import 'animations.scss';
+
 
 .social {
-    background-image: url('../img/details/social/fondo-xl.png');  
+
+    background-image: url('../img/details/social/fondo.png');  
     background-size:cover;
     &__cartelLeft{
         &--item{
             width: 140px;
-            height: 275px;
+            height: 270px;
             a{
             transition-duration:400ms;
                 height:170px;
@@ -19,11 +22,11 @@
 
     &__tv{
         &--item{
-            width:383px ;
-            height: 223px;
+            width:320px ;
+            height: 200px;
             iframe{
-                width:360px ;
-                height: 200px;    
+                width:280px ;
+                height: 160px;    
             }
         }
     }
@@ -34,22 +37,19 @@
         rotateY(25deg) scale(0.9)
         rotateX(10deg);
         &--item{ 
-            height: 466px;
-            width: 310px; 
+            height: 400px;
+            width: 280px; 
             padding-left:10px;
             &--content{
-                
                 ul{
                     li{
-                      width:95px;      
-                        
-
                         transform:
                             perspective(800px)
                             rotateY(25deg) scale(0.9)
                             rotateX(10deg);
                             filter: blur(0.3px);
                             opacity: 0.9;
+                      width:75px;      
                     }
                 }
             }
@@ -59,7 +59,7 @@
     &__cartelRight{
         &--item{
              width: 140px;
-            height: 275px;
+            height: 270px;
              a{
                 height:170px;
                 transition-duration:400ms;
