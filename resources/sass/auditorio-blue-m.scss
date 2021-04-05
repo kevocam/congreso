@@ -1,5 +1,5 @@
 .auditorioBlue{    
-    background-image: url('../img/auditorio/fondo-xl.png');
+    background-image: url('../img/auditorio/blue/fondo.png');
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -173,6 +173,7 @@
                height: 50vh;
                width: 50%;
                animation: rotateCell 3s ease 0s infinite normal none;
+               color:red;    
            }                  
        }
        @keyframes rotateCell {

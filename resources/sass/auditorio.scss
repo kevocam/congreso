@@ -1,291 +1,190 @@
-.auditorioContainer{
-    width:100%;
-    margin: 0 auto;
-}
-.auditorio{
-    width:100%;
-    height: 100vh;
-    max-width:1624px;
-    background-image: url("../img/auditorio/fondo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    display:grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 420px 0.6fr 1fr;
-    &__pantalla{
-        grid-column: 2/3;
-        grid-row: 1/2;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        &--item{
-            height: 347px;
-            width: 634px;
-            width: 100%;
-                height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
+.auditorioBlue{
+  width:100%;
+  height: 100vh;
+  background-image: url('../img/auditorio/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1.8fr 1fr;
 
-            iframe{
-                width: 80%;
-                height: 70%;
-                background-color: #14011B;
-                border:4px solid #14011B;
-                border-radius: 10px;
-                box-shadow: 0px 28px 31px 31px rgba(0,0,0,0.1);
+  &__cartelLeft{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      &--item{
+          height: 130px;
+          width: 78px;
+          background-image: url('../img/auditorio/bannerLeft.png');
+          background-size: cover;
+      }
 
-            }
-            
-/*             background-image: url("../img/auditorio/pantalla.png");
- */        }
-       
+  }
+  &__pantalla{
+      grid-column: 2/3;
+      grid-row: 1/2;
+      align-self: center;
+      justify-self: center;
+  }
+  &__cartelRight{
+      grid-column: 3/4;
+      grid-row: 1/2;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      &--item{
+          
+          height: 130px;
+          width: 78px;
+          background-image: url('../img/auditorio/bannerLeft.png');
+          background-size: cover;
+      }
+  }
 
-    }
-    &__cartelLeft{
-        grid-column: 1/2;
-        grid-row: 1/2;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        &--item{
-            height: 245px;
-            width: 120px;
-            background-image: url("../img/auditorio/bannerLeft.png");
-
-        }
-    }
-
-    &__cartelRight{
-        grid-column: 3/4;
-        grid-row: 1/2;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        &--item{
-            height: 245px;
-            width: 120px;
-            background-image: url("../img/auditorio/bannerRight.png");
-
-        }
-    }
 }
 
- /* Tab content - closed */
+
+/* Tab content - closed */
 .tab-content {
-    max-height: 0;
-    -webkit-transition: max-height .35s;
-    -o-transition: max-height .35s;
-    transition: max-height .35s;
+  max-height: 0;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
 }
-    /* :checked - resize to full height */
+  /* :checked - resize to full height */
 .tab input:checked ~ .tab-content {
-    max-height: 100vh;
+  max-height: 100vh;
 }
-    /* Label formatting when open */
+  /* Label formatting when open */
 .tab input:checked + label{
-    /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
-    font-size: 1.25rem; /*.text-xl*/
-    padding: 1.25rem; /*.p-5*/
-    border-left-width: 2px; /*.border-l-2*/
-    border-color: #096191; /*.border-indigo*/
-    background-color: #f8fafc; /*.bg-gray-100 */
-    color: #096191; /*.text-indigo*/
+  /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+  font-size: 1.25rem; /*.text-xl*/
+  padding: 1.25rem; /*.p-5*/
+  border-left-width: 2px; /*.border-l-2*/
+  border-color: #096191; /*.border-indigo*/
+  background-color: #f8fafc; /*.bg-gray-100 */
+  color: #096191; /*.text-indigo*/
 }
-    /* Icon */
+  /* Icon */
 .tab label::before {
-    float:left;
-    right: 0;
-    top: 0;
-    display: block;
-    width: 1.5em;
-    height: 1.5em;
-    line-height: 1.5;
-    font-size: 1.25rem;
-    text-align: center;
-    -webkit-transition: all .35s;
-    -o-transition: all .35s;
-    transition: all .35s;
+  float:left;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
 }
-    /* Icon formatting - closed */
+  /* Icon formatting - closed */
 .tab input[type=checkbox] + label::before {
-    content: "+";
-    font-weight:bold; /*.font-bold*/
-    border-width: 1px; /*.border*/
-    border-radius: 9999px; /*.rounded-full */
-    border-color: #b8c2cc; /*.border-grey*/
+  content: "+";
+  font-weight:bold; /*.font-bold*/
+  border-width: 1px; /*.border*/
+  border-radius: 9999px; /*.rounded-full */
+  border-color: #b8c2cc; /*.border-grey*/
 }
 .tab input[type=radio] + label::before {
-    content: "\25BE";
-    font-weight:bold; /*.font-bold*/
-    border-width: 1px; /*.border*/
-    border-radius: 9999px; /*.rounded-full */
-    border-color: #b8c2cc; /*.border-grey*/
-    margin-right: 5px;
- }
-    /* Icon formatting - open */
- .tab input[type=checkbox]:checked + label::before {
-    transform: rotate(315deg);
-    background-color: #096191; /*.bg-indigo*/
-    color: #f8fafc; /*.text-grey-lightest*/
- }
- .tab input[type=radio]:checked + label::before {
-    transform: rotateX(180deg);
-    background-color: #096191; 
-    color: #f8fafc; 
- }
- .cajaText{
-     border-color:#096191;
-     font-size:16px;
- }
-
- .titleText{
-     display:flex;
-     width:100%;
-     justify-content:space-between;
-     align-items:center;
- }
- 
- .swing-in-top-bck {
-	-webkit-animation: swing-in-top-bck 1.3s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
-	        animation: swing-in-top-bck 1.3s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+  content: "\25BE";
+  font-weight:bold; /*.font-bold*/
+  border-width: 1px; /*.border*/
+  border-radius: 9999px; /*.rounded-full */
+  border-color: #b8c2cc; /*.border-grey*/
+  margin-right: 5px;
 }
-/* ----------------------------------------------
- * Generated by Animista on 2021-3-26 17:44:3
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation swing-in-top-bck
- * ----------------------------------------
- */
- @-webkit-keyframes swing-in-top-bck {
-    0% {
-      -webkit-transform: rotateX(70deg);
-              transform: rotateX(70deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotateX(0deg);
-              transform: rotateX(0deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 1;
-    }
-  }
-  @keyframes swing-in-top-bck {
-    0% {
-      -webkit-transform: rotateX(70deg);
-              transform: rotateX(70deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: rotateX(0deg);
-              transform: rotateX(0deg);
-      -webkit-transform-origin: top;
-              transform-origin: top;
-      opacity: 1;
-    }
-  }
-  
-
-  .slide-in-left {
-	-webkit-animation: slide-in-left 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-left 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  /* Icon formatting - open */
+.tab input[type=checkbox]:checked + label::before {
+  transform: rotate(315deg);
+  background-color: #096191; /*.bg-indigo*/
+  color: #f8fafc; /*.text-grey-lightest*/
+}
+.tab input[type=radio]:checked + label::before {
+  transform: rotateX(180deg);
+  background-color: #096191; 
+  color: #f8fafc; 
+}
+.cajaText{
+   border-color:#096191;
+   font-size:16px;
 }
 
+.titleText{
+   display:flex;
+   width:100%;
+   justify-content:space-between;
+   align-items:center;
+}
 
-/* ----------------------------------------------
- * Generated by Animista on 2021-3-26 17:42:34
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
+.swing-in-top-bck {
+-webkit-animation: swing-in-top-bck 1.3s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+        animation: swing-in-top-bck 1.3s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
 
-/**
- * ----------------------------------------
- * animation slide-in-left
- * ----------------------------------------
- */
- @-webkit-keyframes slide-in-left {
-    0% {
-      -webkit-transform: translateX(-1000px);
-              transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
+@media  (max-width:500px) and (orientation:portrait){
+  .auditorioBlue{
+     background-image:none;
+     background-color: white;
+     display: none;       
+     justify-content: center;
+     align-items: center;     
+     height: 100vh; 
+
+  &__cartelLeft{
+      display: none;
   }
-  @keyframes slide-in-left {
-    0% {
-      -webkit-transform: translateX(-1000px);
-              transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
+  &__pantalla{
+      display: none;        
   }
+  &__cartelRight{
+      display: none;       
+  }
+  &__bannerRight{
+      display: none;    
+  }
+}
+.tab-content {
+display: none;
+}
+.contenido{
+display: none;
+}
+     .iconRotate{
+         display: block;
+         width:100%;
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         em{
+             font-size: 27px;
+             
+         }
+         svg{
+             height: 50vh;
+             width: 50%;
+             animation: rotateCell 3s ease 0s infinite normal none;
+             color:red;    
+         }                  
+     }
+     @keyframes rotateCell {
+         0.0%{
+         }
+         43.3%{
+             transform: rotate(90deg);
+         }
+         74.1%{
+         }
+     
+       }
   
-  .slide-in-right {
-	-webkit-animation: slide-in-right 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-right 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    }
-  
-/* ----------------------------------------------
- * Generated by Animista on 2021-3-26 17:40:11
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation slide-in-right
- * ----------------------------------------
- */
- @-webkit-keyframes slide-in-right {
-    0% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
   }
-  @keyframes slide-in-right {
-    0% {
-      -webkit-transform: translateX(1000px);
-              transform: translateX(1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
-
-
 
 
 

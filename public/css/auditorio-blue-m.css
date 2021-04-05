@@ -1,24 +1,21 @@
 @charset "UTF-8";
 .auditorioBlue {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../img/auditorio/fondo.png");
-  background-repeat: no-repeat;
+  background-image: url("../img/auditorio/blue/fondo.png");
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1.8fr 1fr;
+  grid-template-rows: 2fr 1fr;
 }
 .auditorioBlue__cartelLeft {
   grid-column: 1/2;
   grid-row: 1/2;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .auditorioBlue__cartelLeft--item {
-  height: 130px;
-  width: 78px;
+  height: 240px;
+  width: 115px;
   background-image: url("../img/auditorio/bannerLeft.png");
   background-size: cover;
 }
@@ -27,17 +24,23 @@
   grid-row: 1/2;
   align-self: center;
   justify-self: center;
+  height: 100%;
+  width: 100%;
+}
+.auditorioBlue__pantalla iframe {
+  height: 100%;
+  width: 100%;
 }
 .auditorioBlue__cartelRight {
   grid-column: 3/4;
   grid-row: 1/2;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .auditorioBlue__cartelRight--item {
-  height: 130px;
-  width: 78px;
+  height: 240px;
+  width: 115px;
   background-image: url("../img/auditorio/bannerLeft.png");
   background-size: cover;
 }

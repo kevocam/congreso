@@ -14,7 +14,13 @@ const mix = require('laravel-mix');
 /* Stylos CUSTOM */
 
 mix.sass('resources/sass/styleSass.scss', 'public/css');
+mix.sass('resources/sass/auditorio-blue.scss', 'public/css');
+mix.sass('resources/sass/auditorio-blue-m.scss', 'public/css');
+mix.sass('resources/sass/auditorio-blue-xl.scss', 'public/css');
+
 mix.sass('resources/sass/auditorio.scss', 'public/css');
+mix.sass('resources/sass/auditorio-m.scss', 'public/css');
+
 mix.sass('resources/sass/auditorio-xl.scss', 'public/css');
 mix.sass('resources/sass/welcome.scss', 'public/css');
 mix.sass('resources/sass/master.scss', 'public/css');
