@@ -1,32 +1,32 @@
-
+@import 'animations.scss';
 .dominicana{
     
-    background-image: url("../img/details/dominicana/fondo-xl.png");
+    background-image: url("../img/details/dominicana/fondo.png");
 
     &__bannerAzul{
          &--item{
             width: 140px;
-            height: 321px;
+            height: 270px;
          }
         
     }
     &__bannerLogo{
          &--item{
-            width: 229px;
-            height: 451px;
+            width: 200px;
+            height: 400px;
          }
      
     }
     &__tv{
         &--item{
-            width: 308px;
-            height: 180px;
+            width: 400px;
+            height: 200;
         }
     }
     &__bannerNormal{
         &--item{
             width: 140px;
-            height: 321px;
+            height: 270px;
         }
     }
   

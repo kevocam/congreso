@@ -1,1 +1,1 @@
-body{max-width:1640px;margin:0 auto}.humanizando{background-image:url(../img/details/humanizando/fondo-xl.png);background-size:cover}.humanizando__cartel{grid-column:5/6;display:flex;justify-content:flex-end;align-items:center}
+.humanizando{background-image:url(../img/details/humanizando/fondo-xl.png)}.humanizando__tv{padding-left:140px}.humanizando__tv--item{width:140px;height:85px}.humanizando__banner{align-items:flex-end;padding-bottom:10px}.humanizando__banner--item{width:140px;height:380px}.humanizando__cartel--item{width:115px;height:250px}

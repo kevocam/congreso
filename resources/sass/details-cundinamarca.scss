@@ -1,49 +1,116 @@
 .cundinamarca{
     width: 100%;    
-    height: 100vh;
-    /* max-width:1024px; */
-    max-height: 641px;
-    margin:0 auto;   
+    height: 100vh;    
+    max-height: 635px;    
     background-image: url("../img/details/cundinamarca/fondo.png");
-    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     display: grid;
-    grid-template-columns: 2fr 0.5fr 2fr 0.5fr 2fr ;
-    grid-template-rows: 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     overflow: hidden;
 
     &__tv{
         grid-column: 1/2;
-        grid-row: 2/3;
-        background-image: url("../img/details/cundinamarca/tv.png");
-        background-repeat: no-repeat;
-        background-position: center;
+        grid-row: 1/3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &--item{
+            width:130px;
+                height: 80px;
+            background-image: url("../img/details/cundinamarca/tv.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            
+
+        }
     }
     &__cartelLogo{
-        grid-column: 3/4;
+        grid-column: 2/3;
         grid-row: 1/2;
-        background-image: url("../img/details/cundinamarca/cartelUp.png");
-        background-repeat: no-repeat;
-        background-position: top;
-        overflow: hidden;
-        transition-duration: 400ms;
-        &:hover{
-            transform:scale(1.2);
+        display: flex;
+        justify-content: center;
+        &--item{
+            height: 160px;
+            width: 180px; 
+            background-image: url("../img/details/cundinamarca/cartelUp.png");
+            background-repeat: no-repeat;
+            background-size: contain;
         }
+        
     }
     &__panel{
-        grid-column: 4/6;
-        grid-row: 1/5;
+        grid-column: 3/4;
+        grid-row: 1/3;
         display: flex;
+        align-items: flex-end;
         justify-content: flex-start;
-        
         &--item{
-            height: 100%;
-            width:207px;
-
+            width:110px;
+            height: 240px; 
             background-image: url("../img/details/cundinamarca/panel.png");
             background-repeat: no-repeat;
-            background-position: bottom;
+            background-size: contain;
+
         }
+        
+        
     }
 }
+
+@media  (max-width:500px) and (orientation:portrait){
+    .cundinamarca{
+       background-image:none;
+       background-color: white;
+       display: flex;
+       
+       justify-content: center;
+       align-items: center;
+       
+       &__tv{
+           display: none;
+           
+       }
+       &__cartelLogo{
+           display: none;
+       }
+       &__panel{
+           display: none;
+       }
+     
+       }
+       .iconRotate{
+           display: block;
+           width:100%;
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           em{
+               font-size: 27px;
+               
+           }
+           svg{
+               height: 50vh;
+               width: 50%;
+               animation: rotateCell 3s ease 0s infinite normal none;
+               color:red;
+    
+    
+           }       
+           
+       }
+       @keyframes rotateCell {
+           0.0%{
+           }
+           43.3%{
+               transform: rotate(90deg);
+           }
+           74.1%{
+           }
+       
+         }
+    
+    }

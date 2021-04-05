@@ -57,8 +57,8 @@
                         <a href="/dashboard" class="menuLobby block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">Dashboard</a>
                     </li>
                    
-                    <li id="dropdownMain" class="border-t md:border-none">
-                        <a href="#" class="flex menuLobby block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">{{ Auth::user()->name }}
+                    <li id="dropdownMain" class="flex border-t md:border-none">
+                        <a href="#" class="flex menuLobby block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">{{ Auth::user()->name }}
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-down" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#096191" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                 <line x1="12" y1="5" x2="12" y2="19" />

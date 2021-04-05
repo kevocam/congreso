@@ -1,0 +1,34 @@
+@import 'animations.scss';
+
+.beauty{
+   
+
+    &__panel{        
+        &--item{
+            width: 261px;
+            height: 347px;
+            background-image: url("../img/details/beauty/panel.png");
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+        }
+    }
+    &__bannerLeft{       
+        &--item{
+            width: 150px;
+            height: 293px;           
+        }        
+    }
+    &__tv{
+        padding-left: 170px;
+        &--item{
+            width: 143px;
+            height: 97px;
+        }        
+    }
+    &__bannerRight{        
+        &--item{
+            width: 150px;
+            height: 293px;          
+        }   
+    }    
+}

@@ -1,6 +1,8 @@
+@import 'animations.scss';
+
 .cundinamarca{
     
-    background-image: url("../img/details/cundinamarca/fondo-xl.png");
+    background-image: url("../img/details/cundinamarca/fondo.png");
 
     
     &__tv{
@@ -19,7 +21,7 @@
     &__panel{
         &--item{
            width: 180px;
-           height: 430px;
+           height: 400px;
         }
     }
   

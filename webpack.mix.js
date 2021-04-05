@@ -33,20 +33,28 @@ mix.sass('resources/sass/details-dayarit.scss', 'public/css');
 mix.sass('resources/sass/details-dayarit-m.scss', 'public/css');
 mix.sass('resources/sass/details-dayarit-xl.scss', 'public/css');
 mix.sass('resources/sass/details-humanizando.scss', 'public/css');
+mix.sass('resources/sass/details-humanizando-m.scss', 'public/css');
 mix.sass('resources/sass/details-humanizando-xl.scss', 'public/css');
 mix.sass('resources/sass/details-dominicana.scss', 'public/css');
+mix.sass('resources/sass/details-dominicana-m.scss', 'public/css');
 mix.sass('resources/sass/details-dominicana-xl.scss', 'public/css');
 mix.sass('resources/sass/details-cundinamarca.scss', 'public/css');
+mix.sass('resources/sass/details-cundinamarca-m.scss', 'public/css');
 mix.sass('resources/sass/details-cundinamarca-xl.scss', 'public/css');
 mix.sass('resources/sass/details-beauty.scss', 'public/css');
+mix.sass('resources/sass/details-beauty-m.scss', 'public/css');
+mix.sass('resources/sass/details-beauty-xl.scss', 'public/css');
 mix.sass('resources/sass/details-damassalud.scss', 'public/css');
+mix.sass('resources/sass/details-damassalud-m.scss', 'public/css');
 mix.sass('resources/sass/details-damassalud-xl.scss', 'public/css');
 mix.sass('resources/sass/details-ediciones-xl.scss', 'public/css');
+mix.sass('resources/sass/details-ediciones-m.scss', 'public/css');
 mix.sass('resources/sass/details-ediciones.scss', 'public/css');
 mix.sass('resources/sass/details-guatemala-xl.scss', 'public/css');
 mix.sass('resources/sass/details-guatemala-m.scss', 'public/css');
 mix.sass('resources/sass/details-guatemala.scss', 'public/css');
 mix.sass('resources/sass/details-queretaro-xl.scss', 'public/css');
+mix.sass('resources/sass/details-queretaro-m.scss', 'public/css');
 mix.sass('resources/sass/details-queretaro.scss', 'public/css');
 
 

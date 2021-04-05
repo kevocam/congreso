@@ -1,8 +1,11 @@
 @extends('layouts.congreso')
 
 @section('style')
-    <link rel="stylesheet" href="./css/details-cundinamarca.css">
-    <link rel="stylesheet" href="./css/details-cundinamarca-xl.css" media="(min-width:1070px)">
+
+
+<link rel="stylesheet" href="./css/details-cundinamarca.css">
+<link rel="stylesheet" href="./css/details-cundinamarca-m.css" media="(min-width:930px)">
+<link rel="stylesheet" href="./css/details-cundinamarca-xl.css" media="(min-width:1100px)">
 
 
 @endsection
@@ -12,4 +15,3 @@
     
 @endsection
 
-{{-- <script src="./js/pabellon.js"></script> --}}

@@ -3,13 +3,11 @@
 @section('style')
 
 <link rel="stylesheet" href="./css/details-beauty.css">
-{{-- <link rel="stylesheet" href="./css/details.css">
- --}}
+<link rel="stylesheet" href="./css/details-beauty-m.css" media="(min-width:930px)">
+<link rel="stylesheet" href="./css/details-beauty-xl.css" media="(min-width:1100px)">
+
 @endsection
 @section('content')
-
-    @livewire('details.beauty')
-    
+    @livewire('details.beauty')    
 @endsection
 
-{{-- <script src="./js/pabellon.js"></script> --}}

@@ -2,8 +2,9 @@
 
 @section('style')
 
-<link rel="stylesheet" href="./css/details-damassalud.css">
-<link rel="stylesheet" href="./css/details-damassalud-xl.css" media="(min-width:1070px)">
+<link rel="stylesheet" href="./css/details-damassalud.css" {{-- media="(max-width: 780px)" --}}>
+<link rel="stylesheet" href="./css/details-damassalud-m.css" media="(min-width:930px)" >
+<link rel="stylesheet" href="./css/details-damassalud-xl.css" media="(min-width:1100px)">  
 
 @endsection
 @section('content')
@@ -12,4 +13,3 @@
     
 @endsection
 
-{{-- <script src="./js/pabellon.js"></script> --}}

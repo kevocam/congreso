@@ -2,8 +2,11 @@
 
 @section('style')
 
+
 <link rel="stylesheet" href="./css/details-queretaro.css">
-<link rel="stylesheet" href="./css/details-queretaro-xl.css" media="(min-width:1070px)">
+<link rel="stylesheet" href="./css/details-queretaro-m.css" media="(min-width:930px)" >
+<link rel="stylesheet" href="./css/details-queretaro-xl.css" media="(min-width:1100px)" >
+
 @endsection
 @section('content')
 
