@@ -62,6 +62,8 @@ mix.sass('resources/sass/details-guatemala.scss', 'public/css');
 mix.sass('resources/sass/details-queretaro-xl.scss', 'public/css');
 mix.sass('resources/sass/details-queretaro-m.scss', 'public/css');
 mix.sass('resources/sass/details-queretaro.scss', 'public/css');
+mix.sass('resources/sass/chat.scss', 'public/css');
+
 
 
 

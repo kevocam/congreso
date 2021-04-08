@@ -30,12 +30,26 @@ class User extends Authenticatable
 
 
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password','lastName', 'address', 'phone','about', 'description', 'facebook','twitter','linkedin','rateSpanish','rateEnglish','OtherLanguaje','rateOther',
+
     ];
+    public function paths()
+    {
+        return $this->hasMany(Path::class);
+    }
+    public function publications()
+    {
+        return $this->hasMany(Publications::class);
+    }
     public function chats()
     {
         return $this->hasMany(Chat::class);
     }
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
+
 
     /**
      * The attributes that should be hidden for arrays.

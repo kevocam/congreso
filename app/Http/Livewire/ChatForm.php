@@ -3,10 +3,10 @@
 namespace App\Http\Livewire;
 
 use Livewire\Component;
-
+use App\Models\Chat;
 class ChatForm extends Component
 {
-    public $user, $datos;
+    public $user, $datos, $data;
     public $mensaje ;
 
 /*     protected $listeners = ['EnviarMsn'];
@@ -17,6 +17,8 @@ class ChatForm extends Component
         $this->user=auth()->id();
         $this->mensaje="";
     }
+    protected $listeners = ['actualizarMensajes' => 'render'];
+
 
     protected $messages = [
         'mensaje.required' => 'Debe escribir algo.',
@@ -25,6 +27,8 @@ class ChatForm extends Component
     ];
     public function render()
     {
+        $this->data= Chat::orderBy('created_at','desc')->take(5)->get();
+
         return view('livewire.chat-form');
     }
     

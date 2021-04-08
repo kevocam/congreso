@@ -1,19 +1,27 @@
 <div class="auditorioBlue">
-    <div class="auditorioBlue__cartelLeft">
+   
+    <div class="auditorioBlue__cartelLeft  animation-cartelLeft">
         <div class="auditorioBlue__cartelLeft--item">
 
         </div>
     </div>
-    <div class="auditorioBlue__pantalla">
 
-<iframe  id="video"  src="https://player.vimeo.com/video/227525492" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
+    <div class="auditorioBlue__pantalla animation-player">
+        <iframe  id="video"  src="https://player.vimeo.com/video/227525492" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
    </div>
-    <div class="auditorioBlue__cartelRight">
+
+   <div class="auditorioBlue__cartelRight animation-cartelRight">
         <div class="auditorioBlue__cartelRight--item">
 
         </div>
-    </div>
+   </div>
+
+   <div class="auditorioBlue__chat">
+      <div class="auditorioBlue__chat--item">
+               @livewire('chat-form')
+      </div>
+   </div>
+
 </div>
     <div class="contenido">        
         <div class="w-full md:w-4/5 mx-auto p-8">

@@ -3,21 +3,26 @@
 namespace App\Http\Livewire;
 
 use Livewire\Component;
-use App\Models\Confe;
+use App\Models\User;
 use Livewire\WithFileUploads;
 class ConfeForm extends Component
+
 {
     use WithFileUploads;
-/*     public Confe $confe;
- */
-public $dirphoto,$dataValidated,$name, $description,$photo, $facebook, $twitter, $linkedin;
+
+
+public $dirphoto,$dataValidated,$name,$lastName, $description,$photo;
+public $about, $address, $email,$phone, $rateEnglish, $rateSpanish,$rateOther,$OtherLanguaje, $facebook, $twitter, $linkedin;
+
+
     protected $rules = [
-        'name' => 'required|string|min:6',
-        'description' => 'required|string|max:500',
-        'photo' => 'image|max:1024',
-        'facebook' => 'string|max:500',
-        'twitter' => 'string|max:500',
-        'linkedin' => 'string|max:500',
+         'name' => 'required|string|min:2',
+       /* 
+        */
+    ];
+    protected $messages = [
+        'email.required' => 'The Email Address cannot be empty.',
+        'email.email' => 'The Email Address format is not valid.',
     ];
 
    public function clear(){
@@ -28,6 +33,9 @@ public $dirphoto,$dataValidated,$name, $description,$photo, $facebook, $twitter,
        $this->twitter="";
        $this->linkedin="";
    }
+   protected $validationAttributes = [
+    'email' => 'email address'
+];
     public function render()
     {
         return view('livewire.confe-form');
@@ -37,10 +45,19 @@ public $dirphoto,$dataValidated,$name, $description,$photo, $facebook, $twitter,
 
         $dirphoto=$this->photo->store('photo','public');        
 
-        Confe::create([
+        User::create([
             'name'=>$this->name,
-            'photo'=>$dirphoto,
+            'lastname'=>$this->lastName,
+            'address'=>$this->address,
+            'email'=>$this->email,
+            'phone'=>$this->phone,
+            'profile_photo_path'=>$dirphoto,
             'description'=>$this->description,
+            'about'=>$this->about,
+            'rateSpanish'=>$this->rateSpanish,
+            'rateEnglish'=>$this->rateEnglish,
+            'rateOther'=>$this->rateOther,
+            'otherLanguaje'=>$this->OtherLanguaje,
             'facebook'=>$this->facebook,
             'twitter'=>$this->twitter,
             'linkedin'=>$this->linkedin
@@ -49,4 +66,5 @@ public $dirphoto,$dataValidated,$name, $description,$photo, $facebook, $twitter,
         session()->flash('message', '¡Agregado con éxito!  👍');
 
     }
+
 }

@@ -46,9 +46,17 @@ Route::get('/chat-list', function () {
 Route::get('/auditorio', function () {
     return view('auditorio.normal');
 }); 
+
+Route::get('/auditorio-live', function () {
+    return view('auditorio.normal-live');
+});
 Route::get('/auditorio2', function () {
     return view('auditorio.blue');
-}); 
+});
+Route::get('/auditorio2-live', function () {
+    return view('auditorio.blue-live');
+});  
+
 Route::get('/detail-dau', function () {
     return view('details.dau');
 });

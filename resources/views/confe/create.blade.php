@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-Crear conferencista
+    Crear Panelista
 @endsection
 @section('content')
  @livewire('confe-form' )

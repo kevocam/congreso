@@ -1,0 +1,33 @@
+@import'styleSass';
+
+
+.chat{
+    background:$color-primario;
+    color:white;
+    display:block;
+    width:80%;
+    margin:0 auto;
+    
+    overflow:hidden;
+    position: relative;
+    &__header{
+        background-color: $color-secundario;
+        border-radius:50px 0 0 50px;
+        padding: 5px;
+        margin:0 0 0 10px;
+    }
+    &__content{
+        padding:25px;
+    }
+    &__footer{
+        display:flex;
+        &--button{
+            
+            &--icon{
+            width:35px;
+            height:35px;
+            }
+        }
+    }
+
+}

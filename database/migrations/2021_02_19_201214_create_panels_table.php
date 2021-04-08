@@ -16,8 +16,11 @@ class CreatePanelsTable extends Migration
         Schema::create('panels', function (Blueprint $table) {
             $table->id();
             $table->string("name");
-            $table->string("description")->nullable();
-            $table->string("photo");
+            $table->string("lastName");
+            $table->string("address");
+            $table->string("photo")->nullable();
+            $table->string("email")->nullable();
+            $table->string("description")->nullable();            
             $table->string("facebook")->nullable();
             $table->string("twitter")->nullable();
             $table->string("linkedin")->nullable();
@@ -35,3 +38,4 @@ class CreatePanelsTable extends Migration
         Schema::dropIfExists('panels');
     }
 }
+
