@@ -38,7 +38,9 @@ class ChatForm extends Component
 
         return view('livewire.chat-form');
     }
-    
+    public function clearInputs(){
+        $this->mensaje="";
+    }
     public function EnviarMensaje(){
 
         $this->validate([
@@ -49,6 +51,7 @@ class ChatForm extends Component
             "id_user" => $this->user
 
         ]);
+        $this->clearInputs();
        /*  $this->mensaje =$this->mensaje."adsasd"; */
        $this->emit("mensajeEnviado");
 /*        $this->emit("actualizarMensajes", $this->mensaje);

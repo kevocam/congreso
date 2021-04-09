@@ -8,7 +8,7 @@
   </div>
 
   @if($chat)
-        <div class="chat">
+        <div class="chat slide-in-fwd-br ">
           <div wire:click="hiddeChat" class="chat__header" wire:model="chatOpen" wire-click="">
               <div>
                   <div class="chat__header--admin">    
