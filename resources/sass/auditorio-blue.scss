@@ -59,9 +59,15 @@
         grid-column: 3/4;
         grid-row: 2/3;
         &--item{
-            width:80%;
+            width:90%;
             height: 80%;
             margin:0 auto;
+            display:flex;
+            justify-content:flex-end;
+            &:hover{
+                cursor:pointer;
+            }
+
 
         }
     }

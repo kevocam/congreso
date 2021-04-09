@@ -19,7 +19,7 @@ class ChatList extends Component
     } */
       public function render()
     {
-        $this->data= Chat::orderBy('created_at','desc')->take(5)->get();
+        $this->data= Chat::orderBy('created_at','desc')->take(10)->get();
         
         return view('livewire.chat-list');
     }

@@ -1,6 +1,6 @@
 <div class="auditorioBlue">
    
-    <div class="auditorioBlue__cartelLeft  animation-cartelLeft">
+    <div  class="auditorioBlue__cartelLeft  animation-cartelLeft">
         <div class="auditorioBlue__cartelLeft--item">
 
         </div>
@@ -17,8 +17,11 @@
    </div>
 
    <div class="auditorioBlue__chat">
-      <div class="auditorioBlue__chat--item">
+      <div wire:click="showChat" class="auditorioBlue__chat--item" >
+                  
+   
                @livewire('chat-form')
+   
       </div>
    </div>
 

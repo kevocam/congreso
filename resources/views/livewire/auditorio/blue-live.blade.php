@@ -6,7 +6,7 @@
     </div>
     <div class="auditorioBlue__pantalla animation-player">
  
- <iframe  id="video"  src="https://player.vimeo.com/video/227525492" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <iframe  id="video"  src="https://player.vimeo.com/video/227525492" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
  
    </div>
     <div class="auditorioBlue__cartelRight animation-cartelRight">

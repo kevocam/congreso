@@ -8,6 +8,7 @@ class ChatForm extends Component
 {
     public $user, $datos, $data;
     public $mensaje ;
+    public $chat=false;
 
 /*     protected $listeners = ['EnviarMsn'];
  *//*     protected $listeners = ['EnviarMsn'];
@@ -25,9 +26,15 @@ class ChatForm extends Component
         'mensaje.min' => 'Su mensaje es muy corto.',
         'mensaje.max' => 'Su mensaje es muy largo.',
     ];
+    public function showChat(){
+        $this->chat = true;
+    }
+    public function hiddeChat(){
+        $this->chat = false;
+    }
     public function render()
     {
-        $this->data= Chat::orderBy('created_at','desc')->take(5)->get();
+        $this->data= Chat::orderBy('created_at','desc')->take(10)->get();
 
         return view('livewire.chat-form');
     }
