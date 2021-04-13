@@ -7,8 +7,9 @@ use App\Models\Question;
 class ViewQuestions extends Component
 {
     public $data;
-    public $auditorio;
+    public $auditorio = 1;
 
+    
     public function render()
     {
         $this->data = Question::where("audience", $this->auditorio)->get();
