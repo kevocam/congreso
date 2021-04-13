@@ -14,6 +14,45 @@
   }
 
 }
+
+.slide-in-elliptic-top-fwd {
+	-webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+
 .modalQuestion {
 
   width: 300px;
@@ -23,8 +62,8 @@
   text-align: center;
   z-index: 2;  
   position: absolute;
-   top: 80%;
-  left: 50%;
+   top: 60%;
+  left: 40%;
   transform: translate(-50%, -50%);
   margin: auto;
   overflow: auto;
@@ -34,6 +73,7 @@
   align-items: center;
   background: white;
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.475210066936931) 100%);
+  
   h2{
     color:whitesmoke;
     font-weight: 500;
@@ -115,3 +155,20 @@ align-items: center;
 justify-content: center;
 }
 
+@keyframes modalIn {
+  0% {
+    transform: translateY(-3000px);
+  }
+  60% {
+    transform: translateY(25px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  90% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

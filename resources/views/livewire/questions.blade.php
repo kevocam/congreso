@@ -14,7 +14,7 @@
     <div class="overlay">
 
     </div>    
-    <div class="modalQuestion">
+    <div class="modalQuestion slide-in-elliptic-top-fwd ">
 
             <h2>Canal para dudas o sugerencias.</h2>
         
