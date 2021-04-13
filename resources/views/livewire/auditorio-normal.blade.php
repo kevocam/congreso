@@ -21,7 +21,12 @@
                        
          </a>
       </div>
-   </div>    
+   </div>  
+    <div class="auditorioBlue__question">
+      <div class="auditorioBlue__question--item" >   
+               @livewire('questions')   
+      </div>
+   </div>  
 </div>
    <div class="contenido">        
        <div class="w-full md:w-4/5 mx-auto p-8">

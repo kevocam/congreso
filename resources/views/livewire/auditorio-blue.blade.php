@@ -17,11 +17,8 @@
    </div>
 
    <div class="auditorioBlue__chat">
-      <div wire:click="showChat" class="auditorioBlue__chat--item" >
-                  
-   
-               @livewire('chat-form')
-   
+      <div class="auditorioBlue__chat--item">                     
+               @livewire('chat-form')   
       </div>
    </div>
 

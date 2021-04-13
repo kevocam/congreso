@@ -27,6 +27,9 @@ Route::group(['middleware' => [/* 'role:admin', */'auth:sanctum', 'verified']], 
     Route::get('/crearasistentes', function () {
         return view('dashboard.createAsistentes');
     });
+    Route::get('/preguntas', function () {
+        return view('dashboard.questions');
+    });
 
 });
 Route::get('/', function () {

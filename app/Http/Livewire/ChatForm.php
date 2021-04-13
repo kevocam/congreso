@@ -10,11 +10,8 @@ class ChatForm extends Component
     public $mensaje ;
     public $chat=false;
 
-/*     protected $listeners = ['EnviarMsn'];
- *//*     protected $listeners = ['EnviarMsn'];
- */    public function mount(){
-/*         $this->user = auth()->id();
- */
+    public function mount(){
+
         $this->user=auth()->id();
         $this->mensaje="";
     }

@@ -48,9 +48,22 @@
       grid-row: 1/2;
       display: flex;
       justify-content: center;
-      align-items: space-around;
+      align-items: flex-start;
     &--item{
       
+    }
+  }
+  &__question{
+    grid-column: 3/4;
+      grid-row: 2/3;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    &--item{
+      width: 100%;
+      input{
+        width:100%;
+      }
     }
   }
 

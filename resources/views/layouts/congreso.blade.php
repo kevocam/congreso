@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="./css/welcome-tablet.css" media="(min-width:930px)">
         <link rel="stylesheet" href="./css/welcome.css">
         <link rel="stylesheet" href="./css/chat.css">
+        
 
         {{-- <link rel="stylesheet" href="./css/details.css"> --}}
         <!-- Styles -->
