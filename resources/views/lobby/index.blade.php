@@ -18,7 +18,8 @@
     </div>
         <div class="contenedor__footer">
             <div class="contenedor__footer--menu">
-               
+                @livewire('chat-form')   
+
             </div> 
            
             <div class="contenedor__footer--chat">

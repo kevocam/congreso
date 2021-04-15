@@ -145,6 +145,35 @@
 
                 </ul>
                 <p class="text-muted nav-heading mt-4 mb-1">
+                    <span class="text-xl font-bold text-blue-900 flex justify-center items-center" >
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1E3A8A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <circle cx="12" cy="7" r="4" />
+                            <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                          </svg>
+                        Chats</span>
+                </p>
+                <ul class="navbar-nav flex-fill w-100 mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/conferencista"><span class="ml-1 item-text"></span>
+                            <i class="fe fe-box fe-16"></i>
+                            <span class="ml-3 item-text text-blue-700 hover:text-blue-400">Ver conferencistas</span>
+                        </a>
+                    </li>
+                </ul>
+                </p>
+                <ul class="navbar-nav flex-fill w-100 mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/crearconferencista"><span class="ml-1 item-text">
+                        <i class="fe fe-box fe-16"></i>
+                           <span class="ml-3 item-text text-blue-700 hover:text-blue-400">Agregar conferencista</span>
+                        </a>
+                    </li>
+                </ul>
+               
+
+                </ul>
+                <p class="text-muted nav-heading mt-4 mb-1">
                     <span class="text-blue-900 font-bold text-xl flex justify-center items-center ">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-friends" width="34" height="34" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1E3A8A" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -171,7 +200,38 @@
                         </a>
                     </li>
                 </ul>
-                </p>
+                
+                    <p class="text-muted nav-heading mt-4 mb-1">
+                        <a href="/preguntas">
+
+                            <span class="text-blue-900 font-bold text-xl flex justify-center items-center ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-zoom-question" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1E3A8A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="10" cy="10" r="7" />
+                                    <path d="M21 21l-6 -6" />
+                                    <line x1="10" y1="13" x2="10" y2="13.01" />
+                                    <path d="M10 10a1.5 1.5 0 1 0 -1.14 -2.474" />
+                                </svg>
+                                Preguntas de Auditorios</span>
+                        </a>
+                    </p>  
+                    <p class="text-muted nav-heading mt-4 mb-1">
+                        <a href="/consultas">
+
+                            <span class="text-blue-900 font-bold text-xl flex justify-center items-center ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-zoom-question" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#1E3A8A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="10" cy="10" r="7" />
+                                    <path d="M21 21l-6 -6" />
+                                    <line x1="10" y1="13" x2="10" y2="13.01" />
+                                    <path d="M10 10a1.5 1.5 0 1 0 -1.14 -2.474" />
+                                </svg>
+                                Consultas de Stands
+                            </span>
+                        </a>
+                    </p>
+                                    
+                
             </nav>
         </aside>
 

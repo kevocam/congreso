@@ -15,8 +15,6 @@
 
 
 
-
-
 <table class="table p-4 bg-white shadow rounded-lg">
     <thead>
         <tr>
@@ -32,6 +30,9 @@
             <th class="border p-4 dark:border-dark-5 whitespace-nowrap font-normal text-gray-900">
                 Auditorio 
             </th>
+            <th class="border p-4 dark:border-dark-5 whitespace-nowrap font-normal text-gray-900">
+                Hora 
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -46,13 +47,18 @@
                 {{$dat->question}}
             </td>
             <td class="border p-4 dark:border-dark-5">
-                {{$dat->id_user}}
+                {{$dat->user->name}}
             </td>
             <td class="border p-4 dark:border-dark-5">
                 {{$dat->audience}}
             </td>
+            <td class="border p-4 dark:border-dark-5">
+                {{$dat->created_at->diffForHumans()}}
+            </td>
         </tr>
         @endforeach
+
+        {{ $data->links() }}
     </tbody>
 </table>
 

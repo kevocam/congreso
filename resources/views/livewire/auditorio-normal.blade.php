@@ -17,14 +17,13 @@
    <div class="auditorioBlue__download">
       <div class="auditorioBlue__download--item">
          <a href="#"> 
-            Descaragar
-                       
+            Descargar                       
          </a>
       </div>
    </div>  
     <div class="auditorioBlue__question">
       <div class="auditorioBlue__question--item" >   
-               @livewire('questions')   
+            @livewire('questions' , ['auditorio' => 1])
       </div>
    </div>  
 </div>

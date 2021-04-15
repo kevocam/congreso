@@ -17,10 +17,17 @@ mix.sass('resources/sass/styleSass.scss', 'public/css');
 mix.sass('resources/sass/auditorio-blue.scss', 'public/css');
 mix.sass('resources/sass/auditorio-blue-m.scss', 'public/css');
 mix.sass('resources/sass/auditorio-blue-xl.scss', 'public/css');
-
+mix.sass('resources/sass/auditorio-tres.scss', 'public/css');
+mix.sass('resources/sass/auditorio-tres-m.scss', 'public/css');
+mix.sass('resources/sass/auditorio-tres-xl.scss', 'public/css');
+mix.sass('resources/sass/auditorio-cuatro.scss', 'public/css');
+mix.sass('resources/sass/auditorio-cuatro-m.scss', 'public/css');
+mix.sass('resources/sass/auditorio-cuatro-xl.scss', 'public/css');
+mix.sass('resources/sass/auditorio-cinco.scss', 'public/css');
+mix.sass('resources/sass/auditorio-cinco-m.scss', 'public/css');
+mix.sass('resources/sass/auditorio-cinco-xl.scss', 'public/css');
 mix.sass('resources/sass/auditorio.scss', 'public/css');
 mix.sass('resources/sass/auditorio-m.scss', 'public/css');
-
 mix.sass('resources/sass/auditorio-xl.scss', 'public/css');
 mix.sass('resources/sass/welcome.scss', 'public/css');
 mix.sass('resources/sass/master.scss', 'public/css');
@@ -64,6 +71,8 @@ mix.sass('resources/sass/details-queretaro-m.scss', 'public/css');
 mix.sass('resources/sass/details-queretaro.scss', 'public/css');
 mix.sass('resources/sass/chat.scss', 'public/css');
 mix.sass('resources/sass/question.scss', 'public/css');
+mix.sass('resources/sass/information.scss', 'public/css');
+
 
 
 

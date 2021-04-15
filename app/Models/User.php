@@ -11,7 +11,7 @@ use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Jetstream\HasTeams;
 use Laravel\Sanctum\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
-
+use App\Models\Question;
 class User extends Authenticatable
 {
     use HasApiTokens;
@@ -36,6 +36,10 @@ class User extends Authenticatable
     public function paths()
     {
         return $this->hasMany(Path::class);
+    }
+    public function questions()
+    {
+        return $this->hasMany(Question::class);
     }
     public function publications()
     {

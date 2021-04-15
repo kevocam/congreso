@@ -30,6 +30,9 @@ Route::group(['middleware' => [/* 'role:admin', */'auth:sanctum', 'verified']], 
     Route::get('/preguntas', function () {
         return view('dashboard.questions');
     });
+    Route::get('/consultas', function () {
+        return view('dashboard.consultas');
+    });
 
 });
 Route::get('/', function () {
@@ -58,7 +61,17 @@ Route::get('/auditorio2', function () {
 });
 Route::get('/auditorio2-live', function () {
     return view('auditorio.blue-live');
-});  
+}); 
+Route::get('/auditorio3', function () {
+    return view('auditorio.tres');
+});
+Route::get('/auditorio4', function () {
+    return view('auditorio.cuatro');
+});
+Route::get('/auditorio5', function () {
+    return view('auditorio.cinco');
+});
+
 
 Route::get('/detail-dau', function () {
     return view('details.dau');

@@ -20,6 +20,12 @@
 
         </div>
     </div>
+    <div class="beauty__information">
+        <div class="beauty__information--item">
+            
+            @livewire('information', ['stand' => "beauty"])
+        </div>
+    </div>
 
     <div class="iconRotate" hidden>
         <em>Gire el teléfono</em>

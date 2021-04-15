@@ -25,12 +25,9 @@
                         <path d="M10 10l4 4m0 -4l-4 4" />
                       </svg>
                     </div>
-                  </div>
-                  
+                  </div>                  
                 </div>
-
           </div>
-
           <div class="chat__content">
               @foreach ($data->reverse()  as $mensaje)
                 @if($mensaje->id_user === auth()->user()->id)                    
