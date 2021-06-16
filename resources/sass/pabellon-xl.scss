@@ -1,81 +1,117 @@
+
+
 .contenedor {
     width: 100%;
     height: 90vh;
-    background-image: url('../img/congreso_lobby_lg.png');
-    background-repeat: no-repeat;
+    background-image: url('../img/pabellon.jpg');    
     background-size: cover;
-    background-position-x: center;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    &__main {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
-        &--1 {
-            width: 30%;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-        &--2 {
-            width: 40%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
-        &--3 {
-            width: 30%;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
+    justify-content: flex-start;
+    align-items: flex-start;
+    &__stands{
+        margin-left: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        
+        height: 500px;
+        width:1024px;
+        
+        grid-template-areas:
+          ". . . . . . . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . d . . ."
+          ". . . . . c . h . ."
+          ". . . . b . g . l ."
+          ". . . a . f . k . ."
+          ". . . . e . j . . ."
+          ". . . . . i . . . ."
+          ". . . . . . . . . ."
+          ". . . . . . . . . .";
+
+          img{
+              height: 100px;
+              width: 100px;
+          }
     }
-    &__footer {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
+    
+    
 }
 
-.card-item {
-    max-width: 180px;
-}
 
-.detail {
-    width: 100%;
-    height: 100%;
+.a { grid-area: a;
+    position: relative;
+    height: 120px;
+              width: 120px;
+/*     background-image: url('../img/stands/stand1.png');
+ */    background-size: contain;
+    background-repeat: no-repeat;
+}
+.b { grid-area: b;   height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand2.png');
+    background-size: contain;
+    background-repeat: no-repeat; }
+.c { grid-area: c;   height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand3.png');
+    background-size: contain;
+    background-repeat: no-repeat; }
+.d { grid-area: d;   height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand4.png');
+    background-size: contain;
+    background-repeat: no-repeat; }
+.e { grid-area: e;   height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand5.png');
+    background-size: contain;
+    background-repeat: no-repeat; }
+.f { grid-area: f;   height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand6.png');
+    background-size: contain;
+    background-repeat: no-repeat; }
+.g { grid-area: g;   height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand7.png');
+    background-size: contain;
+    background-repeat: no-repeat; }
+.h { grid-area: h;   height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand8.png');
+    background-size: contain;
+    background-repeat: no-repeat; }
+.i { grid-area: i;    height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand9.png');
+    background-size: contain;
+    background-repeat: no-repeat;}
+.j { grid-area: j;    height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand10.png');
+    background-size: contain;
+    background-repeat: no-repeat;}
+.k { grid-area: k;   height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand11.png');
+    background-size: contain;
+    background-repeat: no-repeat; }
+.l { grid-area: l;    height: 120px;
+              width: 120px;
+    background-image: url('../img/stands/stand4.png');
+    background-size: contain;
+    background-repeat: no-repeat;}
+
+
+.tooltip{
+    display:none;
+    position: absolute;
+    bottom:120px;
+}
+.a:hover .tooltip{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #ffffff75;
-    padding: 15px;
-    border-radius: 15px;
-   backdrop-filter: blur(7px); 
-    &__title {
-        max-width: 450px;
-        text-align: center;
-        h2 {
-            font-size: 2.4rem;
-            font-weight: bold;
-        }
-        em {
-            font-size: 1.7rem;
-        }
-    }
-}
-
-.btn {
-    background-color: #005D8F;
-}
-
-
+    
+    transition-duration: 400ms;
+} 

@@ -53,7 +53,8 @@
                 {{$dat->audience}}
             </td>
             <td class="border p-4 dark:border-dark-5">
-                {{$dat->created_at->diffForHumans()}}
+                {{$dat->created_at->format('g:i a - d-m-Y')}}
+                
             </td>
         </tr>
         @endforeach
