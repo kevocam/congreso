@@ -32,6 +32,9 @@
                         @yield('message')
                     </div>
                 </div>
+                <div class="flex items-center pt-8 sm:justify-start sm:pt-0">
+                    <img src="./img/503.png" alt="">
+                </div>
             </div>
         </div>
     </body>

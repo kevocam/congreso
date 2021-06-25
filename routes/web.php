@@ -14,7 +14,7 @@ use App\Http\Controllers\PanelController;
 |
 */
 
-Route::group(['middleware' => [/* 'role:admin', */'auth:sanctum', 'verified']], function () {
+Route::group(['middleware' => ['role:super-admin','auth:sanctum', 'verified']], function () {
     Route::get('/salas', function () {
         return view('salas');
     });
@@ -35,42 +35,91 @@ Route::group(['middleware' => [/* 'role:admin', */'auth:sanctum', 'verified']], 
     });
 
 });
+
 Route::get('/', function () {
-
-
     
     return view('welcome');
 });
 
 
 Route::get('/chat-list', function () {
-
     
     return view('chat-list');
 }); 
 
-Route::get('/auditorio', function () {
-    return view('auditorio.normal');
-}); 
 
-Route::get('/auditorio-live', function () {
-    return view('auditorio.normal-live');
+
+Route::group(['middleware' => ['role:congreso|super-admin','auth:sanctum' ]], function () {
+    
+    
+    Route::get('/auditorio', function () {
+        return view('auditorio.normal');
+    }); 
+
+    Route::get('/auditorio2', function () {
+        return view('auditorio.blue-live');
+    });
+
+    Route::get('/auditorio3', function () {
+        return view('auditorio.tres');
+    });
+    Route::get('/auditorio4', function () {
+        return view('auditorio.cuatro');
+    });
+    Route::get('/auditorio5', function () {
+        return view('auditorio.cinco');
+    });
+    Route::get('/auditorio6', function () {
+        return view('auditorio.cinco');
+    });    
+
 });
-Route::get('/auditorio2', function () {
-    return view('auditorio.blue');
+
+
+
+Route::group(['middleware' => ['role:taller1|super-admin','auth:sanctum' ] ], function () {   
+    
+    Route::get('/taller1', function () {
+        return view('taller.taller1');
+    });
+
 });
-Route::get('/auditorio2-live', function () {
-    return view('auditorio.blue-live');
-}); 
-Route::get('/auditorio3', function () {
-    return view('auditorio.tres');
+Route::group(['middleware' => ['role:taller2|super-admin','auth:sanctum' ]], function () {    
+   
+    Route::get('/taller2', function () {
+        return view('taller.taller2');
+    }); 
 });
-Route::get('/auditorio4', function () {
-    return view('auditorio.cuatro');
+Route::group(['middleware' => ['role:taller3|super-admin','auth:sanctum' ]], function () {    
+    Route::get('/taller3', function () {
+        return view('taller.taller3');
+    }); 
+   
+
 });
-Route::get('/auditorio5', function () {
-    return view('auditorio.cinco');
+Route::group(['middleware' => ['role:taller4|super-admin','auth:sanctum' ]], function () {   
+   
+    Route::get('/taller4', function () {
+        return view('taller.taller4');
+    }); 
+   
 });
+Route::group(['middleware' => ['role:taller5|super-admin','auth:sanctum' ]], function () {    
+   
+    Route::get('/taller5', function () {
+        return view('taller.taller5');
+    }); 
+
+});
+Route::group(['middleware' => ['role:taller6|super-admin','auth:sanctum' ]], function () {    
+   
+   
+    Route::get('/taller6', function () {
+        return view('taller.taller6');
+    }); 
+});
+
+
 
 
 Route::get('/detail-dau', function () {

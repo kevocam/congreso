@@ -9,10 +9,16 @@
                 #
             </th>
             <th class="border p-4 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
-                Nombre
+                Nombres
+            </th>
+            <th class="border p-4 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
+                Apellidos
             </th>
             <th class="border p-4 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
                 Correo
+            </th>
+            <th class="border p-4 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
+                Salas Permitidas
             </th>
             <th class="border p-4 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
                 Opciones
@@ -30,7 +36,13 @@
                 {{$dato->name}}
             </td>
             <td class="border p-4 dark:border-dark-5">
+                {{$dato->lastName}}
+            </td>
+            <td class="border p-4 dark:border-dark-5">
                 {{$dato->email}}
+            </td>
+            <td class="border p-4 dark:border-dark-5">
+                {{ implode (', ', $dato->roles()->get()->pluck('name')->toArray()) }}
             </td>
             <td class="border p-4 dark:border-dark-5">
                 {{-- {{ implode (',', $dato->roles()->get()->pluck('name')->toArray()) }} --}}
@@ -54,13 +66,9 @@
         <div class=" row flex justify-center items-center">
             <span class="font-medium py-8 text-xl">
                 No se encontraron resultados...
-
             </span>
         </div>
-    </div>
-               
-
-               
+    </div>              
        
         
     @endforelse

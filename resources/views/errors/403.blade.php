@@ -1,5 +1,5 @@
 @extends('errors::minimal')
 
 @section('title', __('Forbidden'))
-@section('code', '403')
-@section('message', __($exception->getMessage() ?: 'Forbidden'))
+@section('code', 'Error')
+@section('message', "No tienes los permisos suficientes.")
