@@ -39,11 +39,11 @@ class DatabaseSeeder extends Seeder
          $admin->assignRole('super-admin');
 
          $admin2 = User::create([
-            "name"=>'sala1',
+            "name"=>'admin',
             "lastname"=>"Master",
-            "email"=>"sala1@gmail.com",
+            "email"=>"admin@admin.com",
             "password"=>Hash::make("123456"),
         ]);
-        $admin2->assignRole('taller1', 'taller2');
+        $admin2->assignRole('super-admin');
     }
 }
