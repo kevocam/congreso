@@ -18,8 +18,23 @@ class RegisterAsistente extends Component
 
 
     protected $rules = [
+        'name' => 'required|string|min:2',      
+        'lastName' => 'required|string|min:2',
         'email' => 'required|email|string|min:6',
-        'password' => 'required|string|min:6',      
+        'password' => 'required|string|min:4',      
+    ];
+
+    protected $messages = [
+        'name.required' => 'Es requerido.',
+        'lastName.required' => 'Es requerido.',
+        'email.required' => 'Correo no puede estar vacio.',
+        'email.email' => 'El correo no tiene un formato válido',
+        'name.min' => 'No cumple con lo mínimo requerido.',
+        'lastName.min' => 'No cumple con lo mínimo requerido.',
+        'email.min' => 'No cumple con lo mínimo requerido.',
+        'password.min' => 'No cumple con lo mínimo requerido.',
+
+
     ];
     public function clean(){
         $this->name = "";
@@ -32,7 +47,6 @@ class RegisterAsistente extends Component
         $this->taller5 = false;
         $this->taller6 = false;
         $this->congreso = false;
-
 
     }
 
@@ -85,11 +99,15 @@ class RegisterAsistente extends Component
         foreach($this->roles as $rol){
             
             $user->assignRole($rol);
-        }       
+        }  
+        
+        
 
 
         /* $user->assignRole(implode(',',$this->roles)); */
-        session()->flash('message', 'Guardado con éxito. 👍');
+        session()->flash('message', '🔔 Guardado con éxito. ');
+
+        $this->clean();
 
 
     }

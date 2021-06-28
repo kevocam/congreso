@@ -1,1 +1,11 @@
-.contenedor{min-height:100vh;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:auto}.card:hover{transform:scale(1.1);transition-duration:.4s}
+.contenedor {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition-duration: 400ms;
+}

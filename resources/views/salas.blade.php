@@ -10,6 +10,8 @@
 @endsection
 
     @section('content')    
+
+    
         <div class="contenedor">  
                      
             <div class="card overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto">

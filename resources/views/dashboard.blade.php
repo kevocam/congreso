@@ -2,14 +2,15 @@
 @section('content')
 
 
-@if(@Auth::user()->hasRole('asistente'))
+@if(@Auth::user()->hasRole('super-admin'))
     <h2>Bienvenido Asistente</h2>
 @endif
  <x-resume >
    
- </x-resume>   
+ </x-resume>    
  
-{{--  @livewire('info' , ['name'=>"desde la llamasdas"] );
- --}} 
+  
+  
+
 @endsection
 

@@ -3,14 +3,7 @@
         <div class="self-center mb-6 text-xl font-light text-gray-600 sm:text-2xl dark:text-white">
             {{$slot}}
         </div>
-
-
-
-        <div class="mt-8">
-            <div class="self-center mb-6 text-lg font-light text-gray-600 sm:text-2xl dark:text-white">
-                Agrega asistente
-            </div>
-            
+        <div class="mt-8">             
             <form wire:submit.prevent="store" action="#" autoComplete="off">
                 <div class="flex flex-col mb-2">
                     <div class="flex relative ">
@@ -21,6 +14,12 @@
                         </span>
                         <input wire:model="name" type="text" id="sign-in-email" class=" rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Nombres"/>
                     </div>
+                    @error('name')
+                    
+                    <span class=" error text-red-400">{{ $message }}</span> 
+                    
+                    @enderror
+
                 </div>
                 <div class="flex flex-col mb-2">
                     <div class="flex relative ">
@@ -31,6 +30,8 @@
                         </span>
                         <input wire:model="lastName" type="text" id="sign-in-email" class=" rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Apellidos"/>
                     </div>
+                    @error('lastName') <span class=" error text-red-400">{{ $message }}</span> @enderror
+
                 </div>
                 <div class="flex flex-col mb-2">
                     <div class="flex relative ">
@@ -41,8 +42,8 @@
                             </svg>
                         </span>
                         <input wire:model="email" type="text" id="sign-in-email" class=" rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Correo electrónico"/>
-                        @error('email') <span class="error">{{ $message }}</span> @enderror
                     </div>
+                    @error('email') <span class=" error text-red-400">{{ $message }}</span> @enderror
                 </div>                
                 <div class="flex flex-col mb-6">
 
@@ -139,15 +140,29 @@
 
                 </form>
                     @if (session()->has('message'))
+
+{{-- 
                     <div class="alert alert-success">
                         {{ session('message') }}
                     </div>
+ --}}
+                  
+                <div class="delay-150  bg-green-200 border-green-600 text-green-600 border-l-4 p-4" role="alert">
+                    <p class="font-bold">
+                        Satisfactorio
+                    </p>
+                    <p>
+                        {{ session('message') }}
+                    </p>
+                    
+                </div>
+
                 @endif
                 </div>
                 <div class="flex items-center justify-center mt-6">
                     
                 </div>
-            </div>
+        </div>
     </div>
     <script>
             

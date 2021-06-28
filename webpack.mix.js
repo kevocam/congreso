@@ -107,6 +107,7 @@ mix.js('resources/js/app.js', 'public/js')
         require('postcss-import'),
         require('tailwindcss'),
         require('autoprefixer'),
+        
     ]);
 
 if (mix.inProduction()) {
@@ -119,4 +120,4 @@ mix.webpackConfig({
             path.resolve(__dirname, 'vendor/laravel/spark/resources/assets/js')
         ]
     }
-}); */
+});  */

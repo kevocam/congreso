@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
         $admin = User::create([
              "name"=>'Admin',
              "lastname"=>"Master",
-             "email"=>"kevocam.seo@gmail.com",
+             "email"=>"root@root.com",
              "password"=>Hash::make("123456"),
          ]);
          $admin->assignRole('super-admin');

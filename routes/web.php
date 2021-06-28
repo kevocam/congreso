@@ -47,6 +47,10 @@ Route::get('/chat-list', function () {
     return view('chat-list');
 }); 
 
+Route::get('/admin', function () {
+    
+    return view('administrador');
+}); 
 
 
 Route::group(['middleware' => ['role:congreso|super-admin','auth:sanctum' ]], function () {
