@@ -1,10 +1,11 @@
 <div class=" flex justify-center">
-    <div class="flex flex-col w-1/2 mx-auto max-w-md px-4 py-8 bg-white rounded-lg shadow dark:bg-gray-800 sm:px-6 md:px-8 lg:px-10">
-        <div class="self-center mb-6 text-xl font-light text-gray-600 sm:text-2xl dark:text-white">
-            {{$slot}}
-        </div>
-        <div class="mt-8">             
+    <div class="flex flex-col w-1/2 mx-auto max-w-md px-4 py-2 bg-white rounded-lg shadow dark:bg-gray-800 sm:px-6 md:px-8 lg:px-10 dark:border-primary-darker dark:bg-darker">
+        
+        <div class="mt-2">             
             <form wire:submit.prevent="store" action="#" autoComplete="off">
+                <div class="self-center mb-3 text-sm font-light text-gray-600 sm:text-xl dark:text-white">
+                    Información del asistente                    
+                    </div>
                 <div class="flex flex-col mb-2">
                     <div class="flex relative ">
                         <span class="rounded-l-md inline-flex  items-center px-3 border-t bg-white border-l border-b  border-gray-300 text-gray-500 shadow-sm text-sm">
@@ -22,6 +23,7 @@
 
                 </div>
                 <div class="flex flex-col mb-2">
+                    
                     <div class="flex relative ">
                         <span class="rounded-l-md inline-flex  items-center px-3 border-t bg-white border-l border-b  border-gray-300 text-gray-500 shadow-sm text-sm">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -66,29 +68,29 @@
                     </div>
                 </div>
 
-                
+                <hr class="m-3">
                 <div class="self-center mb-6 text-sm font-light text-gray-600 sm:text-xl dark:text-white">
                     Talleres Permitidos
                 </div>
-                <hr class="m-3">
+                
                 <div class="flex justify-center items-center gap-2">
                     <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
                         <input wire:model="taller1" type="checkbox" name="toggle" id="toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
                         <label for="toggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
                     </div>
-                    <label for="toggle" class="text-xs text-gray-700">Taller 1</label>
+                    <label for="toggle" class="text-xs text-primary-dark dark:text-light">Taller 1</label>
 
                     <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
                         <input wire:model="taller2" type="checkbox" name="toggle2" id="toggle2" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
                         <label for="toggle2" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
                     </div>
-                    <label for="toggle2" class="text-xs text-gray-700">Taller 2</label>
+                    <label for="toggle2" class="text-xs text-primary-dark dark:text-light">Taller 2</label>
 
                     <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
                         <input wire:model="taller3" type="checkbox" name="toggle3" id="toggle3" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
                         <label for="toggle3" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
                     </div>
-                    <label for="toggle2" class="text-xs text-gray-700">Taller 3</label>
+                    <label for="toggle2" class="text-xs text-primary-dark dark:text-light">Taller 3</label>
                     
                 </div>
                 
@@ -98,36 +100,36 @@
                         <input wire:model="taller4" type="checkbox" name="toggle4" id="toggle4" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
                         <label for="toggle4" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
                     </div>
-                    <label for="toggle4" class="text-xs text-gray-700">Taller 4</label>
+                    <label for="toggle4" class="text-xs text-primary-dark dark:text-light">Taller 4</label>
 
                     <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
                         <input wire:model="taller5" type="checkbox" name="toggle5" id="toggle5" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
                         <label for="toggle5" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
                     </div>
-                    <label for="toggle5" class="text-xs text-gray-700">Taller 5</label>
+                    <label for="toggle5" class="text-xs text-primary-dark dark:text-light">Taller 5</label>
 
                     <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
                         <input wire:model="taller6" type="checkbox" name="toggle6" id="toggle6" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
                         <label for="toggle6" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
                     </div>
-                    <label for="toggle6" class="text-xs text-gray-700">Taller 6</label>
+                    <label for="toggle6" class="text-xs text-primary-dark dark:text-light">Taller 6</label>
                     
                 </div>
                 
 
+                <hr class="m-3">
                 <div class="self-center mb-6 text-sm font-xl text-gray-600 sm:text-xl dark:text-white">
                     Congreso
                 </div>
-                <hr class="m-3">
                 <div class="flex justify-center items-center gap-2">                               
                     <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
                         <input wire:model="congreso" type="checkbox" name="congreso" id="congreso" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
                         <label for="congreso" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
                     </div>
-                    <label for="congreso" class="text-xs text-gray-700">4 Auditorios</label>                    
+                    <label for="congreso" class="text-xs text-primary-dark dark:text-light">4 Auditorios</label>                    
                 </div>                        
-                <hr>
-                <div class="flex justify-center w-full">
+                
+                <div class="flex justify-center w-full m-3">
                         <button type="submit" class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray disabled:opacity-25 transition ease-in-out duration-150">
                             Registrar
                         </button>

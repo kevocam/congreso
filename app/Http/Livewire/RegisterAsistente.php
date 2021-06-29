@@ -38,6 +38,8 @@ class RegisterAsistente extends Component
     ];
     public function clean(){
         $this->name = "";
+        $this->lastName = "";
+
         $this->email ="";
         $this->password = "";
         $this->taller1 = false;

@@ -11,3 +11,11 @@
         transition-duration: 400ms;
     }
 }
+
+.cardCustom{
+    transition-duration: 400ms;
+    &:hover{
+        transform: scale(1.04);
+        
+    }
+}

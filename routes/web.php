@@ -14,12 +14,12 @@ use App\Http\Controllers\PanelController;
 |
 */
 
-Route::group(['middleware' => ['role:super-admin','auth:sanctum', 'verified']], function () {
-    Route::get('/salas', function () {
+Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {
+    Route::get('/auditorios', function () {
         return view('salas');
     });
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        return view('administrador');
     })->name('dashboard');
     Route::get('/asistentes', function () {
         return view('dashboard.viewAsistentes');
@@ -51,7 +51,16 @@ Route::get('/admin', function () {
     
     return view('administrador');
 }); 
-
+/* 
+Route::get('/auditorio-live', function () {
+    return view('auditorio.normal-live');
+});
+Route::get('/auditorio2', function () {
+    return view('auditorio.blue');
+});
+Route::get('/auditorio2-live', function () {
+    return view('auditorio.blue-live');
+});   */
 
 Route::group(['middleware' => ['role:congreso|super-admin','auth:sanctum' ]], function () {
     

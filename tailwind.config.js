@@ -79,6 +79,8 @@ module.exports = {
       backgroundColor: ['checked', 'disabled'],
       opacity: ['dark'],
       overflow: ['hover'],
+      animation: ['motion-safe'],
+
     },
   },
 

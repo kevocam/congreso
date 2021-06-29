@@ -1,4 +1,4 @@
-<div>
+<div class="w-full">
     <div class="flex">
         <div class="w-1/2">
             <input type="text" id="rounded-email" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" wire:model="search" type="search" placeholder="Buscar asistente...">
@@ -13,83 +13,86 @@
                 </div>
         @endif
 
+
+
     </div>
-<table wire:loading.class="opacity-40" class="table p-2 bg-white shadow rounded-lg">
-    <thead>
-        <tr>
-            <th class="border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
-                #
-            </th>
-            <th class=" border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
-                Nombres
-            </th>
-            <th class=" border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
-                Apellidos
-            </th>
-            <th class=" border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
-                Correo
-            </th>
-            <th class="border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
-                Salas Permitidas
-            </th>
-            <th class="border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
-                Opciones
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-    @forelse ($data as $dato)
-        
-        <tr class="text-gray-700">
-            <td class="border p-4 dark:border-dark-5">
-                {{$contador++}}
-            </td>
-            <td class="border p-2 dark:border-dark-5 ">
-                {{$dato->name}}
-            </td>
-            <td class="border p-2 dark:border-dark-5">
-                {{$dato->lastName}}
-            </td>
-            <td class="border p-2 dark:border-dark-5">
-                {{$dato->email}}
-            </td>
-            <td class="border p-2 dark:border-dark-5">
-                {{ implode (', ', $dato->roles()->get()->pluck('name')->toArray()) }}
-            </td>
-            <td class="border p-2 dark:border-dark-5">
-                {{-- {{ implode (',', $dato->roles()->get()->pluck('name')->toArray()) }} --}}
-                
+    <table wire:loading.class="opacity-40" class="m-2 w-full table p-2 bg-white shadow rounded-lg bg-white border-r dark:border-primary-darker dark:bg-darker">
+        <thead>
+            <tr>
+                <th class=" tracking-wider text-primary-dark dark:text-light border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
+                    #
+                </th>
+                <th class="tracking-wider  text-primary-dark dark:text-light  border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
+                    Nombres
+                </th>
+                <th class="text-primary-dark dark:text-light border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
+                    Apellidos
+                </th>
+                <th class="text-primary-dark dark:text-light border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
+                    Correo
+                </th>
+                <th class="text-primary-dark dark:text-light border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
+                    Salas Permitidas
+                </th>
+                <th class="text-primary-dark dark:text-light border p-3 dark:border-dark-5 whitespace-nowrap font-bold text-blue-900">
+                    Opciones
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        @forelse ($data as $dato)
+            
+            <tr class="text-gray-700">
+                <td class="dark:text-light hover:bg-primary-100 dark:hover:bg-primary  text-center	 border p-4 dark:border-dark-5">
+                    {{$contador++}}
+                </td>
+                <td class="dark:text-light hover:bg-primary-100 dark:hover:bg-primary  text-center	 border p-4 dark:border-dark-5">
+                    {{$dato->name}}
+                </td>
+                <td class="dark:text-light hover:bg-primary-100 dark:hover:bg-primary  text-center	 border p-4 dark:border-dark-5">
+                    {{$dato->lastName}}
+                </td>
+                <td class="dark:text-light hover:bg-primary-100 dark:hover:bg-primary  text-center	 border p-4 dark:border-dark-5">
+                    {{$dato->email}}
+                </td>
+                <td class="dark:text-light hover:bg-primary-100 dark:hover:bg-primary  text-center	 border p-4 dark:border-dark-5">
+                    {{ implode (', ', $dato->roles()->get()->pluck('name')->toArray()) }}
+                </td>
+                <td class="dark:text-light hover:bg-primary-100 dark:hover:bg-primary  text-center	 border p-4 dark:border-dark-5">
+                    {{-- {{ implode (',', $dato->roles()->get()->pluck('name')->toArray()) }} --}}
+                    
                 <button wire:click="edit({{$dato->id}})" class="animationSimple px-3 py-1 text-xs rounded-full  bg-indigo-300 hover:bg-indigo-600 hover:text-white"  wire:click="delete({{$dato->id}})">
                     Editar
                 </button>
                 <button onclick="return confirm('¿Seguro de borrar?')" class="text-xs animationSimple px-3 py-1 rounded-full bg-red-300 hover:bg-red-600 hover:text-white " wire:click="delete({{$dato->id}})">
                     Borrar
                 </button>
+                        
                     
+                </td>
                 
-            </td>
+                
+            </tr>
             
-            
-        </tr>
-        
-        @empty
-    </tbody>
-</table>
-
-    <div colspan="4">
-        <div class=" row flex justify-center items-center">
-            <span class="font-medium py-8 text-xl">
-                No se encontraron resultados...
-            </span>
-        </div>
-    </div>              
-       
-        
-    @endforelse
+            @empty
+        </tbody>
+    </table>
     
-    {{ $data->links() }}
-</tbody>
-</table>
+        <div colspan="4">
+            <div class=" row flex justify-center items-center">
+                <span class="font-medium py-8 text-xl">
+                    No se encontraron resultados...
+                </span>
+            </div>
+        </div>              
+           
+            
+        @endforelse
+        
+        {{ $data->links() }}
+    </tbody>
+    </table>
+
 
 <x-jet-dialog-modal wire:model.defer="showEditModel">
     <x-slot name="title">

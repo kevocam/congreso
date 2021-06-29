@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="./css/auditorio-tres.css">
 <link rel="stylesheet" href="./css/auditorio-tres-m.css" media="(min-width:930px)">
 <link rel="stylesheet" href="./css/auditorio-tres-xl.css" media="(min-width:1100px)">
+<link rel="stylesheet" href="./css/question.css">
 
 
 @endsection

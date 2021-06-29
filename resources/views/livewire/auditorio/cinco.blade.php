@@ -15,6 +15,16 @@
         </div>
     </div>
  </div>
+ <div class="auditorioBlue__question">
+    <div class="auditorioBlue__question--item" >   
+          @livewire('questions' , ['auditorio' => 5/*  */])
+    </div>
+ </div> 
+ <div class="auditorioBlue__chat">
+    <div class="auditorioBlue__chat--item">                     
+             @livewire('chat-form')   
+    </div>
+ </div>
     
    <div class="iconRotate" hidden>
      <em>Gire el teléfono</em>

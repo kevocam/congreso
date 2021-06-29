@@ -100,7 +100,7 @@
                         <!-- active & hover classes 'text-gray-700 dark:text-light' -->
                         <!-- inActive classes 'text-gray-400 dark:text-gray-400' -->
                         <a
-                          href="index.html"
+                          href="#"
                           role="menuitem"
                           class="block p-2 text-sm text-gray-700 transition-colors duration-200 rounded-md dark:text-light dark:hover:text-light hover:text-gray-700"
                         >
@@ -113,18 +113,18 @@
                         >
                           
                         </a>
-                        <a
+                        {{-- <a
                           href="#"
                           role="menuitem"
                           class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:hover:text-light hover:text-gray-700"
                         >
                           E-Commerce (soon)
-                        </a>
+                        </a> --}}
                       </div>
                     </div>
         
                     <!-- Components links -->
-                    <div x-data="{ isActive: false, open: false }">
+                   {{--  <div x-data="{ isActive: false, open: false }">
                       <!-- active classes 'bg-primary-100 dark:bg-primary' -->
                       <a
                         href="#"
@@ -181,7 +181,7 @@
                         </a>
                         
                       </div>
-                    </div>
+                    </div> --}}
         
                     <!-- Pages links -->
                     <div x-data="{ isActive: false, open: false }">
@@ -221,14 +221,14 @@
                         <!-- active & hover classes 'text-gray-700 dark:text-light' -->
                         <!-- inActive classes 'text-gray-400 dark:text-gray-400' -->
                         <a
-                          href="pages/blank.html"
+                          href="/asistentes"
                           role="menuitem"
                           class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
                         >
                           Ver asistentes
                         </a>
                         <a
-                          href="pages/404.html"
+                          href="/crearasistentes"
                           role="menuitem"
                           class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
                         >
@@ -251,22 +251,11 @@
                         :aria-expanded="(open || isActive) ? 'true' : 'false'"
                       >
                         <span aria-hidden="true">
-                          <svg
-                            class="w-5 h-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                            />
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                           </svg>
                         </span>
-                        <span class="ml-2 text-sm"> Authentication </span>
+                        <span class="ml-2 text-sm"> Preguntas de auditorios </span>
                         <span aria-hidden="true" class="ml-auto">
                           <!-- active class 'rotate-180' -->
                           <svg
@@ -285,105 +274,18 @@
                         <!-- active & hover classes 'text-gray-700 dark:text-light' -->
                         <!-- inActive classes 'text-gray-400 dark:text-gray-400' -->
                         <a
-                          href="auth/register.html"
+                          href="/preguntas"
                           role="menuitem"
                           class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:hover:text-light hover:text-gray-700"
                         >
-                          Register
+                          Ver preguntas
                         </a>
-                        <a
-                          href="auth/login.html"
-                          role="menuitem"
-                          class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:hover:text-light hover:text-gray-700"
-                        >
-                          Login
-                        </a>
-                        <a
-                          href="auth/forgot-password.html"
-                          role="menuitem"
-                          class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:hover:text-light hover:text-gray-700"
-                        >
-                          Forgot Password
-                        </a>
-                        <a
-                          href="auth/reset-password.html"
-                          role="menuitem"
-                          class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:hover:text-light hover:text-gray-700"
-                        >
-                          Reset Password
-                        </a>
+                        
                       </div>
                     </div>
         
                     <!-- Layouts links -->
-                    <div x-data="{ isActive: false, open: false}">
-                      <!-- active & hover classes 'bg-primary-100 dark:bg-primary' -->
-                      <a
-                        href="#"
-                        @click="$event.preventDefault(); open = !open"
-                        class="flex items-center p-2 text-gray-500 transition-colors rounded-md dark:text-light hover:bg-primary-100 dark:hover:bg-primary"
-                        :class="{'bg-primary-100 dark:bg-primary': isActive || open}"
-                        role="button"
-                        aria-haspopup="true"
-                        :aria-expanded="(open || isActive) ? 'true' : 'false'"
-                      >
-                        <span aria-hidden="true">
-                          <svg
-                            class="w-5 h-5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
-                            />
-                          </svg>
-                        </span>
-                        <span class="ml-2 text-sm"> Layouts </span>
-                        <span aria-hidden="true" class="ml-auto">
-                          <!-- active class 'rotate-180' -->
-                          <svg
-                            class="w-4 h-4 transition-transform transform"
-                            :class="{ 'rotate-180': open }"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                          >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                          </svg>
-                        </span>
-                      </a>
-                      <div x-show="open" class="mt-2 space-y-2 px-7" role="menu" aria-label="Layouts">
-                        <!-- active & hover classes 'text-gray-700 dark:text-light' -->
-                        <!-- inActive classes 'text-gray-400 dark:text-gray-400' -->
-                        <a
-                          href="layouts/two-columns-sidebar.html"
-                          role="menuitem"
-                          class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
-                        >
-                          Two Columns Sidebar
-                        </a>
-                        <a
-                          href="layouts/mini-plus-one-columns-sidebar.html"
-                          role="menuitem"
-                          class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
-                        >
-                          Mini + One Columns Sidebar
-                        </a>
-                        <a
-                          href="layouts/mini-column-sidebar.html"
-                          role="menuitem"
-                          class="block p-2 text-sm text-gray-400 transition-colors duration-200 rounded-md dark:text-gray-400 dark:hover:text-light hover:text-gray-700"
-                        >
-                          Mini Column Sidebar
-                        </a>
-                      </div>
-                    </div>
+                   
                   </nav>
         
                   <!-- Sidebar footer -->
@@ -440,7 +342,7 @@
         
                     <!-- Brand -->
                     <a
-                      href="index.html"
+                      href="/"
                       class="inline-block text-2xl font-bold tracking-wider uppercase text-primary-dark dark:text-light"
                     >
                     V Congreso Internacional de logoterapia y tanatología 2021
@@ -515,7 +417,7 @@
                       </button>
         
                       <!-- Notification button -->
-                      <button
+                      {{-- <button
                         @click="openNotificationsPanel"
                         class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
                       >
@@ -535,10 +437,10 @@
                             d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
                           />
                         </svg>
-                      </button>
+                      </button> --}}
         
                       <!-- Search button -->
-                      <button
+                      {{-- <button
                         @click="openSearchPanel"
                         class="p-2 transition-colors duration-200 rounded-full text-primary-lighter bg-primary-50 hover:text-primary hover:bg-primary-100 dark:hover:text-light dark:hover:bg-primary-dark dark:bg-dark focus:outline-none focus:bg-primary-100 dark:focus:bg-primary-dark focus:ring-primary-darker"
                       >
@@ -558,7 +460,7 @@
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                           />
                         </svg>
-                      </button>
+                      </button> --}}
         
                       <!-- Settings button -->
                       <button
@@ -1255,7 +1157,7 @@
                 <main>
                     <!-- Content header -->
                     <div class="flex items-center justify-between px-4 py-4 border-b lg:py-6 dark:border-primary-darker">
-                      <h1 class="text-2xl font-semibold">
+                      <h1 class="text-2xl font-semibold text-primary-dark dark:text-light">
 
                         @yield('title')
 

@@ -8,7 +8,7 @@
             </a>
         </li>
         <li class="MenuMainCard__lista--item ">
-            <a href="/salas">
+            <a href="/auditorios">
                 AUDITORIOS
             </a>
         </li>

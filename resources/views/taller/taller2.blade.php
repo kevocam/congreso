@@ -44,7 +44,7 @@
                 </div>
                 </div>  
             </div>
-                <div class="contenido">        
+               {{--  <div class="contenido">        
                     <div class="w-full md:w-4/5 mx-auto p-8">
                 <h2 class=" text-2xl  mb-4 text-gray-800">Contenido de la conferencia</h2>      
                     <p>13 secciones - 141 clases - 11 h 32m de duración total</p>
@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     </div>
-            </div>
+            </div> --}}
             <div class="iconRotate" hidden>
                 <em>Gire el teléfono</em>
                 <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
