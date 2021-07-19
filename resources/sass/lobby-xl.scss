@@ -1,12 +1,108 @@
 .contenedor {
     width: 100%;
-    height: 90vh;
-    background-image: url('../img/lobby-desktop.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 100vh;
+    background-image: url('../img/lobby/normal/fondo.jpg');
     display: flex;
-    align-items: flex-end;
+    background-size: cover;
+    background-position: right;
+    align-items: flex-end;    
+    &__main{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        &--history{
+            grid-column: 4/5;
+            grid-row: 1/3;           
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;              
+            padding-bottom: 120px;
+            margin-left: -85px;
+            &--item{
+                width: 151px;
+                height: 397px; 
+                background-image: url("../img/lobby/normal/banner.png");       
+
+            }  
+        }
+        &--video{            
+            grid-column: 1/3;
+            grid-row: 1/2;
+            padding-top: 25px;
+            background-image: url('../img/lobby/normal/video.png');
+            background-repeat: no-repeat;
+            align-self: inherit;
+        }
+        &--books{
+            grid-column: 5/6;
+            grid-row: 2/3;
+            display: flex;  
+            padding-left: -35px;    
+            place-self: start; 
+            margin-left: -50px;                   
+            
+            a{
+                
+                &:hover{
+                    transform:scale(1.2);
+                    transition-duration: 400ms;
+                }
+                img{
+                    height: 90px;
+                    width: 60px;
+                }
+            }
+        }        
+        &--menu{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            position: relative;
+            left: 16px;
+            bottom: 5px;
+            width:120px;
+            height: 285px;
+            background-image: url('../img/lobby/mobile/botones.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            place-self: end;
+            &--text{
+                width: 100%;
+                height: 62px;
+
+                /* background-color: rgba(225, 224, 240, 0.795); */
+                padding:4px 0 0 12px;
+                margin:0 auto;
+                font-size: 12px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                font-weight: 600;
+                transform: skew(22deg, 358deg);
+                &__item{
+                    text-transform: uppercase;
+                    width:80%;
+                    background-color: rgb(5, 5, 59);
+                    color:white;
+                    padding:1px; 
+                    text-align: center;   
+                    height: 27px;       
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &:hover{
+                        transform: scale(1.2);                        
+                        transition-duration: 400ms;
+                        cursor: pointer;
+                    }
+
+
+                }
+            }
+        }
+    }
     &__footer {
         width: 100%;
         display: flex;

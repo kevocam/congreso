@@ -1,5 +1,5 @@
 .auditorioBlue{    
-    background-image: url('../img/auditorio/uno/fondo.jpg');
+    background-image: url('../img/auditorio/auditorio1/auditorio.jpg');
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -14,7 +14,7 @@
         &--item{
             height: 240px;
             width: 115px;
-            background-image: url('../img/auditorio/bannerLeft.png');
+            background-image: url('../img/auditorio/auditorio1/banner1.png');
             background-size: cover;
         }
 
@@ -41,7 +41,7 @@
             
             height: 240px;
             width: 115px;
-            background-image: url('../img/auditorio/bannerLeft.png');
+            background-image: url('../img/auditorio/auditorio1/banner2.png');
             background-size: cover;
         }
     }

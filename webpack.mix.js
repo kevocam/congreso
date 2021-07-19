@@ -73,6 +73,11 @@ mix.sass('resources/sass/chat.scss', 'public/css');
 mix.sass('resources/sass/question.scss', 'public/css');
 mix.sass('resources/sass/information.scss', 'public/css');
 mix.sass('resources/sass/salas.scss', 'public/css');
+mix.sass('resources/sass/lobby-sxl.scss', 'public/css');
+
+
+
+
 
 
 

@@ -5,7 +5,7 @@
 .auditorioBlue{
     width:100%;
     height: 100vh;
-    background-image: url('../img/auditorio/tres/fondo.jpg');
+    background-image: url('../img/auditorio/auditorio3/auditorio.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
@@ -21,8 +21,9 @@
         &--item{
             height: 130px;
             width: 78px;
-            background-image: url('../img/auditorio/bannerLeft.png');
-            background-size: cover;
+            background-image: url('../img/auditorio/auditorio3/banner1.png');
+            background-size: contain;
+            background-repeat: no-repeat;
         }
 
     }
@@ -42,9 +43,9 @@
             
             height: 130px;
             width: 78px;
-            background-image: url('../img/auditorio/bannerRight.png');
-
-            background-size: cover;
+            background-image: url('../img/auditorio/auditorio3/banner2.png');
+            background-size: contain;
+            background-repeat: no-repeat;
         }
     }
     &__download{
