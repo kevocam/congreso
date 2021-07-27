@@ -140,7 +140,7 @@ h3{
     
     font-size:1.8rem ! important;
     margin-bottom:13px;
-    font-family: "CalifornianBold", "sans-serif";
+    font-family: $fuente-secundaria;
     font-weight: bold;
     color: #096191;
     text-align:right;
@@ -407,15 +407,18 @@ h3{
     display:none;
 }
 .menuLobby{
-    font-family:$fuente-primaria;
+    font-family:$fuente-secundaria;
     font-weight:bold;
     color:$color-primario;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     &:hover{
-        animation: fadeIn ease 20s;
-        transform:translatey(7px);
-        transition-duration: 0.4s;
-        color:$color-secundario;
-        
+        cursor: pointer;
+/*         animation: fadeIn ease 20s;
+ *//*         transform:translatey(7px);
+ */        transition-duration: 0.4s;
+        color:$color-secundario;        
     }
 }
 @keyframes fadeIn {

@@ -2,7 +2,7 @@
 
 @section('style')
 <link rel="stylesheet" href="./css/lobby-sxl.css" > 
-<link rel="stylesheet" href="./css/lobby-xl.css" media="(max-width:1024px)"> 
+<link rel="stylesheet" href="./css/lobby-xl.css" media="(max-width:1400px)"> 
 <link rel="stylesheet" href="./css/lobby-tablet.css" media="(max-width:930px)"> 
 <link rel="stylesheet" href="./css/lobby-mobile.css" media="(max-width:425px)">
 
@@ -20,8 +20,8 @@
             </div>
         </div>
         <div class="contenedor__main--video">
-    
             
+            <iframe  src="https://www.youtube.com/embed/X0RxNuPu_NI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="contenedor__main--menu">
             <div class="contenedor__main--menu--text">
@@ -30,10 +30,10 @@
             </div>
         </div>
         <div class="contenedor__main--books">
-            <a href="">
+            <a href="../pdf/observaciones.pdf" target="_blank"  >
                 <img src="../img/lobby/mobile/revista.png" alt="">
             </a>
-            <a href="">
+            <a href="../pdf/observaciones.pdf" target="_blank"  >
                 <img src="../img/lobby/mobile/programa.png" alt="">
             </a>
             

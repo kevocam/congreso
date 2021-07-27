@@ -36,7 +36,9 @@
     </head>
     <body>
         <header class=" menuMain">
+
             <nav class="  nav flex flex-wrap items-center justify-between px-4">
+              
                 <div class="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
                     <a href="/">
                     <img src="./img/icon_congreso.png" alt="">
@@ -56,33 +58,61 @@
                     </li>
                     <li class="border-t md:border-none">
                         <a href="/pabellon" class="menuLobby block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">Pabellon</a>
-                    </li>
+                    </li>                    
+                    @hasanyrole('manager|super-admin')
+
                     <li class="border-t md:border-none">
                         <a href="/dashboard" class="menuLobby block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">Dashboard</a>
                     </li>
-                   
+                    @endhasanyrole
                     <li id="dropdownMain" class="flex border-t md:border-none">
-                        <a href="#" class="flex menuLobby block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">{{ Auth::user()->name }}
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-down" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#096191" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <line x1="12" y1="5" x2="12" y2="19" />
-                                <line x1="18" y1="13" x2="12" y2="19" />
-                                <line x1="6" y1="13" x2="12" y2="19" />
-                            </svg>
-                        </a>   
-                        <ul class="dropdownContent dropdown dropdownClose">
-                            
-                            <li>
-                            <a href="/user/profile">
-                            
-                                Mi perfil
-                            </a>
-                            </li>                            
-                            <li>
-                                Salir
-
-                            </li>
-                        </ul>                     
+                                             
+                        <ul class="menuLobby">
+                          <x-jet-dropdown  align="right" width="48">
+                            <x-slot name="trigger">          
+                              <div class="flex align-center justify-center">                                
+                                {{ Auth::user()->name }}                               
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#096191" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                  <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
+                                </svg>
+                              </div>                    
+                          </x-slot>                            
+                          
+                            <x-slot name="content">
+                              <div class="block px-4 py-2 text-base text-gray-400">
+                                Tu cuenta
+                            </div>
+    
+                            <x-jet-dropdown-link href="{{ route('profile.show') }}">
+                              <div class="block px-4 py-2 text-lg ">                                
+                                {{ __('Profile') }}
+                            </div>
+                            </x-jet-dropdown-link>
+    
+                            @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
+                                <x-jet-dropdown-link href="{{ route('api-tokens.index') }}">
+                                    {{ __('API Tokens') }}
+                                </x-jet-dropdown-link>
+                            @endif
+    
+                            <div class="border-t border-gray-100"></div>
+    
+                            <!-- Authentication -->
+                            <form method="POST" action="{{ route('logout') }}">
+                                @csrf
+    
+                                <x-jet-dropdown-link href="{{ route('logout') }}"
+                                         onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                  <div class="block px-4 py-2 text-lg ">                                
+                                    {{ __('Logout') }}                                </div>
+                                    
+                                </x-jet-dropdown-link>
+                            </form>
+                            </x-slot>
+                          </x-jet-dropdown>  
+                        </ul>                   
                     </li>
                     @endauth
                     @guest
@@ -96,6 +126,8 @@
                     </li>                                 
                     @endguest                    
                 </ul>
+
+              
                 
             </nav>
         </header>  

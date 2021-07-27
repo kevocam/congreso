@@ -36,8 +36,16 @@
             background-image: url('../img/lobby/xl/pantalla.png');
             background-size: contain;
             background-repeat: no-repeat;
+            background-position: center;
             align-self: inherit;
-            
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            iframe{
+                width:80% !important;
+                height: 80% !important;
+                border-radius: 15px;
+            }
         }
         &--books{
             grid-column: 5/6;

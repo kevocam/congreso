@@ -1,1 +1,144 @@
-.contenedor{width:100%;height:90vh;background-image:url(../img/pabellon.jpg);background-size:cover;background-position:50%;display:flex;justify-content:flex-start;align-items:flex-start}.contenedor__stands{margin-left:60px;display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;height:500px;width:1024px;grid-template-areas:". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . d . . ." ". . . . . c . h . ." ". . . . b . g . l ." ". . . a . f . k . ." ". . . . e . j . . ." ". . . . . i . . . ." ". . . . . . . . . ." ". . . . . . . . . ."}.contenedor__stands img{height:100px;width:100px}.a{grid-area:a;position:relative}.a,.b{height:120px;width:120px;background-size:contain;background-repeat:no-repeat}.b{grid-area:b;background-image:url(../img/stands/stand2.png)}.c{grid-area:c;background-image:url(../img/stands/stand3.png)}.c,.d{height:120px;width:120px;background-size:contain;background-repeat:no-repeat}.d{grid-area:d;background-image:url(../img/stands/stand4.png)}.e{grid-area:e;background-image:url(../img/stands/stand5.png)}.e,.f{height:120px;width:120px;background-size:contain;background-repeat:no-repeat}.f{grid-area:f;background-image:url(../img/stands/stand6.png)}.g{grid-area:g;background-image:url(../img/stands/stand7.png)}.g,.h{height:120px;width:120px;background-size:contain;background-repeat:no-repeat}.h{grid-area:h;background-image:url(../img/stands/stand8.png)}.i{grid-area:i;background-image:url(../img/stands/stand9.png)}.i,.j{height:120px;width:120px;background-size:contain;background-repeat:no-repeat}.j{grid-area:j;background-image:url(../img/stands/stand10.png)}.k{grid-area:k;background-image:url(../img/stands/stand11.png)}.k,.l{height:120px;width:120px;background-size:contain;background-repeat:no-repeat}.l{grid-area:l;background-image:url(../img/stands/stand4.png)}.tooltip{display:none;position:absolute;bottom:120px}.a:hover .tooltip{display:flex;transition-duration:.4s}
+.contenedor {
+  width: 100%;
+  height: 90vh;
+  background-image: url("../img/pabellon.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.contenedor__stands {
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 500px;
+  width: 1024px;
+  grid-template-areas: ". . . . . . . . . ." ". . . . . . . . . ." ". . . . . . d . . ." ". . . . . c . h . ." ". . . . b . g . l ." ". . . a . f . k . ." ". . . . e . j . . ." ". . . . . i . . . ." ". . . . . . . . . ." ". . . . . . . . . .";
+}
+.contenedor__stands img {
+  height: 100px;
+  width: 100px;
+}
+
+.a {
+  grid-area: a;
+  position: relative;
+  height: 120px;
+  width: 120px;
+  /*     background-image: url('../img/stands/stand1.png');
+   */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.b {
+  grid-area: b;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.c {
+  grid-area: c;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.d {
+  grid-area: d;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.e {
+  grid-area: e;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.f {
+  grid-area: f;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.g {
+  grid-area: g;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand7.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.h {
+  grid-area: h;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand8.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.i {
+  grid-area: i;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand9.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.j {
+  grid-area: j;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand10.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.k {
+  grid-area: k;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand11.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.l {
+  grid-area: l;
+  height: 120px;
+  width: 120px;
+  background-image: url("../img/stands/stand4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  bottom: 120px;
+}
+
+.a:hover .tooltip {
+  display: flex;
+  transition-duration: 400ms;
+}

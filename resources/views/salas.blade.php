@@ -21,8 +21,8 @@
           <h1 class=" text-7xl font-medium title-font mb-2 text-gray-900">Congreso</h1>
           <div class="h-1 w-20 bg-blue-500 rounded"></div>
         </div>
-        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
-      </div>
+{{--         <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+ --}}      </div>
       <div>
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
            <a href="/auditorio" >
@@ -31,11 +31,11 @@
                   <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio1/portada.png">
                 </div>
                  <h2 class="text-3xl font-medium title-font text-gray-900 mt-5">Auditorio 1 - Viktor Frankl </h2>
-                 <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-                 {{-- <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+{{--                  <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+ --}}                  <a class="text-indigo-500 inline-flex items-center mt-3">Entrar...
                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                      <path d="M5 12h14M12 5l7 7-7 7"></path>
-                   </svg> --}}
+                   </svg> 
                  </a>
                </div>
            </a>
@@ -46,8 +46,8 @@
 
                  </div>
                  <h2 class="text-3xl font-medium title-font text-gray-900 mt-5">Auditorio 2 - Eleonore Frankl</h2>
-                 <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-                 <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+{{--                  <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+ --}}                 <a class="text-indigo-500 inline-flex items-center mt-3">Entrar...
                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                      <path d="M5 12h14M12 5l7 7-7 7"></path>
                    </svg>
@@ -63,8 +63,8 @@
                    <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio3/portada.png">
                  </div>
                  <h2 class="text-3xl font-medium title-font text-gray-900 mt-5">Auditorio 3 - Max Scheler</h2>
-                 <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-                 <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+{{--                  <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+ --}}                 <a class="text-indigo-500 inline-flex items-center mt-3">Entrar...
                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                      <path d="M5 12h14M12 5l7 7-7 7"></path>
                    </svg>
@@ -79,8 +79,8 @@
                    <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio4/portada.png">
                  </div>
                  <h2 class="text-3xl font-medium title-font text-gray-900 mt-5">Auditorio 4 - Karl Jaspers</h2>
-                 <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-                 <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+{{--                  <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+ --}}                  <a class="text-indigo-500 inline-flex items-center mt-3">Entrar...
                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                      <path d="M5 12h14M12 5l7 7-7 7"></path>
                    </svg>
@@ -105,8 +105,8 @@
           <h1 class="text-7xl font-medium title-font mb-2 text-gray-900">Talleres</h1>
           <div class="h-1 w-20 bg-blue-500 rounded"></div>
         </div>
-        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
-      </div>
+{{--         <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+ --}}      </div>
       <div>
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
             @hasanyrole('taller1|super-admin')
@@ -116,8 +116,8 @@
                       <img alt="content" class="object-cover object-center h-full w-full" src="./img/salas/sala1.jpg">
                     </div>
                     <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Taller1</h2>
-                    <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+{{--                     <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+ --}}                     <a class="text-indigo-500 inline-flex items-center mt-3">Entrar...
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                       </svg>
@@ -132,8 +132,8 @@
                       <img alt="content" class="object-cover object-center h-full w-full" src="./img/salas/sala2.jpg">
                     </div>
                     <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Taller2</h2>
-                    <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+{{--                     <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+ --}}                     <a class="text-indigo-500 inline-flex items-center mt-3">Entrar...
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                       </svg>
@@ -149,8 +149,8 @@
                       <img alt="content" class="object-cover object-center h-full w-full" src="./img/salas/sala3.jpg">
                     </div>
                     <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Taller3</h2>
-                    <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+{{--                     <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+ --}}                     <a class="text-indigo-500 inline-flex items-center mt-3">Entrar...
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                       </svg>
@@ -165,8 +165,8 @@
                       <img alt="content" class="object-cover object-center h-full w-full" src="./img/salas/sala4.jpg">
                     </div>
                     <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Taller4</h2>
-                    <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+{{--                     <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+ --}}                     <a class="text-indigo-500 inline-flex items-center mt-3">Entrar...
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                       </svg>
@@ -181,8 +181,8 @@
                       <img alt="content" class="object-cover object-center h-full w-full" src="./img/salas/sala5.jpg">
                     </div>
                     <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Taller5</h2>
-                    <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+{{--                     <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+ --}}                     <a class="text-indigo-500 inline-flex items-center mt-3">Entrar...
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                       </svg>
@@ -197,8 +197,8 @@
                       <img alt="content" class="object-cover object-center h-full w-full" src="./img/salas/sala6.jpg">
                     </div>
                     <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Taller6</h2>
-                    <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-                    <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+{{--                     <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+ --}}                     <a class="text-indigo-500 inline-flex items-center mt-3">Entrar...
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                       </svg>

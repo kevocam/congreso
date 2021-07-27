@@ -1,1 +1,23 @@
-body{max-width:1640px;margin:0 auto}.institute{background-image:url(../img/details/institute/fondo-lg.png)}.institute__tv--item{width:200px;height:130px}.institute__logo--item{display:inline-block;width:300px;height:190px;background-position-x:right}.institute__panel--item{width:185px;height:370px;background-position-x:right}
+body {
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.institute {
+  background-image: url("../img/details/institute/fondo-lg.png");
+}
+.institute__tv--item {
+  width: 200px;
+  height: 130px;
+}
+.institute__logo--item {
+  display: inline-block;
+  width: 300px;
+  height: 190px;
+  background-position-x: right;
+}
+.institute__panel--item {
+  width: 185px;
+  height: 370px;
+  background-position-x: right;
+}

@@ -1,1 +1,83 @@
-body{max-width:1640px;margin:0 auto}.dau{background-image:url(../img/details/dau/fondo-lg.png);grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}.dau__cartelLeft{grid-column:2/3;justify-content:center;align-items:center}.dau__cartelLeft--item{width:140px;height:320px}.dau__cartelLeft--item a{height:200px}.dau__video{grid-column:3/5;justify-content:center;padding:0}.dau__video--item{display:flex;width:210px;height:90px}.dau__cartelRight{grid-column:5/6;justify-content:center}.dau__cartelRight--item{width:140px;height:320px}.dau__cartelRight--item a{height:200px}.dau__banner{grid-column:6/7}
+body {
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.dau {
+  background-image: url("../img/details/dau/fondo-lg.png");
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.dau__cartelLeft {
+  grid-column: 2/3;
+  justify-content: center;
+  align-items: center;
+}
+.dau__cartelLeft--item {
+  width: 140px;
+  height: 320px;
+}
+.dau__cartelLeft--item a {
+  height: 200px;
+}
+.dau__video {
+  grid-column: 3/5;
+  justify-content: center;
+  padding: 0;
+}
+.dau__video--item {
+  display: flex;
+  width: 210px;
+  height: 90px;
+}
+.dau__cartelRight {
+  grid-column: 5/6;
+  justify-content: center;
+}
+.dau__cartelRight--item {
+  width: 140px;
+  height: 320px;
+}
+.dau__cartelRight--item a {
+  height: 200px;
+}
+.dau__banner {
+  grid-column: 6/7;
+}
+
+/* 
+.dau {
+    background-image: url('../img/details/dau/fondo-lg.png');
+    grid-template-columns: 1.3fr 1.5fr 1fr 1fr 1fr 1fr;
+
+    &__cartelLeft{
+        grid-column: 2/3;
+        align-items: center;
+        &--item{
+            margin:0;
+            height: 310px;
+            background-size: cover;
+        }
+    }
+    &__video{
+        grid-column:3/4;
+        grid-row: 1/2;
+        align-items: flex-end;
+        justify-content: end;
+    }
+    &__cartelRight{
+        grid-column: 5/6;
+        align-items: center;
+        &--item{
+            margin:0;
+            height: 310px;
+            background-size: cover;
+        }
+
+    }
+    &__banner{
+        &--item{
+
+            margin:0;
+        }
+    }
+} */

@@ -19,14 +19,12 @@ class ViewAsistente extends Component{
 
     public $taller1,$rolesUser, $taller2,$taller3,$taller4,$taller5,$taller6,$congreso;
     public $roles =[];
+    public $newRoles = [];
 
     protected $rules = [
-        'name' => 'required|string|min:6',
-        'lastName' => 'required|string|min:6',
-        'email' => 'required|email|string|min:6'
-        
-
-        
+        'name' => 'required|string|min:4',
+        'lastName' => 'required|string|min:4',
+        'email' => 'required|email|string|min:6'        
     ];
 
     public function clean(){
@@ -48,9 +46,9 @@ class ViewAsistente extends Component{
 
 
         $buffer = User::findOrFail($id);
-        
-        $this->rolesUser = $buffer->roles()->get()->pluck('name')->toArray();
+        $this->rolesUser = $buffer->roles()->get()->pluck('name')->toArray();        
         $this->idUser= $id;
+
 
         if(in_array("taller1", $this->rolesUser)){
             $this->taller1 = true;
@@ -111,30 +109,32 @@ class ViewAsistente extends Component{
             array_push($this->roles, "congreso");
         }
 
-
+        
             if($this->idUser){
             $user = User::find($this->idUser);
             $user->update([
-
                 'name' => $this->name,
                 'lastName' => $this->lastName,
                 'email' => $this->email,            
 
             ]); 
 
+            if(count($this->rolesUser) > 1){
+                foreach($this->rolesUser as $rol){                
+                    $user->removeRole($rol);
+                }  
+            } 
 
-
-
-                    
-            foreach($this->rolesUser as $rol){                
-                $user->removeRole($rol);
-            }  
-            foreach($this->roles as $rol){                
-                $user->assignRole($rol);
-            }       
+             
+            if(count($this->roles) > 1){
+                foreach($this->roles as $rol){                
+                    $user->assignRole($rol);
+                }  
+            } 
         }
+        $this->rolesUser=[];
         
-
+        $this->roles=[];
         $this->showEditModel = false;
 
         /* $user->assignRole(implode(',',$this->roles)); */

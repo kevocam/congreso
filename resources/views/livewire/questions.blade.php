@@ -1,6 +1,13 @@
 <div>
-    <div class="QuestionButton">
-        <button wire:click="showModal">
+    <div >
+        <a href="/auditorios" type="button" class="QuestionButtonOff">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+                <path d="M7 12h14l-3 -3m0 6l3 -3" />
+              </svg>
+        </a>
+        <button class="QuestionButton" type="button" wire:click="showModal">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-question-mark" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M8 8a3.5 3 0 0 1 3.5 -3h1a3.5 3 0 0 1 3.5 3a3 3 0 0 1 -2 3a3 4 0 0 0 -2 4" />
@@ -16,7 +23,7 @@
     </div>    
     <div class="modalQuestion slide-in-elliptic-top-fwd ">
 
-            <h2>Canal para dudas o sugerencias.</h2>
+            <h2>Canal de preguntas.</h2>
         
             <textarea wire:model="question" class="modalQuestion__input" type="text" placeholder="Escriba aquí su pregunta..."></textarea>
             @error('question') 

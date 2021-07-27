@@ -34,12 +34,12 @@ Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {
         return view('dashboard.consultas');
     });
 
+    Route::get('/', function () {
+        
+        return view('lobby.index');
+    });
 });
 
-Route::get('/', function () {
-    
-    return view('welcome');
-});
 
 
 Route::get('/chat-list', function () {

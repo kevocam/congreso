@@ -118,13 +118,18 @@
                         <input wire:model="name" type="text" id="search-form-location" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Your location"/>
                         </div>
                 </div>
+                @error('name')
+                    
+                <span class=" error text-red-400">{{ $message }}</span> 
+                
+                @enderror
                 <div class="w-full">
                     <div class=" relative ">
                         <label for="">Apellidos</label>
                         <input wire:model="lastName" type="text" id="search-form-location" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Your location"/>
                     </div>
                 </div>
-
+                @error('lastName') <span class=" error text-red-400">{{ $message }}</span> @enderror
                 <div class="w-full">
                     <label for="">Talleres:</label>
                     <hr class="m-1">
