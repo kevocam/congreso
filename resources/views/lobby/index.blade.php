@@ -2,7 +2,7 @@
 
 @section('style')
 <link rel="stylesheet" href="./css/lobby-sxl.css" > 
-<link rel="stylesheet" href="./css/lobby-xl.css" media="(max-width:1400px)"> 
+<link rel="stylesheet" href="./css/lobby-xl.css" media="(max-width:1280px)"> 
 <link rel="stylesheet" href="./css/lobby-tablet.css" media="(max-width:930px)"> 
 <link rel="stylesheet" href="./css/lobby-mobile.css" media="(max-width:425px)">
 
@@ -33,8 +33,8 @@
             <a href="../pdf/observaciones.pdf" target="_blank"  >
                 <img src="../img/lobby/mobile/revista.png" alt="">
             </a>
-            <a href="../pdf/observaciones.pdf" target="_blank"  >
-                <img src="../img/lobby/mobile/programa.png" alt="">
+            <a href="../pdf/programa-científico.pdf" target="_blank"  >
+                <img src="../img/programa.png" alt="">
             </a>
             
         </div>

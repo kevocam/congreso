@@ -1,7 +1,6 @@
 @import'styleSass';
 
 .QuestionButton{
-
     position: fixed;
     right: 15px;
     bottom: 25px;
@@ -9,10 +8,30 @@
     border-radius: 25px;
     padding: 4px;
     transition-duration: 400ms;
+    
     &:hover{
       transform: scale(1.2);
       background: #0c8fa7;
   }
+}
+.QuestionButtonZoom{
+  position: fixed;
+  right: 15px;
+  bottom: 165px;
+  background: #096191;
+  border-radius: 25px;
+  padding: 4px;
+  transition-duration: 400ms;
+  img{
+    width:52px;
+    height: 52px;
+  }
+  &:hover{
+    transform: scale(1.2);
+    background: #0c8fa7;
+    
+  }
+
 }
 .QuestionButtonOff{
   position: fixed;

@@ -29,6 +29,24 @@
   background: #0c8fa7;
 }
 
+.QuestionButtonZoom {
+  position: fixed;
+  right: 15px;
+  bottom: 165px;
+  background: #096191;
+  border-radius: 25px;
+  padding: 4px;
+  transition-duration: 400ms;
+}
+.QuestionButtonZoom img {
+  width: 52px;
+  height: 52px;
+}
+.QuestionButtonZoom:hover {
+  transform: scale(1.2);
+  background: #0c8fa7;
+}
+
 .QuestionButtonOff {
   position: fixed;
   right: 15px;

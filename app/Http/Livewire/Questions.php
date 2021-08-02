@@ -7,9 +7,18 @@ use App\Models\Question;
 
 class Questions extends Component
 {
-    public $question, $user, $auditorio;
+    public $question, $user, $auditorio, $linkZoom;
 
     public $showModal = false; 
+    public $zoom=[
+        "https://zoom.us/j/96738061744?pwd=RElvaDdnVTBVZkxvcmdtTFcxalhOZz09",
+        "https://us06web.zoom.us/j/85026216115?pwd=QjRFZU5acFMyWjloT2RpdStZZUp6Zz09",
+        "https://us02web.zoom.us/j/82484786206?pwd=c2dxOENHRE4rdk5jZzJHSnkydHpiUT09",
+        "https://us06web.zoom.us/j/85697489979?pwd=U3pQTWRrV0gzNk1qQURGbkt2RmU3QT09"
+    ];
+        
+
+    
     
 
     public function render()
@@ -24,9 +33,10 @@ class Questions extends Component
 
     }
     public function mount($auditorio){
-
         $this->user=auth()->id();
-        $this->auditorio= $auditorio;
+        $this->auditorio = $auditorio;
+        $this->linkZoom = $this->zoom[$auditorio-1];
+        
     }
     public function clearInputs(){
         $this->question="";
