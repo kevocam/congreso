@@ -2,7 +2,7 @@
 
 @import 'animations.scss';
 
-.cartelRight{
+.cartelCustom{
     &__item{      
       &--top{
         display: flex;
@@ -75,11 +75,12 @@
         align-items: flex-start;
         justify-content: center;
         &--item{
-            height: 130px;
+            height: 150px;
             width: 78px;
-            background-image: url('../img/auditorio/auditorio2/banner1.png');
-            background-size: cover;
+            background-size: contain;
+            background-position: center;
             background-repeat: no-repeat;
+            background-image: url('../img/auditorio/auditorio2/banner1.png');
         }
 
     }
@@ -104,11 +105,15 @@
         justify-content: center;
         &--item{
             
-            height: 130px;
-            width: 78px;
+            display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 150px;
+          width: 75px;
+          background-size: contain;
+          background-position: center;
             background-image: url('../img/auditorio/auditorio2/banner2.png');
-            background-repeat: no-repeat;
-            background-size: cover;
         }
     }
     &__download{

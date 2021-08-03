@@ -23,10 +23,10 @@
         </div>
 {{--         <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
  --}}      </div>
-      <div>
-        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div class="">
+        <div class="flex justify-center flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
            <a href="/auditorio" >
-               <div class="cardCustom p-4  md:w-1/2 sm:mb-0 mb-6 transform motion-safe:hover:scale-110">
+               <div class="cardCustom p-4  md:w-2/5 sm:mb-0 mb-6 transform motion-safe:hover:scale-110">
                  <div class="rounded-lg h-90 overflow-hidden">
                   <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio1/portada.png">
                 </div>
@@ -40,7 +40,7 @@
                </div>
            </a>
            <a href="/auditorio2">
-               <div class="cardCustom p-4 md:w-1/2 sm:mb-0 mb-6">
+               <div class="cardCustom p-4 md:w-2/5 sm:mb-0 mb-6">
                  <div class=" rounded-lg overflow-hidden">
                   <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio2/portada.png">
 
@@ -55,10 +55,10 @@
                </div>
            </a>
           </div> 
-          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+          <div class="flex justify-center  flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
            <a href="/auditorio3">
 
-               <div class="cardCustom p-4 md:w-1/2 sm:mb-0 mb-6">
+               <div class="cardCustom p-4 md:w-2/5 sm:mb-0 mb-6">
                  <div class="rounded-lg  overflow-hidden">
                    <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio3/portada.png">
                  </div>
@@ -74,7 +74,7 @@
            </a>
            <a href="/auditorio4">
 
-               <div class="cardCustom p-4 md:w-1/2 sm:mb-0 mb-6">
+               <div class="cardCustom p-4 md:w-2/5 sm:mb-0 mb-6">
                  <div class="rounded-lg  overflow-hidden">
                    <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio4/portada.png">
                  </div>

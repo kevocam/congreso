@@ -1,3 +1,5 @@
+
+
 .auditorioBlue{    
     background-image: url('../img/auditorio/auditorio3/auditorio-xl.jpg');
     background-size: cover;
@@ -9,7 +11,6 @@
         grid-row: 1/2;
         display: flex;
         align-items: flex-start;
-        justify-content: flex-end;
 
         &--item{
             height: 240px;
@@ -37,7 +38,7 @@
         grid-row: 1/2;
         display: flex;
         align-items: flex-start;
-        justify-content: flex-start;
+        
         &--item{            
             height: 240px;
             width: 115px;

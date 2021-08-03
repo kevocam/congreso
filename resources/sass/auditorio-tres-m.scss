@@ -1,3 +1,27 @@
+.cartelCustom{
+    &__item{      
+      &--top{        
+        padding-top: 30px;
+        p{          
+          font-size: 12px;
+        }
+        img{                    
+          width: 65px;
+          height: 65px;          
+        }
+      }
+      &--bottom{
+        
+        p{        
+          font-size: 12px;
+        }
+        img{          
+          height: 50px;
+          width: 50px;         
+        }
+      }
+    }
+}
 .auditorioBlue{    
     background-image: url('../img/auditorio/auditorio3/auditorio.jpg');
     background-size: cover;
@@ -9,13 +33,14 @@
         grid-row: 1/2;
         display: flex;
         align-items: flex-start;
-        justify-content: flex-end;
+        justify-content: center;
 
         &--item{
             height: 240px;
             width: 115px;
-            background-image: url('../img/auditorio/auditorio3/banner1.png');
             background-size: cover;
+            background-position: center;
+            background-image: url('../img/auditorio/auditorio3/banner1.png');
         }
 
     }
@@ -37,12 +62,13 @@
         grid-row: 1/2;
         display: flex;
         align-items: flex-start;
-        justify-content: flex-start;
+        justify-content: center;
         &--item{            
             height: 240px;
             width: 115px;
-            background-image: url('../img/auditorio/auditorio3/banner2.png');
             background-size: cover;
+            background-position: center;
+            background-image: url('../img/auditorio/auditorio3/banner2.png');
         }
     }
 

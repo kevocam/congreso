@@ -11,7 +11,24 @@
    </div>
     <div class="auditorioBlue__cartelRight animation-cartelRight ">
         <div class="auditorioBlue__cartelRight--item">
- 
+         <div class="cartelCustom__item--top">
+            <p>
+               COORDINADOR <br>
+               DE SALA
+            </p>
+            <a href="">
+               <img src="./img/avatar.jpg" alt="">            
+            </a>
+         </div>
+         <div class="cartelCustom__item--bottom">
+            <p>
+               DESCARGAR<br>
+               PROGRAMA 
+            </p>
+            <a href="../pdf/programas/programa-auditorio3.pdf" target="_blank" >
+               <img src="./img/descargar.png" alt=""> 
+            </a>
+         </div>
         </div>
     </div>
  </div>
