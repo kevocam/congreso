@@ -28,7 +28,7 @@
            <a href="/auditorio" >
                <div class="cardCustom p-4  md:w-1/2 sm:mb-0 mb-6 transform motion-safe:hover:scale-110">
                  <div class="rounded-lg h-90 overflow-hidden">
-                  <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio4/portada.png">
+                  <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio1/portada.png">
                 </div>
                  <h2 class="text-3xl font-medium title-font text-gray-900 mt-5">Auditorio 1 - Viktor Frankl </h2>
 {{--                  <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
@@ -42,7 +42,7 @@
            <a href="/auditorio2">
                <div class="cardCustom p-4 md:w-1/2 sm:mb-0 mb-6">
                  <div class=" rounded-lg overflow-hidden">
-                  <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio3/portada.png">
+                  <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio2/portada.png">
 
                  </div>
                  <h2 class="text-3xl font-medium title-font text-gray-900 mt-5">Auditorio 2 - Eleonore Frankl</h2>
@@ -60,7 +60,7 @@
 
                <div class="cardCustom p-4 md:w-1/2 sm:mb-0 mb-6">
                  <div class="rounded-lg  overflow-hidden">
-                   <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio2/portada.png">
+                   <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio3/portada.png">
                  </div>
                  <h2 class="text-3xl font-medium title-font text-gray-900 mt-5">Auditorio 3 - Max Scheler</h2>
 {{--                  <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
@@ -76,7 +76,7 @@
 
                <div class="cardCustom p-4 md:w-1/2 sm:mb-0 mb-6">
                  <div class="rounded-lg  overflow-hidden">
-                   <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio1/portada.png">
+                   <img alt="content" class="object-cover object-center h-full w-full" src="./img/auditorio/auditorio4/portada.png">
                  </div>
                  <h2 class="text-3xl font-medium title-font text-gray-900 mt-5">Auditorio 4 - Karl Jaspers</h2>
 {{--                  <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>

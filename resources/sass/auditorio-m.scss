@@ -1,14 +1,40 @@
+
+.cartelRight{
+    &__item{      
+      &--top{        
+        padding-top: 30px;
+        p{          
+          font-size: 12px;
+        }
+        img{                    
+          width: 65px;
+          height: 65px;          
+        }
+      }
+      &--bottom{
+        
+        p{        
+          font-size: 12px;
+        }
+        img{          
+          height: 50px;
+          width: 50px;         
+        }
+      }
+    }
+}
+
 .auditorioBlue{    
     background-image: url('../img/auditorio/auditorio1/auditorio.jpg');
     background-size: cover;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 2fr 1fr;
     &__cartelLeft{
         grid-column: 1/2;
         grid-row: 1/2;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: center;
 
         &--item{
@@ -26,17 +52,18 @@
         align-self: center;
         justify-self: center;
         height: 100%;
-    width: 100%;
+        width: 100%;
         iframe{
             height: 100%;
-    width: 100%;
+            width: 100%;
+            border-radius: 12px;
         }
     }
     &__cartelRight{
         grid-column: 3/4;
         grid-row: 1/2;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: center;
         &--item{            
             height: 240px;

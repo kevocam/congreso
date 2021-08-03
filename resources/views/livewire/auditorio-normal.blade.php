@@ -5,20 +5,37 @@
        </div>
    </div>
    <div class="auditorioBlue__pantalla animation-player">
+      <iframe src="https://www.youtube-nocookie.com/embed/YNkMAhgCRgE?modestbranding=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-      <iframe src="https://www.youtube-nocookie.com/embed/oLIHMO4WOAo?modestbranding=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
    <div class="auditorioBlue__cartelRight animation-cartelRight">
        <div class="auditorioBlue__cartelRight--item">
-
+         <div class="cartelRight__item--top">
+            <p>
+               COORDINADOR <br>
+               DE SALA
+            </p>
+            <a href="">
+               <img src="./img/avatar.jpg" alt="">            
+            </a>
+         </div>
+         <div class="cartelRight__item--bottom">
+            <p>
+               DESCARGAR<br>
+               PROGRAMA 
+            </p>
+            <a href="../pdf/programa-científico.pdf" target="_blank" >
+               <img src="./img/descargar.png" alt=""> 
+            </a>
+         </div>
        </div>
    </div>
    <div class="auditorioBlue__download">
       <div class="auditorioBlue__download--item">
-         <a href="#"> 
+         {{-- <a href="#"> 
             Descargar                       
-         </a>
+         </a> --}}
       </div>
    </div>  
     <div class="auditorioBlue__question">

@@ -16,7 +16,7 @@
         grid-column: 1/2;
         grid-row: 1/2;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: center;
         &--item{
             height: 130px;
@@ -32,12 +32,19 @@
         grid-row: 1/2;
         align-self: center;
         justify-self: center;
+        width: 100%;
+        height: 100%;
+        iframe{
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
     }
     &__cartelRight{
         grid-column: 3/4;
         grid-row: 1/2;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: center;
         &--item{
             
@@ -158,6 +165,9 @@
 }
 
 @media  (max-width:500px) and (orientation:portrait){
+    .auditorioBlue__question--item{
+        display: none;
+    }
     .auditorioBlue{
        background-image:none;
        background-color: white;

@@ -69,8 +69,8 @@
             position: relative;
             left: 16px;
             bottom: 5px;
-            width:120px;
-            height: 285px;
+            height:305px;
+            width: 136px;
             background-image: url('../img/lobby/mobile/botones.png');
             place-self:start;
             background-size: contain;
@@ -82,7 +82,7 @@
                 /* background-color: rgba(225, 224, 240, 0.795); */
                 padding:4px 0 0 12px;
                 margin:0 auto;
-                font-size: 12px;
+                font-size: 15px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -91,7 +91,7 @@
                 transform: skew(22deg, 358deg);
                 &__item{
                     text-transform: uppercase;
-                    width:80%;
+                    width:85%;
                     background-color: rgb(5, 5, 59);
                     color:white;
                     padding:1px; 

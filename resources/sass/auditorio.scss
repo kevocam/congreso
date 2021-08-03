@@ -1,4 +1,61 @@
 @import 'animations.scss';
+
+
+.cartelRight{
+    &__item{      
+      &--top{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        p{
+          text-align: center;
+          font-weight: 800;
+          color: white;
+          width: 100%;
+          font-size: 9px;
+        }
+        img{
+          border-radius:50%;
+          margin:0 auto;
+          
+          width: 35px;
+          height: 35px;
+          &:hover{
+            transform: scale(1.2);
+            transition-duration: 400ms;
+          }
+        }
+      }
+      &--bottom{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        p{
+          text-align: center;
+          font-weight: 800;
+          color: white;
+          font-size: 9px;
+
+        }
+        img{  
+          margin:0 auto;
+
+          height: 30px;
+          width: 30px;
+          &:hover{
+            transform: scale(1.2);
+            transition-duration: 400ms;
+          }
+        }
+      }
+    }
+}
+
 .auditorioBlue{
   width:100%;
   height: 100vh;
@@ -8,18 +65,22 @@
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-rows: 1.8fr 1fr;
+  
 
   &__cartelLeft{
       grid-column: 1/2;
       grid-row: 1/2;
       display: flex;
-      align-items: flex-end;
+      align-items: flex-start;
       justify-content: center;
       &--item{
-          height: 130px;
-          width: 78px;
+          
+        height: 150px;
+        width: 75px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
           background-image: url('../img/auditorio/auditorio1/banner1.png');
-          background-size: cover;
       }
 
   }
@@ -28,19 +89,30 @@
       grid-row: 1/2;
       align-self: center;
       justify-self: center;
+      width: 100%;
+      height: 100%;      
+      iframe{
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+      }
   }
   &__cartelRight{
       grid-column: 3/4;
       grid-row: 1/2;
       display: flex;
-      align-items: flex-end;
+      align-items: flex-start;
       justify-content: center;
       &--item{
-          
-          height: 130px;
-          width: 78px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 150px;
+          width: 75px;
+          background-size: contain;
+          background-position: center;
           background-image: url('../img/auditorio/auditorio1/banner2.png');
-          background-size: cover;
       }
   }
   &__download{

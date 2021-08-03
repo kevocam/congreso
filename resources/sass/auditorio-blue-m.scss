@@ -1,3 +1,84 @@
+
+.cartelRight{
+    &__item{      
+      &--top{        
+        padding-top: 30px;
+        p{          
+          font-size: 12px;
+        }
+        img{                    
+          width: 65px;
+          height: 65px;          
+        }
+      }
+      &--bottom{
+        
+        p{        
+          font-size: 12px;
+        }
+        img{          
+          height: 50px;
+          width: 50px;         
+        }
+      }
+    }
+}
+
+.cartelRight{
+    &__item{      
+      &--top{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        p{
+          text-align: center;
+          font-weight: 800;
+          color: white;
+          width: 100%;
+          font-size: 9px;
+        }
+        img{
+          border-radius:50%;
+          margin:0 auto;
+          
+          width: 35px;
+          height: 35px;
+          &:hover{
+            transform: scale(1.2);
+            transition-duration: 400ms;
+          }
+        }
+      }
+      &--bottom{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        p{
+          text-align: center;
+          font-weight: 800;
+          color: white;
+          font-size: 9px;
+
+        }
+        img{  
+          margin:0 auto;
+
+          height: 30px;
+          width: 30px;
+          &:hover{
+            transform: scale(1.2);
+            transition-duration: 400ms;
+          }
+        }
+      }
+    }
+}
+
 .auditorioBlue{    
     background-image: url('../img/auditorio/auditorio2/auditorio.jpg');
     background-size: cover;
@@ -8,7 +89,7 @@
         grid-column: 1/2;
         grid-row: 1/2;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: flex-end;
 
         &--item{
@@ -27,17 +108,18 @@
         align-self: center;
         justify-self: center;
         height: 100%;
-    width: 100%;
+        width: 100%;
         iframe{
             height: 100%;
-    width: 100%;
+            width: 100%;
+            border-radius: 12px;
         }
     }
     &__cartelRight{
         grid-column: 3/4;
         grid-row: 1/2;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: flex-start;
         &--item{
             
