@@ -1,4 +1,11 @@
 @import 'animations.scss';
+.toolCustom{
+    display: none;
+}
+.toolCustomFlag:hover .toolCustom{
+display: block;
+position: absolute;
+}
 
 .contenedor {
     width: 100%;
@@ -86,7 +93,7 @@
                 /* background-color: rgba(225, 224, 240, 0.795); */
                 padding:4px 0 0 12px;
                 margin:0 auto;
-                font-size: 16px;
+                font-size: 16px;                
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -94,6 +101,7 @@
                 font-weight: 600;
                 transform: skew(22deg, 358deg);
                 &__item{
+                    line-height: 13px;
                     text-transform: uppercase;
                     width:85%;
                     background-color: rgb(5, 5, 59);

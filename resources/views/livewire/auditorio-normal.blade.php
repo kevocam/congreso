@@ -19,7 +19,7 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                DE SALA
             </p>
             <a href="">
-               <img src="./img/avatar.jpg" alt="">            
+               <img src="./img/avatars/SALA1.jpg" alt="">            
             </a>
          </div>
          <div class="cartelRight__item--bottom">

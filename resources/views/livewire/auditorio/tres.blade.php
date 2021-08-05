@@ -20,7 +20,7 @@ title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; cli
                DE SALA
             </p>
             <a href="">
-               <img src="./img/avatar.jpg" alt="">            
+               <img src="./img/avatars/SALA3.jpg" alt="">            
             </a>
          </div>
          <div class="cartelCustom__item--bottom">
