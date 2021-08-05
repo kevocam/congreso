@@ -19,8 +19,8 @@ clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
                    DE SALA
                 </p>
                 <a href="">
-                   <img src="./img/avatar.jpg" alt="">            
-                </a>
+                  <img src="./img/avatars/SALA2.jpg" alt="">            
+               </a>
              </div>
              <div class="cartelCustom__item--bottom">
                 <p>

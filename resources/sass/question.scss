@@ -41,6 +41,10 @@
   border-radius: 25px;
   padding: 4px;
   transition-duration: 400ms;
+    img{
+      width:52px;
+      height: 52px;
+    }
     &:hover{
       transform: scale(1.2);
       background: #0c8fa7;

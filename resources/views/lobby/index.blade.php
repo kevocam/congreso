@@ -23,16 +23,18 @@
         </div>
         <div class="contenedor__main--menu animation-bannerUp">
             <div class="contenedor__main--menu--text">
-                <a href="/pabellon" class="contenedor__main--menu--text__item">Pabellón</a>
+                <a href="/pabellon" class="contenedor__main--menu--text__item">Feria Virtual</a>
                 <a href="/auditorios" class="contenedor__main--menu--text__item">Auditorios</a>
             </div>
         </div>
         <div class="contenedor__main--books bounce-in-top">
-            <a href="../pdf/observaciones.pdf" target="_blank"  >
-                <img src="../img/lobby/mobile/revista.png" alt="">
+            <a class="toolCustomFlag" href="../pdf/revista-cientifica-2021.pdf " target="_blank">
+                
+                <img src="../img/lobby/mobile/revista.png" alt=""> <span class='tooltip rounded font-semibold shadow-lg p-1 bg-gray-100 text-blue-500 -mt-8 toolCustom mx-auto'>Descargar pdf</span>
             </a>
-            <a href="../pdf/programa-científico.pdf" target="_blank"  >
-                <img src="../img/programa.png" alt="">
+            <a class="toolCustomFlag" href="../pdf/programa-científico.pdf" target="_blank"  >
+                
+                <img src="../img/programa.png" alt=""> <span class='tooltip rounded shadow-lg font-semibold p-1 bg-gray-100 text-blue-500 -mt-8 toolCustom mx-auto'>Descargar pdf</span>
             </a>
             
         </div>
