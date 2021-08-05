@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="contenedor__main--video animation-top">            
-            <iframe  src="https://www.youtube.com/embed/X0RxNuPu_NI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/DadknrOqF0w?modestbranding=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="contenedor__main--menu animation-bannerUp">
             <div class="contenedor__main--menu--text">

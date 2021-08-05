@@ -6,7 +6,7 @@
     </div>
     <div class="auditorioBlue__pantalla animation-player animation-player ">
  
-      <iframe src="https://www.youtube-nocookie.com/embed/vm-Nd1lvHyI?modestbranding=1&rel=0"" 
+      <iframe src="https://www.youtube-nocookie.com/embed/49ib1ty4Ar4?modestbranding=1&rel=0" 
 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
