@@ -1,0 +1,312 @@
+.contenedor {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../img/pabellon/pabellon-mobile.jpg');    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__stands{
+        padding:12px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        transform: rotate(318deg);        
+    }    
+}
+.a { 
+    width: 55px;
+    height: 55px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url('../img/stands/stand1.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.b { 
+    width: 55px;
+    height: 55px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url('../img/stands/stand2.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.c { 
+    width: 55px;
+    height: 55px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url('../img/stands/stand3.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.d {    
+    width: 55px;
+    height: 55px;
+    grid-column: 4/4;
+    grid-row: 1/2;
+    background-image: url('../img/stands/stand4.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.e { 
+    width: 55px;
+    height: 55px;
+    grid-column: 1/2;
+    grid-row: 2/3;         
+    background-image: url('../img/stands/stand5.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.f { 
+    width: 55px;
+    height: 55px;
+    grid-column: 2/3;
+    grid-row: 2/3; 
+    background-image: url('../img/stands/stand6.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.g { 
+    width: 55px;
+    height: 55px;
+    grid-column: 3/4;
+    grid-row: 2/3; 
+    background-image: url('../img/stands/stand7.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.h { 
+    width: 55px;
+    height: 55px;
+    grid-column: 4/4;
+    grid-row: 2/3; 
+    background-image: url('../img/stands/stand8.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.i { 
+    width: 55px;
+    height: 55px;
+    grid-column: 1/2;
+    grid-row: 3/4; 
+    background-image: url('../img/stands/stand9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.j { 
+    width: 55px;
+    height: 55px;    
+    grid-column: 2/3;
+    grid-row: 3/4; 
+    background-image: url('../img/stands/stand10.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.k { 
+    width: 55px;
+    height: 55px;
+    grid-column: 3/4;
+    grid-row: 3/4; 
+    background-image: url('../img/stands/stand11.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+.l { 
+    width: 55px;
+    height: 55px;
+    grid-column: 4/4;
+    grid-row: 3/4; 
+    background-image: url('../img/stands/stand2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
+.tooltipa{
+    display:none;
+    position: absolute;
+    left: -90px;
+    bottom: 45px;
+    
+}
+.tooltipb{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+.tooltipc{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+.tooltipd{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+.tooltipe{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+.tooltipf{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+.tooltipg{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+.tooltiph{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+.tooltipi{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+.tooltipj{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+.tooltipk{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+.tooltipl{
+    display:none;
+    position: absolute;
+left: -90px;
+    bottom: 45px;
+}
+
+.a:hover .tooltipa{
+    display: flex;    
+    transition-duration: 400ms;
+    z-index: 2;
+    cursor: pointer;
+} 
+.b:hover .tooltipb{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 
+.c:hover .tooltipc{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 
+.d:hover .tooltipd{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 
+.e:hover .tooltipe{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 
+.f:hover .tooltipf{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 
+.g:hover .tooltipg{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 
+.h:hover .tooltiph{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 
+.i:hover .tooltipi{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 
+.j:hover .tooltipj{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 
+.k:hover .tooltipk{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 
+.l:hover .tooltipl{
+    display: flex;    
+    transition-duration: 400ms;
+    cursor: pointer;
+} 

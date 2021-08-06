@@ -74,24 +74,15 @@ mix.sass('resources/sass/question.scss', 'public/css');
 mix.sass('resources/sass/information.scss', 'public/css');
 mix.sass('resources/sass/salas.scss', 'public/css');
 mix.sass('resources/sass/lobby-sxl.scss', 'public/css');
-
-
-
-
-
-
-
-
-
-
-
-
+mix.sass('resources/sass/pabellon.scss', 'public/css');
+mix.sass('resources/sass/pabellon-m.scss', 'public/css');
+mix.sass('resources/sass/pabellon-xl.scss', 'public/css')
+mix.sass('resources/sass/pabellon-sxl.scss', 'public/css')
 
 
 mix.sass('resources/sass/details.scss', 'public/css');
 mix.sass('resources/sass/master-tablet.scss', 'public/css');
 mix.sass('resources/sass/pabellon2-xl.scss', 'public/css')
-mix.sass('resources/sass/pabellon-xl.scss', 'public/css')
     .options({
         processCssUrls: false
     })

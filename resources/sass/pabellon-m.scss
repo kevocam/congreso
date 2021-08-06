@@ -1,0 +1,18 @@
+.contenedor {    
+    background-image: url('../img/pabellon/pabellon-tab.jpg');  
+    
+    &__stands{
+        padding:12px;        
+        transform: rotate(315deg); 
+        margin-right: 40px; 
+        margin-top: 25px; 
+        grid-gap:10px;     
+    } 
+
+} 
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i,.j,.h,.i,.j,.k,.l { 
+    width: 85px;
+    height: 85px;
+}
+    

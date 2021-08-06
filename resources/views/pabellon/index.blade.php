@@ -1,67 +1,172 @@
 @extends('layouts.congreso')
 
 @section('style')
+<link rel="stylesheet" href="./css/pabellon.css">
+<link rel="stylesheet" href="./css/pabellon-m.css" media="(min-width:768px)">
+<link rel="stylesheet" href="./css/pabellon-xl.css" media="(min-width:1024px)">
+<link rel="stylesheet" href="./css/pabellon-sxl.css" media="(min-width:1440px)">
 
-<link rel="stylesheet" href="./css/pabellon-xl.css">
 @endsection
 @section('content')
 <section class="contenedor">
     <div class="contenedor__stands">
-        <div class="a">
-            
-            <div class="shadow-lg rounded-2xl w-64 p-4 bg-white  justify-between items-center tooltip ">
-                <div class="w-2/6">
-                    <img src="./img/dauGroupCircle4.png" alt="dau" class="h-10 w-12 rounded-full"/>
+        <div class="a">            
+            <div class="shadow-lg rounded-2xl w-48 p-4 bg-white justify-between items-center tooltipa ">
+                <div class="w-1/3">
+                    <img src="./img/logos/humanizando.png" alt="humanizando" class="rounded-full"/>
                 </div>
-                <div class="w-3/6">
-                    <p class="text-gray-500 text-xl">
-                       <span class="text-2xl">Dau</span>  - Logoterapia y sentido de vida
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-base font-bold">Fundación humanizando</span> 
                     </p>
                 </div>
-                <div class="w-1/6 text-right">
-                   {{--  <svg width="20" height="20" fill="currentColor" viewBox="0 0 1792 1792" class="text-indigo-500 h-6 w-6" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z">
-                        </path>
-                    </svg> --}}
-                </div>
+                
             </div>
-            <a href="/detail-dau">
+            {{-- <a href="/detail-dau">
                 <img src="./img/stands/stand1.png" alt="">
-            </a>
+            </a> --}}
             
         </div>
         <div class="b">
+            <div class="shadow-lg rounded-2xl p-4 bg-white justify-between items-center tooltipb wcard ">
+                <div class="w-1/3">
+                    <img src="./img/logos/social.png" alt="social like" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-2xl font-bold">Social Like</span>
+                    </p>
+                </div>
+                
+            </div>          
             
         </div>
         <div class="c">
+            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipc ">
+                <div class="w-1/3">
+                    <img src="./img/logos/damas.png" alt="damas" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-2xl font-bold">Damas Salud</span>
+                    </p>
+                </div>
+                
+            </div>
             
         </div>
         <div class="d">
+            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipd ">
+                <div class="w-1/3">
+                    <img src="./img/logos/hq.png" alt="dau" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-2xl font-bold">HQ</span>
+                    </p>
+                </div>
+                
+            </div>
             
         </div>
         <div class="e">
-            
+            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipe ">
+                <div class="w-1/3">
+                    <img src="./img/logos/guatemala.png" alt="guatemala" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-lg font-bold">Dau Guatemala</span>
+                    </p>
+                </div>                
+            </div>            
         </div>
         <div class="f">
-            
+            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipf ">
+                <div class="w-1/3">
+                    <img src="./img/logos/dau.png" alt="dau" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-2xl font-bold">Dau</span>
+                    </p>
+                </div>                
+            </div>            
         </div>
         <div class="g">
-            
+            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipg ">
+                <div class="w-1/3">
+                    <img src="./img/logos/ediciones.png" alt="ediciones" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-lg font-bold">Ediciones Dau</span>
+                    </p>
+                </div>                
+            </div>            
         </div>
         <div class="h">
-            
+            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltiph ">
+                <div class="w-1/3">
+                    <img src="./img/logos/cundinamarca.png" alt="dau" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-sm font-bold">Dau Cundinamarca</span>
+                    </p>
+                </div>                
+            </div>            
         </div>
         <div class="i">
+            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipi ">
+                <div class="w-1/3">
+                    <img src="./img/logos/nayarit.png" alt="dau" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-2xl font-bold">Dau Nayarit</span>
+                    </p>
+                </div>                
+            </div>
             
         </div>
         <div class="j">
+            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipj ">
+                <div class="w-1/3">
+                    <img src="./img/logos/queretaro.png" alt="dau" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-xl font-bold">Dau Queretaro</span>
+                    </p>
+                </div>
+                
+            </div>
             
         </div>
         <div class="k">
-            
+            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipk ">
+                <div class="w-1/3">
+                    <img src="./img/logos/dominicana.png" alt="dau" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-base font-bold">Sociedad Dominicana de Logoterapia</span>
+                    </p>
+                </div>                
+            </div>            
         </div>
         <div class="l">
-            
+            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipl ">
+                <div class="w-1/3">
+                    <img src="./img/logos/sociedad.png" alt="dau" class="rounded-full"/>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-gray-500  text-xl">
+                       <span class="text-lg font-bold">Instituto peruano Victor Franklin</span>
+                    </p>
+                </div>                
+            </div>            
         </div>
       
     </div>
