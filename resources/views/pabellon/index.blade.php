@@ -12,9 +12,10 @@
 @section('content')
 <section class="contenedor">
     <div class="contenedor__stands">
-        <div class="a">  
-            <div class="cardTool tooltipa ">
-                    <a class="cardTool__item"  href="/stand-humanizando">                
+
+        <div class="a">             
+            <a class="cardTool__item"  href="/stand-humanizando">                
+                <div class="cardTool tooltipa ">
                         <div class=" cardTool__item--img">                    
                                 <img src="./img/logos/humanizando.png" alt="humanizando" class="rounded-full"/>                    
                         </div>
@@ -22,14 +23,13 @@
                             <p class="">
                                 Fundación humanizando
                             </p>
-                        </div>
-                     </a>          
-                    
-                </div>            
+                        </div>                       
+                </div>  
+            </a>                       
         </div>
         <div class="b">
-            <div class="cardTool tooltipb ">                
-                <a class="cardTool__item" href="/stand-social">                
+            <a class="cardTool__item" href="/stand-social">                
+                <div  class="cardTool tooltipb ">                
                     <div class=" cardTool__item--img">
                         <img src="./img/logos/social.png" alt="social like" class="rounded-full"/>                        
                     </div>
@@ -38,12 +38,12 @@
                         <span   >Social Like</span>
                         </p>
                     </div>                    
-                </a>                        
-            </div>            
+                </div>                        
+            </a>            
         </div>
         <div class="c">
-            <div class="cardTool tooltipc ">
-                    <a class="cardTool__item" href="/stand-damassalud">
+            <a class="cardTool__item" href="/stand-damassalud">
+                    <div class="cardTool tooltipc ">
                         <div class=" cardTool__item--img">
                             <img src="./img/logos/damas.png" alt="damas" class="rounded-full"/>
                         </div>
@@ -52,13 +52,13 @@
                             <span   >Damas Salud</span>
                             </p>
                         </div>                        
-                    </a>
                     </div>
+                </a>
             
         </div>
         <div class="d">
+            <a class="cardTool__item" href="/stand-beauty">
             <div class="cardTool tooltipd ">
-                <a class="cardTool__item" href="/stand-beauty">
                     <div class=" cardTool__item--img">
                         <img src="./img/logos/hq.png" alt="dau" class="rounded-full"/>
                     </div>
@@ -67,12 +67,12 @@
                            <span   >HQ</span>
                         </p>
                     </div>                    
-                </a>            
                 </div>
+            </a>            
         </div>
         <div class="e">
+            <a class="cardTool__item" href="/stand-guatemala">
             <div class="cardTool tooltipe ">
-                <a class="cardTool__item" href="/stand-guatemala">
                     <div class=" cardTool__item--img">
                         <img src="./img/logos/guatemala.png" alt="guatemala" class="rounded-full"/>
                     </div>
@@ -81,12 +81,12 @@
                            <span class="text-lg font-bold">Dau Guatemala</span>
                         </p>
                     </div>                
-                </a>
                 </div>    
+            </a>
         </div>
         <div class="f">
+            <a class="cardTool__item" href="/stand-dau">
             <div class="cardTool tooltipf ">
-                <a class="cardTool__item" href="/stand-dau">
                     <div class=" cardTool__item--img">
                         <img src="./img/logos/dau.png" alt="dau" class="rounded-full"/>
                     </div>
@@ -95,12 +95,12 @@
                            <span   >Dau</span>
                         </p>
                     </div>                
-                </a>
                 </div>            
+            </a>
         </div>
         <div class="g">
+            <a class="cardTool__item" href="/stand-ediciones">
             <div class="cardTool tooltipg ">
-                <a class="cardTool__item" href="/stand-ediciones">
                     <div class=" cardTool__item--img">
                         <img src="./img/logos/ediciones.png" alt="ediciones" class="rounded-full"/>
                     </div>
@@ -109,12 +109,12 @@
                            <span class="text-lg font-bold">Ediciones Dau</span>
                         </p>
                     </div>                
-                </a>
                 </div>
+            </a>
         </div>
         <div class="h">
+            <a class="cardTool__item" href="/stand-cundinamarca">
             <div class="cardTool tooltiph ">
-                    <a class="cardTool__item" href="/stand-cundinamarca">
                     <div class=" cardTool__item--img">
                         <img src="./img/logos/cundinamarca.png" alt="dau" class="rounded-full"/>
                     </div>
@@ -123,12 +123,12 @@
                            <span class="text-sm font-bold">Dau Cundinamarca</span>
                         </p>
                     </div>                
-                </a>
                 </div>            
+            </a>
         </div>
         <div class="i">
+            <a class="cardTool__item" href="/stand-nayarit">
             <div class="cardTool tooltipi ">
-                    <a class="cardTool__item" href="/stand-nayarit">
                     <div class=" cardTool__item--img">
                         <img src="./img/logos/nayarit.png" alt="dau" class="rounded-full"/>
                     </div>
@@ -137,13 +137,13 @@
                            <span   >Dau Nayarit</span>
                         </p>
                     </div>                
-                </a>
                 </div>
+            </a>
             
         </div>
         <div class="j">
+            <a class="cardTool__item" href="/stand-queretaro">
             <div class="cardTool tooltipj ">
-                    <a class="cardTool__item" href="/stand-queretaro">
                     <div class=" cardTool__item--img">
                         <img src="./img/logos/queretaro.png" alt="dau" class="rounded-full"/>
                     </div>
@@ -152,13 +152,13 @@
                            <span class="text-xl font-bold">Dau Queretaro</span>
                         </p>
                     </div>                    
-                </a>            
                 </div>
+            </a>            
         </div>
         <div class="k">
+            <a class="cardTool__item" href="/stand-dominicana">
             <div class="cardTool tooltipk ">
-                    <a class="cardTool__item" href="/stand-dominicana">
-                    <div class=" cardTool__item--img">
+                <div class=" cardTool__item--img">
                         <img src="./img/logos/dominicana.png" alt="dau" class="rounded-full"/>
                     </div>
                     <div class="cardTool__item--title">
@@ -166,12 +166,12 @@
                            <span class="text-base font-bold">Sociedad Dominicana de Logoterapia</span>
                         </p>
                     </div>                
-                </a>
                 </div>            
+            </a>
         </div>
         <div class="l">
+            <a class="cardTool__item" href="/stand-instituto">
             <div class="cardTool tooltipl ">
-                    <a class="cardTool__item" href="/stand-instituto">
                     <div class=" cardTool__item--img">
                         <img src="./img/logos/sociedad.png" alt="dau" class="rounded-full"/>
                     </div>
@@ -180,8 +180,8 @@
                            <span class="text-lg font-bold">Instituto peruano Victor Franklin</span>
                         </p>
                     </div>t                
-                </a>
                 </div> 
+            </a>
         </div>
       
     </div>
