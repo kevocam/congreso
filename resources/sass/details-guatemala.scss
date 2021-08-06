@@ -20,8 +20,11 @@
             height: 260px;            
             background-image: url("../img/details/guatemala/banner.png");
            background-size: contain;
-
             background-repeat: no-repeat;
+            &:hover{
+                transform: scale(1.5);
+                animation-duration: 700ms;                
+            }
         }
     }
     &__banner{
@@ -35,7 +38,12 @@
             height: 270px;   
             background-image: url("../img/details/guatemala/panelGris.png");
             background-size: contain;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat; 
+            
+            &:hover{
+                transform: scale(1.5);
+                animation-duration: 700ms;                
+            }
             }
     }
     &__cartelUp{
@@ -50,7 +58,11 @@
             background-image: url("../img/details/guatemala/cartelUp.png");
             background-size: contain;
             background-repeat: no-repeat;   
-            background-position: center;                    
+            background-position: center;   
+            &:hover{
+                transform: scale(1.5);
+                animation-duration: 700ms;                
+            }                 
         }
     }
     &__cartelRight{
@@ -65,7 +77,11 @@
             background-image: url("../img/details/guatemala/cartel.png");
             background-repeat: no-repeat;
             background-size: contain;
-            background-position: center;                    
+            background-position: center;  
+            &:hover{
+                transform: scale(1.5);
+                animation-duration: 700ms;                
+            }                  
 
 
         }

@@ -11,10 +11,10 @@ class Questions extends Component
 
     public $showModal = false; 
     public $zoom=[
-        "https://zoom.us/j/96738061744?pwd=RElvaDdnVTBVZkxvcmdtTFcxalhOZz09",
-        "https://us06web.zoom.us/j/85026216115?pwd=QjRFZU5acFMyWjloT2RpdStZZUp6Zz09",
-        "https://us02web.zoom.us/j/82484786206?pwd=c2dxOENHRE4rdk5jZzJHSnkydHpiUT09",
-        "https://us06web.zoom.us/j/85697489979?pwd=U3pQTWRrV0gzNk1qQURGbkt2RmU3QT09"
+        "https://zoom.us/j/92221511350?pwd=MVBnUXljTnlPdGozd2I1dnUyODNXdz09",
+        "https://zoom.us/j/94063937449?pwd=bmIzLzdvOWtZNGZNZjE5d0xrNjJxQT09",
+        "https://zoom.us/j/93540878642?pwd=cEN2R0Y2SXAzNzFnUXVnak8vVDFYZz09",
+        "https://zoom.us/j/95515291460?pwd=MC9FdjArdGl0bE5ld1pib1lnSDZmQT09"
     ];
         
 

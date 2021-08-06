@@ -10,163 +10,195 @@
 @section('content')
 <section class="contenedor">
     <div class="contenedor__stands">
-        <div class="a">            
-            <div class="shadow-lg rounded-2xl w-48 p-4 bg-white justify-between items-center tooltipa ">
-                <div class="w-1/3">
-                    <img src="./img/logos/humanizando.png" alt="humanizando" class="rounded-full"/>
+        <div class="a">  
+            <a href="/stand-humanizando">                
+                <div class="shadow-lg rounded-2xl w-48 p-4 bg-white justify-between items-center tooltipa ">
+                    <div class="w-1/3">                    
+                            <img src="./img/logos/humanizando.png" alt="humanizando" class="rounded-full"/>                    
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-base font-bold">Fundación humanizando</span> 
+                        </p>
+                    </div>
+                    
                 </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-base font-bold">Fundación humanizando</span> 
-                    </p>
-                </div>
-                
-            </div>
+            </a>          
             {{-- <a href="/detail-dau">
                 <img src="./img/stands/stand1.png" alt="">
             </a> --}}
             
         </div>
         <div class="b">
-            <div class="shadow-lg rounded-2xl p-4 bg-white justify-between items-center tooltipb wcard ">
-                <div class="w-1/3">
-                    <img src="./img/logos/social.png" alt="social like" class="rounded-full"/>
+            <a href="/stand-social">                
+                <div class="shadow-lg rounded-2xl w-48 p-4 bg-white justify-between items-center tooltipa ">
+                    <div class="w-1/3">                    
+                            <img src="./img/logos/humanizando.png" alt="humanizando" class="rounded-full"/>                    
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-base font-bold">Fundación humanizando</span> 
+                        </p>
+                    </div>
+                    
                 </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-2xl font-bold">Social Like</span>
-                    </p>
-                </div>
-                
-            </div>          
+            </a>    
+            <a href="/stand-social">                
+                <div class="shadow-lg rounded-2xl w-48 p-4 bg-white justify-between items-center tooltipb  ">
+                    <div class="w-1/3" >                        
+                            <img src="./img/logos/social.png" alt="social like" class="rounded-full"/>                        
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                        <span class="text-2xl font-bold">Social Like</span>
+                        </p>
+                    </div>
+                    
+                </div>  
+            </a>      
             
         </div>
         <div class="c">
-            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipc ">
-                <div class="w-1/3">
-                    <img src="./img/logos/damas.png" alt="damas" class="rounded-full"/>
-                </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-2xl font-bold">Damas Salud</span>
-                    </p>
-                </div>
-                
-            </div>
+            <a href="/stand-damassalud">
+                    <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipc ">
+                        <div class="w-1/3">
+                            <img src="./img/logos/damas.png" alt="damas" class="rounded-full"/>
+                        </div>
+                        <div class="w-2/3">
+                            <p class="text-gray-500  text-xl">
+                            <span class="text-2xl font-bold">Damas Salud</span>
+                            </p>
+                        </div>                        
+                    </div>
+            </a>
             
         </div>
         <div class="d">
-            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipd ">
-                <div class="w-1/3">
-                    <img src="./img/logos/hq.png" alt="dau" class="rounded-full"/>
+            <a href="/stand-beauty">
+                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipd ">
+                    <div class="w-1/3">
+                        <img src="./img/logos/hq.png" alt="dau" class="rounded-full"/>
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-2xl font-bold">HQ</span>
+                        </p>
+                    </div>                    
                 </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-2xl font-bold">HQ</span>
-                    </p>
-                </div>
-                
-            </div>
-            
+            </a>            
         </div>
         <div class="e">
-            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipe ">
-                <div class="w-1/3">
-                    <img src="./img/logos/guatemala.png" alt="guatemala" class="rounded-full"/>
-                </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-lg font-bold">Dau Guatemala</span>
-                    </p>
-                </div>                
-            </div>            
+            <a href="/stand-guatemala">
+                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipe ">
+                    <div class="w-1/3">
+                        <img src="./img/logos/guatemala.png" alt="guatemala" class="rounded-full"/>
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-lg font-bold">Dau Guatemala</span>
+                        </p>
+                    </div>                
+                </div>    
+            </a>
         </div>
         <div class="f">
-            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipf ">
-                <div class="w-1/3">
-                    <img src="./img/logos/dau.png" alt="dau" class="rounded-full"/>
-                </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-2xl font-bold">Dau</span>
-                    </p>
-                </div>                
-            </div>            
+            <a href="/stand-dau">
+                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipf ">
+                    <div class="w-1/3">
+                        <img src="./img/logos/dau.png" alt="dau" class="rounded-full"/>
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-2xl font-bold">Dau</span>
+                        </p>
+                    </div>                
+                </div>            
+            </a>
         </div>
         <div class="g">
-            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipg ">
-                <div class="w-1/3">
-                    <img src="./img/logos/ediciones.png" alt="ediciones" class="rounded-full"/>
+            <a href="/stand-ediciones">
+                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipg ">
+                    <div class="w-1/3">
+                        <img src="./img/logos/ediciones.png" alt="ediciones" class="rounded-full"/>
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-lg font-bold">Ediciones Dau</span>
+                        </p>
+                    </div>                
                 </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-lg font-bold">Ediciones Dau</span>
-                    </p>
-                </div>                
-            </div>            
+            </a>
         </div>
         <div class="h">
-            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltiph ">
-                <div class="w-1/3">
-                    <img src="./img/logos/cundinamarca.png" alt="dau" class="rounded-full"/>
-                </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-sm font-bold">Dau Cundinamarca</span>
-                    </p>
-                </div>                
-            </div>            
+            <a href="/stand-cundinamarca">
+                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltiph ">
+                    <div class="w-1/3">
+                        <img src="./img/logos/cundinamarca.png" alt="dau" class="rounded-full"/>
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-sm font-bold">Dau Cundinamarca</span>
+                        </p>
+                    </div>                
+                </div>            
+            </a>
         </div>
         <div class="i">
-            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipi ">
-                <div class="w-1/3">
-                    <img src="./img/logos/nayarit.png" alt="dau" class="rounded-full"/>
+            <a href="/stand-nayarit">
+                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipi ">
+                    <div class="w-1/3">
+                        <img src="./img/logos/nayarit.png" alt="dau" class="rounded-full"/>
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-2xl font-bold">Dau Nayarit</span>
+                        </p>
+                    </div>                
                 </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-2xl font-bold">Dau Nayarit</span>
-                    </p>
-                </div>                
-            </div>
+            </a>
             
         </div>
         <div class="j">
-            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipj ">
-                <div class="w-1/3">
-                    <img src="./img/logos/queretaro.png" alt="dau" class="rounded-full"/>
+            <a href="/stand-queretaro">
+                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipj ">
+                    <div class="w-1/3">
+                        <img src="./img/logos/queretaro.png" alt="dau" class="rounded-full"/>
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-xl font-bold">Dau Queretaro</span>
+                        </p>
+                    </div>                    
                 </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-xl font-bold">Dau Queretaro</span>
-                    </p>
-                </div>
-                
-            </div>
-            
+            </a>            
         </div>
         <div class="k">
-            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipk ">
-                <div class="w-1/3">
-                    <img src="./img/logos/dominicana.png" alt="dau" class="rounded-full"/>
-                </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-base font-bold">Sociedad Dominicana de Logoterapia</span>
-                    </p>
-                </div>                
-            </div>            
+            <a href="/stand-dominicana">
+                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipk ">
+                    <div class="w-1/3">
+                        <img src="./img/logos/dominicana.png" alt="dau" class="rounded-full"/>
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-base font-bold">Sociedad Dominicana de Logoterapia</span>
+                        </p>
+                    </div>                
+                </div>            
+            </a>
         </div>
         <div class="l">
-            <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipl ">
-                <div class="w-1/3">
-                    <img src="./img/logos/sociedad.png" alt="dau" class="rounded-full"/>
-                </div>
-                <div class="w-2/3">
-                    <p class="text-gray-500  text-xl">
-                       <span class="text-lg font-bold">Instituto peruano Victor Franklin</span>
-                    </p>
-                </div>                
-            </div>            
+            <a href="/stand-instituto">
+                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipl ">
+                    <div class="w-1/3">
+                        <img src="./img/logos/sociedad.png" alt="dau" class="rounded-full"/>
+                    </div>
+                    <div class="w-2/3">
+                        <p class="text-gray-500  text-xl">
+                           <span class="text-lg font-bold">Instituto peruano Victor Franklin</span>
+                        </p>
+                    </div>                
+                </div> 
+            </a>
         </div>
       
     </div>

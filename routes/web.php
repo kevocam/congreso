@@ -135,50 +135,50 @@ Route::group(['middleware' => ['role:taller6|super-admin','auth:sanctum' ]], fun
 
 
 
-Route::get('/detail-dau', function () {
+Route::get('/stand-dau', function () {
     return view('details.dau');
 });
 
-Route::get('/detail-instituto', function () {
+Route::get('/stand-instituto', function () {
     return view('details.institute');
 });
 
-Route::get('/detail-social', function () {
+Route::get('/stand-social', function () {
     return view('details.social');
 }); 
 
-Route::get('/detail-dayarit', function () {
+Route::get('/stand-nayarit', function () {
     return view('details.dayarit');
 }); 
 
-Route::get('/detail-guatemala', function () {
+Route::get('/stand-guatemala', function () {
     return view('details.guatemala');
 }); 
 
-Route::get('/detail-dominicana', function () {
+Route::get('/stand-dominicana', function () {
     return view('details.dominicana');
 }); 
 
-Route::get('/detail-cundinamarca', function () {
+Route::get('/stand-cundinamarca', function () {
     return view('details.cundinamarca');
 }); 
-Route::get('/detail-humanizando', function () {
+Route::get('/stand-humanizando', function () {
     return view('details.humanizando');
 }); 
 
-Route::get('/detail-beauty', function () {
+Route::get('/stand-beauty', function () {
     return view('details.beauty');
 }); 
 
-Route::get('/detail-damassalud', function () {
+Route::get('/stand-damassalud', function () {
     return view('details.damassalud');
 });
 
-Route::get('/detail-ediciones', function () {
+Route::get('/stand-ediciones', function () {
     return view('details.ediciones');
 });  
 
-Route::get('/detail-queretaro', function () {
+Route::get('/stand-queretaro', function () {
     return view('details.queretaro');
 }); 
 
