@@ -24,7 +24,9 @@ body{
         grid-column: 3/5;
         justify-content: center;
         padding:0;
+
         &--item{
+            background-position: inherit;
             display: flex;
             width: 210px;
             height: 90px;

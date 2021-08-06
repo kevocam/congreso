@@ -2,34 +2,33 @@
 <div class="dau">
     <div class="dau__cartelLeft ">
         <div class="dau__cartelLeft--item animation-cartelLeft">
-            <a href="https://wwww.facebook.com/dauperu" target="_blank">
+            {{-- <a href="https://wwww.facebook.com/dauperu" target="_blank">
                 <img src="./img/temp/ban.png" alt="">
-            </a>
+            </a> --}}
         </div>
     </div>
 
     <div class="dau__video">
-        <div class="dau__video--item" wire:click="openModal" id="btnPlay">
+        <div class="dau__video--item"  id="btnPlay">
             {{-- <img wire:click="openModal" id="btnPlay" src="https://img.icons8.com/color/48/000000/play-button-circled--v1.png"/> --}}
         </div>
     </div>
     <div class="dau__cartelRight">
         <div class="dau__cartelRight--item animation-cartelRight">
-            <a href="https://wwww.facebook.com/dauperu" target="_blank">
+            {{-- <a href="https://wwww.facebook.com/dauperu" target="_blank">
                 <img src="./img/temp/diplomado.jpg" alt="">
-            </a>
+            </a> --}}
         </div>
 
     </div>
-    <div class="dau__banner">
-        
+    <div class="dau__banner">        
         <div class="dau__banner--item animation-top">
-            <div class="dau__banner--item--title">
+            {{-- <div class="dau__banner--item--title">
                 Libros 
             </div>
             <img src="./img/temp/book1.png" alt="">
             <img src="./img/temp/book2.png" alt="">
-            <img src="./img/temp/book3.png" alt="">           
+            <img src="./img/temp/book3.png" alt="">  --}}          
 
         </div>
     </div>

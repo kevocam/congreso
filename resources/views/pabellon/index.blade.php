@@ -179,7 +179,7 @@
                         <p  >
                            <span class="text-lg font-bold">Instituto peruano Victor Franklin</span>
                         </p>
-                    </div>                
+                    </div>t                
                 </a>
                 </div> 
         </div>

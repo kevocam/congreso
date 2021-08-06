@@ -52,6 +52,7 @@
                 background-image: url('../img/details/dau/tv.png');
                 background-repeat: no-repeat;
                 background-size: contain;
+                background-position: center;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -67,7 +68,7 @@
                &--item{
                 width:70px;
                 height: 160px;
-                background-image: url('../img/details/dau/cartel1.png');
+                background-image: url('../img/details/dau/cartel2.png');
                 background-size: cover;
                 display: flex;  
                 align-items: flex-start;                 
@@ -88,6 +89,8 @@
                &--item{
                    background-image: url("../img/details/dau/banner.png");
                    background-repeat: no-repeat;
+                   background-size: cover;
+                   background-position: right;
                    width:100px;
                    height: auto;
                    

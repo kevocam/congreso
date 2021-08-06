@@ -1,9 +1,9 @@
 <div class="social">    
     <div class="social__cartelLeft animation-cartelLeft">
         <div class="social__cartelLeft--item">    
-         <a href="https://wwww.facebook.com/dauperu" target="_blank">
+         {{-- <a href="https://wwww.facebook.com/dauperu" target="_blank">
                 <img src="./img/temp/ban.png" alt="">
-            </a>
+            </a> --}}
 
         </div>
     </div> 
@@ -16,7 +16,7 @@
         <div class="social__banner--item">
             <div class="social__banner--item--content">
                 <ul>
-                    <li>
+                    {{-- <li>
                         <a href="">
                             <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/>
                               Facebook
@@ -40,7 +40,7 @@
                             <img src="https://img.icons8.com/doodle/48/000000/tiktok--v1.png"/>
                             TikTok
                         </a>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
            
@@ -48,9 +48,9 @@
     </div>
     <div class="social__cartelRight animation-cartelRight">
         <div class="social__cartelRight--item">
-            <a href="https://wwww.facebook.com/dauperu" target="_blank">
+            {{-- <a href="https://wwww.facebook.com/dauperu" target="_blank">
                 <img src="./img/temp/diplomado.jpg" alt="">
-            </a>
+            </a> --}}
         </div>
     </div>
 
