@@ -1,3 +1,33 @@
+.cardTool{
+    
+    border-radius:12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    max-width: 130px;
+    padding:8px;
+    &__item{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &--img{
+            width: 40%;
+            img{
+            
+            width: 100%;
+        }
+        }
+        &--title{
+            width: 60%;
+            font-family: 'Montserrat', "sans-serif";;
+            font-weight: 800;
+            color:gray;
+
+
+        }
+    }
+}
 .contenedor {
     width: 100%;
     height: 90vh;
@@ -8,7 +38,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     &__stands{
         padding:12px;
         display: grid;

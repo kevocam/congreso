@@ -65,12 +65,12 @@
                         <a href="/dashboard" class="menuLobby block md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">Dashboard</a>
                     </li>
                     @endhasanyrole
-                    <li id="dropdownMain" class="flex border-t md:border-none">
+                    <li id="dropdownMain" class="flex border-t md:border-none flex justify-center">
                                              
-                        <ul class="menuLobby">
+                        <ul class="">
                           <x-jet-dropdown  align="right" width="48">
                             <x-slot name="trigger">          
-                              <div class="flex align-center justify-center">                                
+                              <div class="menuLobby block mx-auto md:inline-block px-4 py-3 no-underline text-grey-darkest hover:text-grey-darker sm:text-right">                                
                                 {{ Auth::user()->name }}                               
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-caret-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#096191" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

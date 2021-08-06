@@ -5,200 +5,183 @@
 <link rel="stylesheet" href="./css/pabellon-m.css" media="(min-width:768px)">
 <link rel="stylesheet" href="./css/pabellon-xl.css" media="(min-width:1024px)">
 <link rel="stylesheet" href="./css/pabellon-sxl.css" media="(min-width:1440px)">
+<link rel="stylesheet" href="./css/pabellon-xxl.css" media="(min-width:1550px)">
+
 
 @endsection
 @section('content')
 <section class="contenedor">
     <div class="contenedor__stands">
         <div class="a">  
-            <a href="/stand-humanizando">                
-                <div class="shadow-lg rounded-2xl w-48 p-4 bg-white justify-between items-center tooltipa ">
-                    <div class="w-1/3">                    
-                            <img src="./img/logos/humanizando.png" alt="humanizando" class="rounded-full"/>                    
-                    </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
-                           <span class="text-base font-bold">Fundación humanizando</span> 
-                        </p>
-                    </div>
+            <div class="cardTool tooltipa ">
+                    <a class="cardTool__item"  href="/stand-humanizando">                
+                        <div class=" cardTool__item--img">                    
+                                <img src="./img/logos/humanizando.png" alt="humanizando" class="rounded-full"/>                    
+                        </div>
+                        <div class="cardTool__item--title">
+                            <p class="">
+                                Fundación humanizando
+                            </p>
+                        </div>
+                     </a>          
                     
-                </div>
-            </a>          
-            {{-- <a href="/detail-dau">
-                <img src="./img/stands/stand1.png" alt="">
-            </a> --}}
-            
+                </div>            
         </div>
         <div class="b">
-            <a href="/stand-social">                
-                <div class="shadow-lg rounded-2xl w-48 p-4 bg-white justify-between items-center tooltipa ">
-                    <div class="w-1/3">                    
-                            <img src="./img/logos/humanizando.png" alt="humanizando" class="rounded-full"/>                    
+            <div class="cardTool tooltipb ">                
+                <a class="cardTool__item" href="/stand-social">                
+                    <div class=" cardTool__item--img">
+                        <img src="./img/logos/social.png" alt="social like" class="rounded-full"/>                        
                     </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
-                           <span class="text-base font-bold">Fundación humanizando</span> 
+                    <div class="cardTool__item--title">
+                        <p>
+                        <span   >Social Like</span>
                         </p>
-                    </div>
-                    
-                </div>
-            </a>    
-            <a href="/stand-social">                
-                <div class="shadow-lg rounded-2xl w-48 p-4 bg-white justify-between items-center tooltipb  ">
-                    <div class="w-1/3" >                        
-                            <img src="./img/logos/social.png" alt="social like" class="rounded-full"/>                        
-                    </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
-                        <span class="text-2xl font-bold">Social Like</span>
-                        </p>
-                    </div>
-                    
-                </div>  
-            </a>      
-            
+                    </div>                    
+                </a>                        
+            </div>            
         </div>
         <div class="c">
-            <a href="/stand-damassalud">
-                    <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipc ">
-                        <div class="w-1/3">
+            <div class="cardTool tooltipc ">
+                    <a class="cardTool__item" href="/stand-damassalud">
+                        <div class=" cardTool__item--img">
                             <img src="./img/logos/damas.png" alt="damas" class="rounded-full"/>
                         </div>
-                        <div class="w-2/3">
-                            <p class="text-gray-500  text-xl">
-                            <span class="text-2xl font-bold">Damas Salud</span>
+                        <div class="cardTool__item--title">
+                            <p  >
+                            <span   >Damas Salud</span>
                             </p>
                         </div>                        
+                    </a>
                     </div>
-            </a>
             
         </div>
         <div class="d">
-            <a href="/stand-beauty">
-                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipd ">
-                    <div class="w-1/3">
+            <div class="cardTool tooltipd ">
+                <a class="cardTool__item" href="/stand-beauty">
+                    <div class=" cardTool__item--img">
                         <img src="./img/logos/hq.png" alt="dau" class="rounded-full"/>
                     </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
-                           <span class="text-2xl font-bold">HQ</span>
+                    <div class="cardTool__item--title">
+                        <p  >
+                           <span   >HQ</span>
                         </p>
                     </div>                    
+                </a>            
                 </div>
-            </a>            
         </div>
         <div class="e">
-            <a href="/stand-guatemala">
-                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipe ">
-                    <div class="w-1/3">
+            <div class="cardTool tooltipe ">
+                <a class="cardTool__item" href="/stand-guatemala">
+                    <div class=" cardTool__item--img">
                         <img src="./img/logos/guatemala.png" alt="guatemala" class="rounded-full"/>
                     </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
+                    <div class="cardTool__item--title">
+                        <p  >
                            <span class="text-lg font-bold">Dau Guatemala</span>
                         </p>
                     </div>                
+                </a>
                 </div>    
-            </a>
         </div>
         <div class="f">
-            <a href="/stand-dau">
-                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipf ">
-                    <div class="w-1/3">
+            <div class="cardTool tooltipf ">
+                <a class="cardTool__item" href="/stand-dau">
+                    <div class=" cardTool__item--img">
                         <img src="./img/logos/dau.png" alt="dau" class="rounded-full"/>
                     </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
-                           <span class="text-2xl font-bold">Dau</span>
+                    <div class="cardTool__item--title">
+                        <p  >
+                           <span   >Dau</span>
                         </p>
                     </div>                
+                </a>
                 </div>            
-            </a>
         </div>
         <div class="g">
-            <a href="/stand-ediciones">
-                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipg ">
-                    <div class="w-1/3">
+            <div class="cardTool tooltipg ">
+                <a class="cardTool__item" href="/stand-ediciones">
+                    <div class=" cardTool__item--img">
                         <img src="./img/logos/ediciones.png" alt="ediciones" class="rounded-full"/>
                     </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
+                    <div class="cardTool__item--title">
+                        <p  >
                            <span class="text-lg font-bold">Ediciones Dau</span>
                         </p>
                     </div>                
+                </a>
                 </div>
-            </a>
         </div>
         <div class="h">
-            <a href="/stand-cundinamarca">
-                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltiph ">
-                    <div class="w-1/3">
+            <div class="cardTool tooltiph ">
+                    <a class="cardTool__item" href="/stand-cundinamarca">
+                    <div class=" cardTool__item--img">
                         <img src="./img/logos/cundinamarca.png" alt="dau" class="rounded-full"/>
                     </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
+                    <div class="cardTool__item--title">
+                        <p  >
                            <span class="text-sm font-bold">Dau Cundinamarca</span>
                         </p>
                     </div>                
+                </a>
                 </div>            
-            </a>
         </div>
         <div class="i">
-            <a href="/stand-nayarit">
-                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipi ">
-                    <div class="w-1/3">
+            <div class="cardTool tooltipi ">
+                    <a class="cardTool__item" href="/stand-nayarit">
+                    <div class=" cardTool__item--img">
                         <img src="./img/logos/nayarit.png" alt="dau" class="rounded-full"/>
                     </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
-                           <span class="text-2xl font-bold">Dau Nayarit</span>
+                    <div class="cardTool__item--title">
+                        <p  >
+                           <span   >Dau Nayarit</span>
                         </p>
                     </div>                
+                </a>
                 </div>
-            </a>
             
         </div>
         <div class="j">
-            <a href="/stand-queretaro">
-                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipj ">
-                    <div class="w-1/3">
+            <div class="cardTool tooltipj ">
+                    <a class="cardTool__item" href="/stand-queretaro">
+                    <div class=" cardTool__item--img">
                         <img src="./img/logos/queretaro.png" alt="dau" class="rounded-full"/>
                     </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
+                    <div class="cardTool__item--title">
+                        <p  >
                            <span class="text-xl font-bold">Dau Queretaro</span>
                         </p>
                     </div>                    
+                </a>            
                 </div>
-            </a>            
         </div>
         <div class="k">
-            <a href="/stand-dominicana">
-                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipk ">
-                    <div class="w-1/3">
+            <div class="cardTool tooltipk ">
+                    <a class="cardTool__item" href="/stand-dominicana">
+                    <div class=" cardTool__item--img">
                         <img src="./img/logos/dominicana.png" alt="dau" class="rounded-full"/>
                     </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
+                    <div class="cardTool__item--title">
+                        <p  >
                            <span class="text-base font-bold">Sociedad Dominicana de Logoterapia</span>
                         </p>
                     </div>                
+                </a>
                 </div>            
-            </a>
         </div>
         <div class="l">
-            <a href="/stand-instituto">
-                <div class="shadow-lg rounded-2xl w-44 p-4 bg-white justify-between items-center tooltipl ">
-                    <div class="w-1/3">
+            <div class="cardTool tooltipl ">
+                    <a class="cardTool__item" href="/stand-instituto">
+                    <div class=" cardTool__item--img">
                         <img src="./img/logos/sociedad.png" alt="dau" class="rounded-full"/>
                     </div>
-                    <div class="w-2/3">
-                        <p class="text-gray-500  text-xl">
+                    <div class="cardTool__item--title">
+                        <p  >
                            <span class="text-lg font-bold">Instituto peruano Victor Franklin</span>
                         </p>
                     </div>                
+                </a>
                 </div> 
-            </a>
         </div>
       
     </div>

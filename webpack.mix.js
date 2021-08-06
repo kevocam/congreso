@@ -78,6 +78,8 @@ mix.sass('resources/sass/pabellon.scss', 'public/css');
 mix.sass('resources/sass/pabellon-m.scss', 'public/css');
 mix.sass('resources/sass/pabellon-xl.scss', 'public/css')
 mix.sass('resources/sass/pabellon-sxl.scss', 'public/css')
+mix.sass('resources/sass/pabellon-xxl.scss', 'public/css')
+
 
 
 mix.sass('resources/sass/details.scss', 'public/css');
