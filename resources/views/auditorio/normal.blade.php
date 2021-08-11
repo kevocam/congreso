@@ -13,5 +13,10 @@
     @section('content')    
         <div class="contenedor">
             @livewire('auditorio-normal')    
+
         </div>    
     @endsection
+
+    <script>
+        
+    </script>

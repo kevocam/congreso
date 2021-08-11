@@ -5,10 +5,7 @@
        </div>
    </div>
    <div class="auditorioBlue__pantalla animation-player">
-      <iframe src="https://www.youtube-nocookie.com/embed/2Wc9YzYGIlM?modestbranding=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
+      <iframe src="https://www.youtube-nocookie.com/embed/2Wc9YzYGIlM?modestbranding=1&rel=0" title="YouTube video player" frameborder="0" id="video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
    <div class="auditorioBlue__cartelRight animation-cartelRight">
        <div class="auditorioBlue__cartelRight--item">
@@ -45,7 +42,7 @@
       </div>
    </div>  
 </div>
-   {{-- <div class="contenido">        
+   <div class="contenido">        
        <div class="w-full md:w-4/5 mx-auto p-8">
       <h2 class=" text-2xl  mb-4 text-gray-800">Contenido de la conferencia</h2>      
           <p>13 secciones - 141 clases - 11 h 32m de duración total</p>
@@ -100,7 +97,7 @@
              </div>
           </div>
        </div>
-  </div> --}}
+  </div>
   <div class="iconRotate" hidden>
     <em>Gire el teléfono</em>
     <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -135,7 +132,6 @@ let video = document.querySelector("#video");
 
 
 intro.addEventListener("click", ()=>{
-
    video.src="https://player.vimeo.com/video/139467506"
 });
 clase1.addEventListener("click", ()=>{
